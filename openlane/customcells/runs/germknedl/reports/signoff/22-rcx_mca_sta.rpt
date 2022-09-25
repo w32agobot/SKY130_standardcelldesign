@@ -1,0 +1,80 @@
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+
+======================= Slowest Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ss
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.04    0.03    2.03 ^ in (in)
+     1    0.00                           in (net)
+                  0.04    0.00    2.03 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.03   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Typical Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: tt
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.03    0.02    2.02 ^ in (in)
+     1    0.00                           in (net)
+                  0.03    0.00    2.02 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.02   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Fastest Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ff
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.02    0.01    2.01 ^ in (in)
+     1    0.00                           in (net)
+                  0.02    0.00    2.01 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.01   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.

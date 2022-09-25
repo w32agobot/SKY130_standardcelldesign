@@ -1,0 +1,18 @@
+
+25. Printing statistics.
+
+=== customcells ===
+
+   Number of wires:                125
+   Number of wire bits:            125
+   Number of public wires:         125
+   Number of public wire bits:     125
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                124
+     sky130_customcell             123
+     sky130_fd_sc_hd__inv_2          1
+
+   Chip area for module '\customcells': 3081.705600
+

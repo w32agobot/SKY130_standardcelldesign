@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>XOR /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/results/signoff/customcells.gds vs. /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/results/signoff/customcells.klayout.gds</description>
+ <original-file/>
+ <generator>drc: script='/foss/tools/openlane/2022.07/scripts/klayout/xor.drc'</generator>
+ <top-cell>customcells</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>122/16</name>
+   <description>XOR results for layer 122/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>235/4</name>
+   <description>XOR results for layer 235/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>236/0</name>
+   <description>XOR results for layer 236/0 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/16</name>
+   <description>XOR results for layer 64/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/20</name>
+   <description>XOR results for layer 64/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/5</name>
+   <description>XOR results for layer 64/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>64/59</name>
+   <description>XOR results for layer 64/59 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/20</name>
+   <description>XOR results for layer 65/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>65/44</name>
+   <description>XOR results for layer 65/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/20</name>
+   <description>XOR results for layer 66/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>66/44</name>
+   <description>XOR results for layer 66/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/16</name>
+   <description>XOR results for layer 67/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/20</name>
+   <description>XOR results for layer 67/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/44</name>
+   <description>XOR results for layer 67/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>67/5</name>
+   <description>XOR results for layer 67/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/16</name>
+   <description>XOR results for layer 68/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/20</name>
+   <description>XOR results for layer 68/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/44</name>
+   <description>XOR results for layer 68/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>68/5</name>
+   <description>XOR results for layer 68/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/20</name>
+   <description>XOR results for layer 69/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>69/44</name>
+   <description>XOR results for layer 69/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/16</name>
+   <description>XOR results for layer 70/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/20</name>
+   <description>XOR results for layer 70/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/44</name>
+   <description>XOR results for layer 70/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>70/5</name>
+   <description>XOR results for layer 70/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/16</name>
+   <description>XOR results for layer 71/16 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/20</name>
+   <description>XOR results for layer 71/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>71/5</name>
+   <description>XOR results for layer 71/5 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>78/44</name>
+   <description>XOR results for layer 78/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>81/4</name>
+   <description>XOR results for layer 81/4 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>83/44</name>
+   <description>XOR results for layer 83/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>93/44</name>
+   <description>XOR results for layer 93/44 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>94/20</name>
+   <description>XOR results for layer 94/20 </description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>95/20</name>
+   <description>XOR results for layer 95/20 </description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>customcells</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (0,49.68;0,50.28;4,50.28;4,50.13;3.22,50.13;3.22,49.83;4,49.83;4,49.68)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/20'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (146,49.68;146,49.83;146.74,49.83;146.74,50.13;146,50.13;146,50.28;150,50.28;150,49.68)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('in',r0 2,49.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'70/5'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('out',r0 148,49.98)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VGND',r0 24.37,48.96)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'71/5'</category>
+   <cell>customcells</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>label: ('VPWR',r0 17.12,48.96)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

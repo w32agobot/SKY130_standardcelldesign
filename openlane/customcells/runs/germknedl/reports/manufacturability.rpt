@@ -1,0 +1,19 @@
+Design Name: customcells
+Run Directory: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl
+----------------------------------------
+
+Magic DRC Summary:
+Source: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/logs/signoff/29-customcells.lvs.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/reports/signoff/31-antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0

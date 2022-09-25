@@ -1,0 +1,3751 @@
+Warning - class CORE ANTENNACELL is not found. This message can be ignored if not in the antenna-avoid flow
+
+Net - in
+  some_customcells.genblk1\[1\].name_of_cell  (sky130_customcell)  in
+[1]  met3:
+  PAR:   12.01  Ratio:    0.00       (Area)
+  PAR:   67.83  Ratio:  400.00       (S.Area)
+  CAR:   24.04  Ratio:    0.00       (C.Area)
+  CAR:  128.29  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:   11.76  Ratio:    0.00       (Area)
+  PAR:   59.56  Ratio:  400.00       (S.Area)
+  CAR:   12.03  Ratio:    0.00       (C.Area)
+  CAR:   60.47  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+  No sinks on this net
+
+Net - some_customcells._intsig_a_\[100\]
+  some_customcells.genblk1\[100\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   34.13  Ratio:    0.00       (Area)
+  PAR:  170.97  Ratio: 2697.44       (S.Area)
+  CAR:   40.53  Ratio:    0.00       (C.Area)
+  CAR:  203.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    6.29  Ratio:    0.00       (Area)
+  PAR:   32.22  Ratio:  400.00       (S.Area)
+  CAR:    6.40  Ratio:    0.00       (C.Area)
+  CAR:   32.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[101\]
+  some_customcells.genblk1\[101\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    8.06  Ratio:    0.00       (Area)
+  PAR:   40.63  Ratio: 2697.44       (S.Area)
+  CAR:    8.33  Ratio:    0.00       (C.Area)
+  CAR:   41.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[102\]
+  some_customcells.genblk1\[102\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   26.57  Ratio:    0.00       (Area)
+  PAR:  133.19  Ratio: 2697.44       (S.Area)
+  CAR:   26.84  Ratio:    0.00       (C.Area)
+  CAR:  134.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[103\]
+  some_customcells.genblk1\[103\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   28.84  Ratio:    0.00       (Area)
+  PAR:  144.52  Ratio: 2697.44       (S.Area)
+  CAR:   29.11  Ratio:    0.00       (C.Area)
+  CAR:  145.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[104\]
+  some_customcells.genblk1\[104\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   45.99  Ratio:    0.00       (Area)
+  PAR:  231.08  Ratio: 2697.44       (S.Area)
+  CAR:   46.77  Ratio:    0.00       (C.Area)
+  CAR:  235.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[105\]
+  some_customcells.genblk1\[105\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   60.19  Ratio:    0.00       (Area)
+  PAR:  301.30  Ratio: 2697.44       (S.Area)
+  CAR:   61.48  Ratio:    0.00       (C.Area)
+  CAR:  308.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[106\]
+  some_customcells.genblk1\[106\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   57.55  Ratio:    0.00       (Area)
+  PAR:  288.08  Ratio: 2697.44       (S.Area)
+  CAR:   61.40  Ratio:    0.00       (C.Area)
+  CAR:  307.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    3.73  Ratio:    0.00       (Area)
+  PAR:   19.44  Ratio:  400.00       (S.Area)
+  CAR:    3.85  Ratio:    0.00       (C.Area)
+  CAR:   19.58  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[107\]
+  some_customcells.genblk1\[107\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   53.39  Ratio:    0.00       (Area)
+  PAR:  267.30  Ratio: 2697.44       (S.Area)
+  CAR:   59.28  Ratio:    0.00       (C.Area)
+  CAR:  297.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    5.78  Ratio:    0.00       (Area)
+  PAR:   29.67  Ratio:  400.00       (S.Area)
+  CAR:    5.89  Ratio:    0.00       (C.Area)
+  CAR:   29.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[108\]
+  some_customcells.genblk1\[108\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   46.97  Ratio:    0.00       (Area)
+  PAR:  235.19  Ratio: 2697.44       (S.Area)
+  CAR:   51.84  Ratio:    0.00       (C.Area)
+  CAR:  259.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    4.76  Ratio:    0.00       (Area)
+  PAR:   24.56  Ratio:  400.00       (S.Area)
+  CAR:    4.87  Ratio:    0.00       (C.Area)
+  CAR:   24.69  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[109\]
+  some_customcells.genblk1\[109\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   36.77  Ratio:    0.00       (Area)
+  PAR:  184.19  Ratio: 2697.44       (S.Area)
+  CAR:   37.04  Ratio:    0.00       (C.Area)
+  CAR:  185.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[10\]
+  some_customcells.genblk1\[10\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   36.01  Ratio:    0.00       (Area)
+  PAR:  180.41  Ratio: 2697.44       (S.Area)
+  CAR:   36.28  Ratio:    0.00       (C.Area)
+  CAR:  181.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[110\]
+  some_customcells.genblk1\[110\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   40.44  Ratio:    0.00       (Area)
+  PAR:  204.08  Ratio: 2697.44       (S.Area)
+  CAR:   40.71  Ratio:    0.00       (C.Area)
+  CAR:  204.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[111\]
+  some_customcells.genblk1\[111\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   42.44  Ratio:    0.00       (Area)
+  PAR:  212.52  Ratio: 2697.44       (S.Area)
+  CAR:   43.22  Ratio:    0.00       (C.Area)
+  CAR:  216.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[112\]
+  some_customcells.genblk1\[112\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   13.35  Ratio:    0.00       (Area)
+  PAR:   67.08  Ratio: 2697.44       (S.Area)
+  CAR:   13.62  Ratio:    0.00       (C.Area)
+  CAR:   67.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[113\]
+  some_customcells.genblk1\[113\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   20.90  Ratio:    0.00       (Area)
+  PAR:  104.86  Ratio: 2697.44       (S.Area)
+  CAR:   21.17  Ratio:    0.00       (C.Area)
+  CAR:  105.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[114\]
+  some_customcells.genblk1\[114\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   23.93  Ratio:    0.00       (Area)
+  PAR:  119.97  Ratio: 2697.44       (S.Area)
+  CAR:   24.71  Ratio:    0.00       (C.Area)
+  CAR:  124.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[115\]
+  some_customcells.genblk1\[115\].name_of_cell  (sky130_customcell)  in
+[1]  met3:
+  PAR:   82.34  Ratio:    0.00       (Area)
+  PAR:  442.34  Ratio: 2697.44       (S.Area)
+  CAR:  129.01  Ratio:    0.00       (C.Area)
+  CAR:  678.37  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:   45.89  Ratio:    0.00       (Area)
+  PAR:  231.78  Ratio:  400.00       (S.Area)
+  CAR:   46.67  Ratio:    0.00       (C.Area)
+  CAR:  236.02  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[116\]
+  some_customcells.genblk1\[116\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   73.41  Ratio:    0.00       (Area)
+  PAR:  367.41  Ratio: 2697.44       (S.Area)
+  CAR:   75.73  Ratio:    0.00       (C.Area)
+  CAR:  379.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    2.20  Ratio:    0.00       (Area)
+  PAR:   11.78  Ratio:  400.00       (S.Area)
+  CAR:    2.31  Ratio:    0.00       (C.Area)
+  CAR:   11.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[117\]
+  some_customcells.genblk1\[117\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   69.64  Ratio:    0.00       (Area)
+  PAR:  348.52  Ratio: 2697.44       (S.Area)
+  CAR:   74.00  Ratio:    0.00       (C.Area)
+  CAR:  370.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    4.24  Ratio:    0.00       (Area)
+  PAR:   22.00  Ratio:  400.00       (S.Area)
+  CAR:    4.36  Ratio:    0.00       (C.Area)
+  CAR:   22.13  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[118\]
+  some_customcells.genblk1\[118\].name_of_cell  (sky130_customcell)  in
+[1]  met4:
+  PAR:  138.37  Ratio:    0.00       (Area)
+  PAR:  741.13  Ratio: 2697.44       (S.Area)
+  CAR:  144.97  Ratio:    0.00       (C.Area)
+  CAR:  779.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met3:
+  PAR:    2.51  Ratio:    0.00       (Area)
+  PAR:   17.16  Ratio:  400.00       (S.Area)
+  CAR:    6.61  Ratio:    0.00       (C.Area)
+  CAR:   37.96  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:    3.82  Ratio:    0.00       (Area)
+  PAR:   19.89  Ratio:  400.00       (S.Area)
+  CAR:    4.09  Ratio:    0.00       (C.Area)
+  CAR:   20.80  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M3M4_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    1.04  Ratio:    0.00       (C.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[119\]
+  some_customcells.genblk1\[119\].name_of_cell  (sky130_customcell)  in
+[1]  met4:
+  PAR:  117.32  Ratio:    0.00       (Area)
+  PAR:  628.88  Ratio: 2697.44       (S.Area)
+  CAR:  144.41  Ratio:    0.00       (C.Area)
+  CAR:  777.73  Ratio:    0.00       (C.S.Area)
+
+[1]  met3:
+  PAR:   25.51  Ratio:    0.00       (Area)
+  PAR:  139.83  Ratio:  400.00       (S.Area)
+  CAR:   27.09  Ratio:    0.00       (C.Area)
+  CAR:  148.85  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:    0.80  Ratio:    0.00       (Area)
+  PAR:    4.78  Ratio:  400.00       (S.Area)
+  CAR:    1.58  Ratio:    0.00       (C.Area)
+  CAR:    9.02  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M3M4_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    1.04  Ratio:    0.00       (C.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[11\]
+  some_customcells.genblk1\[11\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   31.24  Ratio:    0.00       (Area)
+  PAR:  158.08  Ratio: 2697.44       (S.Area)
+  CAR:   32.02  Ratio:    0.00       (C.Area)
+  CAR:  162.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[120\]
+  some_customcells.genblk1\[120\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   49.64  Ratio:    0.00       (Area)
+  PAR:  250.86  Ratio: 2697.44       (S.Area)
+  CAR:   49.91  Ratio:    0.00       (C.Area)
+  CAR:  251.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[121\]
+  some_customcells.genblk1\[121\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   50.75  Ratio:    0.00       (Area)
+  PAR:  254.08  Ratio: 2697.44       (S.Area)
+  CAR:   53.57  Ratio:    0.00       (C.Area)
+  CAR:  268.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    2.71  Ratio:    0.00       (Area)
+  PAR:   14.33  Ratio:  400.00       (S.Area)
+  CAR:    2.83  Ratio:    0.00       (C.Area)
+  CAR:   14.47  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[122\]
+  some_customcells.genblk1\[122\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   53.77  Ratio:    0.00       (Area)
+  PAR:  269.19  Ratio: 2697.44       (S.Area)
+  CAR:   55.06  Ratio:    0.00       (C.Area)
+  CAR:  275.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[123\]
+  some_customcells.genblk1\[123\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   42.81  Ratio:    0.00       (Area)
+  PAR:  214.41  Ratio: 2697.44       (S.Area)
+  CAR:   43.08  Ratio:    0.00       (C.Area)
+  CAR:  215.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[12\]
+  some_customcells.genblk1\[12\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   40.17  Ratio:    0.00       (Area)
+  PAR:  201.19  Ratio: 2697.44       (S.Area)
+  CAR:   45.55  Ratio:    0.00       (C.Area)
+  CAR:  228.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    5.27  Ratio:    0.00       (Area)
+  PAR:   27.11  Ratio:  400.00       (S.Area)
+  CAR:    5.38  Ratio:    0.00       (C.Area)
+  CAR:   27.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[13\]
+  some_customcells.genblk1\[13\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   49.64  Ratio:    0.00       (Area)
+  PAR:  250.08  Ratio: 2697.44       (S.Area)
+  CAR:   50.42  Ratio:    0.00       (C.Area)
+  CAR:  254.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[14\]
+  some_customcells.genblk1\[14\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   42.06  Ratio:    0.00       (Area)
+  PAR:  210.63  Ratio: 2697.44       (S.Area)
+  CAR:   42.84  Ratio:    0.00       (C.Area)
+  CAR:  214.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[15\]
+  some_customcells.genblk1\[15\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   36.53  Ratio:    0.00       (Area)
+  PAR:  184.52  Ratio: 2697.44       (S.Area)
+  CAR:   37.31  Ratio:    0.00       (C.Area)
+  CAR:  188.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[16\]
+  some_customcells.genblk1\[16\].name_of_cell  (sky130_customcell)  in
+[1]  met4:
+  PAR:   84.94  Ratio:    0.00       (Area)
+  PAR:  456.18  Ratio: 2697.44       (S.Area)
+  CAR:  111.90  Ratio:    0.00       (C.Area)
+  CAR:  603.59  Ratio:    0.00       (C.S.Area)
+
+[1]  met3:
+  PAR:   25.51  Ratio:    0.00       (Area)
+  PAR:  139.83  Ratio:  400.00       (S.Area)
+  CAR:   26.96  Ratio:    0.00       (C.Area)
+  CAR:  147.40  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.45  Ratio:    0.00       (C.Area)
+  CAR:    7.58  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M3M4_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    1.04  Ratio:    0.00       (C.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[17\]
+  some_customcells.genblk1\[17\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   53.01  Ratio:    0.00       (Area)
+  PAR:  265.41  Ratio: 2697.44       (S.Area)
+  CAR:   54.82  Ratio:    0.00       (C.Area)
+  CAR:  274.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.69  Ratio:    0.00       (Area)
+  PAR:    9.22  Ratio:  400.00       (S.Area)
+  CAR:    1.80  Ratio:    0.00       (C.Area)
+  CAR:    9.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[18\]
+  some_customcells.genblk1\[18\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   48.86  Ratio:    0.00       (Area)
+  PAR:  244.63  Ratio: 2697.44       (S.Area)
+  CAR:   49.13  Ratio:    0.00       (C.Area)
+  CAR:  245.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[19\]
+  some_customcells.genblk1\[19\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   42.06  Ratio:    0.00       (Area)
+  PAR:  210.63  Ratio: 2697.44       (S.Area)
+  CAR:   42.84  Ratio:    0.00       (C.Area)
+  CAR:  214.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[20\]
+  some_customcells.genblk1\[20\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   32.24  Ratio:    0.00       (Area)
+  PAR:  161.52  Ratio: 2697.44       (S.Area)
+  CAR:   32.51  Ratio:    0.00       (C.Area)
+  CAR:  162.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[21\]
+  some_customcells.genblk1\[21\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   23.93  Ratio:    0.00       (Area)
+  PAR:  119.97  Ratio: 2697.44       (S.Area)
+  CAR:   24.20  Ratio:    0.00       (C.Area)
+  CAR:  120.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[22\]
+  some_customcells.genblk1\[22\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   40.93  Ratio:    0.00       (Area)
+  PAR:  204.97  Ratio: 2697.44       (S.Area)
+  CAR:   55.51  Ratio:    0.00       (C.Area)
+  CAR:  278.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:   14.47  Ratio:    0.00       (Area)
+  PAR:   73.11  Ratio:  400.00       (S.Area)
+  CAR:   14.58  Ratio:    0.00       (C.Area)
+  CAR:   73.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[23\]
+  some_customcells.genblk1\[23\].name_of_cell  (sky130_customcell)  in
+[1]  met4:
+  PAR:  118.94  Ratio:    0.00       (Area)
+  PAR:  637.52  Ratio: 2697.44       (S.Area)
+  CAR:  122.14  Ratio:    0.00       (C.Area)
+  CAR:  658.48  Ratio:    0.00       (C.S.Area)
+
+[1]  met3:
+  PAR:    2.51  Ratio:    0.00       (Area)
+  PAR:   17.16  Ratio:  400.00       (S.Area)
+  CAR:    3.21  Ratio:    0.00       (C.Area)
+  CAR:   20.96  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:    0.42  Ratio:    0.00       (Area)
+  PAR:    2.89  Ratio:  400.00       (S.Area)
+  CAR:    0.69  Ratio:    0.00       (C.Area)
+  CAR:    3.80  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M3M4_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    1.04  Ratio:    0.00       (C.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[24\]
+  some_customcells.genblk1\[24\].name_of_cell  (sky130_customcell)  in
+[1]  met4:
+  PAR:  110.84  Ratio:    0.00       (Area)
+  PAR:  594.34  Ratio: 2697.44       (S.Area)
+  CAR:  135.20  Ratio:    0.00       (C.Area)
+  CAR:  728.05  Ratio:    0.00       (C.S.Area)
+
+[1]  met3:
+  PAR:   21.13  Ratio:    0.00       (Area)
+  PAR:  116.46  Ratio:  400.00       (S.Area)
+  CAR:   24.36  Ratio:    0.00       (C.Area)
+  CAR:  133.71  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:    1.93  Ratio:    0.00       (Area)
+  PAR:   10.44  Ratio:  400.00       (S.Area)
+  CAR:    3.23  Ratio:    0.00       (C.Area)
+  CAR:   17.25  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M3M4_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    1.04  Ratio:    0.00       (C.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[25\]
+  some_customcells.genblk1\[25\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   48.10  Ratio:    0.00       (Area)
+  PAR:  240.86  Ratio: 2697.44       (S.Area)
+  CAR:   49.40  Ratio:    0.00       (C.Area)
+  CAR:  247.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[26\]
+  some_customcells.genblk1\[26\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   36.01  Ratio:    0.00       (Area)
+  PAR:  180.41  Ratio: 2697.44       (S.Area)
+  CAR:   40.37  Ratio:    0.00       (C.Area)
+  CAR:  202.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    4.24  Ratio:    0.00       (Area)
+  PAR:   22.00  Ratio:  400.00       (S.Area)
+  CAR:    4.36  Ratio:    0.00       (C.Area)
+  CAR:   22.13  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[27\]
+  some_customcells.genblk1\[27\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   22.04  Ratio:    0.00       (Area)
+  PAR:  110.52  Ratio: 2697.44       (S.Area)
+  CAR:   22.31  Ratio:    0.00       (C.Area)
+  CAR:  111.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[28\]
+  some_customcells.genblk1\[28\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   17.88  Ratio:    0.00       (Area)
+  PAR:   89.75  Ratio: 2697.44       (S.Area)
+  CAR:   18.66  Ratio:    0.00       (C.Area)
+  CAR:   93.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[29\]
+  some_customcells.genblk1\[29\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   14.86  Ratio:    0.00       (Area)
+  PAR:   74.63  Ratio: 2697.44       (S.Area)
+  CAR:   16.15  Ratio:    0.00       (C.Area)
+  CAR:   81.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[2\]
+  some_customcells.genblk1\[2\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   26.57  Ratio:    0.00       (Area)
+  PAR:  133.19  Ratio: 2697.44       (S.Area)
+  CAR:   26.84  Ratio:    0.00       (C.Area)
+  CAR:  134.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[30\]
+  some_customcells.genblk1\[30\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   12.59  Ratio:    0.00       (Area)
+  PAR:   63.30  Ratio: 2697.44       (S.Area)
+  CAR:   12.86  Ratio:    0.00       (C.Area)
+  CAR:   64.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[31\]
+  some_customcells.genblk1\[31\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.95  Ratio:    0.00       (Area)
+  PAR:   50.08  Ratio: 2697.44       (S.Area)
+  CAR:   10.22  Ratio:    0.00       (C.Area)
+  CAR:   50.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[32\]
+  some_customcells.genblk1\[32\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[33\]
+  some_customcells.genblk1\[33\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.39  Ratio:    0.00       (Area)
+  PAR:   12.30  Ratio: 2697.44       (S.Area)
+  CAR:    2.66  Ratio:    0.00       (C.Area)
+  CAR:   13.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[34\]
+  some_customcells.genblk1\[34\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.95  Ratio:    0.00       (Area)
+  PAR:   50.08  Ratio: 2697.44       (S.Area)
+  CAR:   11.75  Ratio:    0.00       (C.Area)
+  CAR:   59.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.69  Ratio:    0.00       (Area)
+  PAR:    9.22  Ratio:  400.00       (S.Area)
+  CAR:    1.80  Ratio:    0.00       (C.Area)
+  CAR:    9.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[35\]
+  some_customcells.genblk1\[35\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   17.88  Ratio:    0.00       (Area)
+  PAR:   89.75  Ratio: 2697.44       (S.Area)
+  CAR:   19.17  Ratio:    0.00       (C.Area)
+  CAR:   96.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[36\]
+  some_customcells.genblk1\[36\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   14.86  Ratio:    0.00       (Area)
+  PAR:   74.63  Ratio: 2697.44       (S.Area)
+  CAR:   15.13  Ratio:    0.00       (C.Area)
+  CAR:   75.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[37\]
+  some_customcells.genblk1\[37\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   11.46  Ratio:    0.00       (Area)
+  PAR:   57.63  Ratio: 2697.44       (S.Area)
+  CAR:   11.73  Ratio:    0.00       (C.Area)
+  CAR:   58.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[38\]
+  some_customcells.genblk1\[38\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.57  Ratio:    0.00       (Area)
+  PAR:   48.19  Ratio: 2697.44       (S.Area)
+  CAR:    9.84  Ratio:    0.00       (C.Area)
+  CAR:   49.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[39\]
+  some_customcells.genblk1\[39\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[3\]
+  some_customcells.genblk1\[3\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   30.73  Ratio:    0.00       (Area)
+  PAR:  153.97  Ratio: 2697.44       (S.Area)
+  CAR:   31.51  Ratio:    0.00       (C.Area)
+  CAR:  158.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[40\]
+  some_customcells.genblk1\[40\].name_of_cell  (sky130_customcell)  in
+[1]  met3:
+  PAR:   22.11  Ratio:    0.00       (Area)
+  PAR:  121.07  Ratio: 2697.44       (S.Area)
+  CAR:   33.38  Ratio:    0.00       (C.Area)
+  CAR:  177.76  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:   11.00  Ratio:    0.00       (Area)
+  PAR:   55.78  Ratio:  400.00       (S.Area)
+  CAR:   11.27  Ratio:    0.00       (C.Area)
+  CAR:   56.69  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[41\]
+  some_customcells.genblk1\[41\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    8.81  Ratio:    0.00       (Area)
+  PAR:   44.41  Ratio: 2697.44       (S.Area)
+  CAR:   14.20  Ratio:    0.00       (C.Area)
+  CAR:   71.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    5.27  Ratio:    0.00       (Area)
+  PAR:   27.11  Ratio:  400.00       (S.Area)
+  CAR:    5.38  Ratio:    0.00       (C.Area)
+  CAR:   27.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[42\]
+  some_customcells.genblk1\[42\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.19  Ratio:    0.00       (Area)
+  PAR:   46.30  Ratio: 2697.44       (S.Area)
+  CAR:   10.48  Ratio:    0.00       (C.Area)
+  CAR:   53.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[43\]
+  some_customcells.genblk1\[43\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   15.24  Ratio:    0.00       (Area)
+  PAR:   76.52  Ratio: 2697.44       (S.Area)
+  CAR:   15.51  Ratio:    0.00       (C.Area)
+  CAR:   77.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[44\]
+  some_customcells.genblk1\[44\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   12.59  Ratio:    0.00       (Area)
+  PAR:   63.30  Ratio: 2697.44       (S.Area)
+  CAR:   12.86  Ratio:    0.00       (C.Area)
+  CAR:   64.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[45\]
+  some_customcells.genblk1\[45\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.57  Ratio:    0.00       (Area)
+  PAR:   48.19  Ratio: 2697.44       (S.Area)
+  CAR:    9.84  Ratio:    0.00       (C.Area)
+  CAR:   49.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[46\]
+  some_customcells.genblk1\[46\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[47\]
+  some_customcells.genblk1\[47\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.39  Ratio:    0.00       (Area)
+  PAR:   12.30  Ratio: 2697.44       (S.Area)
+  CAR:    2.66  Ratio:    0.00       (C.Area)
+  CAR:   13.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[48\]
+  some_customcells.genblk1\[48\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    8.81  Ratio:    0.00       (Area)
+  PAR:   44.41  Ratio: 2697.44       (S.Area)
+  CAR:   13.17  Ratio:    0.00       (C.Area)
+  CAR:   66.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    4.24  Ratio:    0.00       (Area)
+  PAR:   22.00  Ratio:  400.00       (S.Area)
+  CAR:    4.36  Ratio:    0.00       (C.Area)
+  CAR:   22.13  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[49\]
+  some_customcells.genblk1\[49\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   18.64  Ratio:    0.00       (Area)
+  PAR:   93.52  Ratio: 2697.44       (S.Area)
+  CAR:   18.91  Ratio:    0.00       (C.Area)
+  CAR:   94.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[4\]
+  some_customcells.genblk1\[4\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   34.64  Ratio:    0.00       (Area)
+  PAR:  175.08  Ratio: 2697.44       (S.Area)
+  CAR:   34.91  Ratio:    0.00       (C.Area)
+  CAR:  175.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[50\]
+  some_customcells.genblk1\[50\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   14.86  Ratio:    0.00       (Area)
+  PAR:   74.63  Ratio: 2697.44       (S.Area)
+  CAR:   15.13  Ratio:    0.00       (C.Area)
+  CAR:   75.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[51\]
+  some_customcells.genblk1\[51\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   12.59  Ratio:    0.00       (Area)
+  PAR:   63.30  Ratio: 2697.44       (S.Area)
+  CAR:   13.37  Ratio:    0.00       (C.Area)
+  CAR:   67.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[52\]
+  some_customcells.genblk1\[52\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.95  Ratio:    0.00       (Area)
+  PAR:   50.08  Ratio: 2697.44       (S.Area)
+  CAR:   10.22  Ratio:    0.00       (C.Area)
+  CAR:   50.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[53\]
+  some_customcells.genblk1\[53\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[54\]
+  some_customcells.genblk1\[54\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.39  Ratio:    0.00       (Area)
+  PAR:   12.30  Ratio: 2697.44       (S.Area)
+  CAR:    2.66  Ratio:    0.00       (C.Area)
+  CAR:   13.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[55\]
+  some_customcells.genblk1\[55\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    8.44  Ratio:    0.00       (Area)
+  PAR:   42.52  Ratio: 2697.44       (S.Area)
+  CAR:    8.71  Ratio:    0.00       (C.Area)
+  CAR:   43.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[56\]
+  some_customcells.genblk1\[56\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   15.24  Ratio:    0.00       (Area)
+  PAR:   76.52  Ratio: 2697.44       (S.Area)
+  CAR:   15.51  Ratio:    0.00       (C.Area)
+  CAR:   77.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[57\]
+  some_customcells.genblk1\[57\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   11.46  Ratio:    0.00       (Area)
+  PAR:   57.63  Ratio: 2697.44       (S.Area)
+  CAR:   11.73  Ratio:    0.00       (C.Area)
+  CAR:   58.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[58\]
+  some_customcells.genblk1\[58\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.95  Ratio:    0.00       (Area)
+  PAR:   50.08  Ratio: 2697.44       (S.Area)
+  CAR:   10.22  Ratio:    0.00       (C.Area)
+  CAR:   50.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[59\]
+  some_customcells.genblk1\[59\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[5\]
+  some_customcells.genblk1\[5\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   37.15  Ratio:    0.00       (Area)
+  PAR:  186.08  Ratio: 2697.44       (S.Area)
+  CAR:   40.86  Ratio:    0.00       (C.Area)
+  CAR:  206.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    3.60  Ratio:    0.00       (Area)
+  PAR:   20.33  Ratio:  400.00       (S.Area)
+  CAR:    3.71  Ratio:    0.00       (C.Area)
+  CAR:   20.47  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[60\]
+  some_customcells.genblk1\[60\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.39  Ratio:    0.00       (Area)
+  PAR:   12.30  Ratio: 2697.44       (S.Area)
+  CAR:    2.66  Ratio:    0.00       (C.Area)
+  CAR:   13.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[61\]
+  some_customcells.genblk1\[61\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    8.81  Ratio:    0.00       (Area)
+  PAR:   44.41  Ratio: 2697.44       (S.Area)
+  CAR:    9.08  Ratio:    0.00       (C.Area)
+  CAR:   45.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[62\]
+  some_customcells.genblk1\[62\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   18.64  Ratio:    0.00       (Area)
+  PAR:   93.52  Ratio: 2697.44       (S.Area)
+  CAR:   18.91  Ratio:    0.00       (C.Area)
+  CAR:   94.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[63\]
+  some_customcells.genblk1\[63\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   11.46  Ratio:    0.00       (Area)
+  PAR:   57.63  Ratio: 2697.44       (S.Area)
+  CAR:   11.73  Ratio:    0.00       (C.Area)
+  CAR:   58.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[64\]
+  some_customcells.genblk1\[64\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[65\]
+  some_customcells.genblk1\[65\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.19  Ratio:    0.00       (Area)
+  PAR:   46.30  Ratio: 2697.44       (S.Area)
+  CAR:    9.46  Ratio:    0.00       (C.Area)
+  CAR:   47.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[66\]
+  some_customcells.genblk1\[66\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   12.59  Ratio:    0.00       (Area)
+  PAR:   63.30  Ratio: 2697.44       (S.Area)
+  CAR:   13.37  Ratio:    0.00       (C.Area)
+  CAR:   67.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[67\]
+  some_customcells.genblk1\[67\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    5.79  Ratio:    0.00       (Area)
+  PAR:   29.30  Ratio: 2697.44       (S.Area)
+  CAR:    6.06  Ratio:    0.00       (C.Area)
+  CAR:   30.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[68\]
+  some_customcells.genblk1\[68\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.77  Ratio:    0.00       (Area)
+  PAR:   14.19  Ratio: 2697.44       (S.Area)
+  CAR:    3.04  Ratio:    0.00       (C.Area)
+  CAR:   15.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[69\]
+  some_customcells.genblk1\[69\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    4.66  Ratio:    0.00       (Area)
+  PAR:   23.63  Ratio: 2697.44       (S.Area)
+  CAR:    4.93  Ratio:    0.00       (C.Area)
+  CAR:   24.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[6\]
+  some_customcells.genblk1\[6\].name_of_cell  (sky130_customcell)  in
+[1]  met3:
+  PAR:   10.06  Ratio:    0.00       (Area)
+  PAR:   56.82  Ratio: 2697.44       (S.Area)
+  CAR:   36.79  Ratio:    0.00       (C.Area)
+  CAR:  191.62  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:   19.31  Ratio:    0.00       (Area)
+  PAR:   97.33  Ratio:  400.00       (S.Area)
+  CAR:   26.74  Ratio:    0.00       (C.Area)
+  CAR:  134.80  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    7.31  Ratio:    0.00       (Area)
+  PAR:   37.33  Ratio:  400.00       (S.Area)
+  CAR:    7.43  Ratio:    0.00       (C.Area)
+  CAR:   37.47  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[70\]
+  some_customcells.genblk1\[70\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.77  Ratio:    0.00       (Area)
+  PAR:   14.19  Ratio: 2697.44       (S.Area)
+  CAR:   14.28  Ratio:    0.00       (C.Area)
+  CAR:   72.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:   11.40  Ratio:    0.00       (Area)
+  PAR:   57.78  Ratio:  400.00       (S.Area)
+  CAR:   11.51  Ratio:    0.00       (C.Area)
+  CAR:   57.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[71\]
+  some_customcells.genblk1\[71\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.77  Ratio:    0.00       (Area)
+  PAR:   14.19  Ratio: 2697.44       (S.Area)
+  CAR:    3.04  Ratio:    0.00       (C.Area)
+  CAR:   15.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[72\]
+  some_customcells.genblk1\[72\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[73\]
+  some_customcells.genblk1\[73\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   11.84  Ratio:    0.00       (Area)
+  PAR:   59.52  Ratio: 2697.44       (S.Area)
+  CAR:   12.62  Ratio:    0.00       (C.Area)
+  CAR:   63.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[74\]
+  some_customcells.genblk1\[74\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.39  Ratio:    0.00       (Area)
+  PAR:   12.30  Ratio: 2697.44       (S.Area)
+  CAR:    2.66  Ratio:    0.00       (C.Area)
+  CAR:   13.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[75\]
+  some_customcells.genblk1\[75\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   11.84  Ratio:    0.00       (Area)
+  PAR:   59.52  Ratio: 2697.44       (S.Area)
+  CAR:   12.11  Ratio:    0.00       (C.Area)
+  CAR:   60.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[76\]
+  some_customcells.genblk1\[76\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    5.79  Ratio:    0.00       (Area)
+  PAR:   29.30  Ratio: 2697.44       (S.Area)
+  CAR:    6.06  Ratio:    0.00       (C.Area)
+  CAR:   30.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[77\]
+  some_customcells.genblk1\[77\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    3.15  Ratio:    0.00       (Area)
+  PAR:   16.08  Ratio: 2697.44       (S.Area)
+  CAR:    3.42  Ratio:    0.00       (C.Area)
+  CAR:   16.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[78\]
+  some_customcells.genblk1\[78\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[79\]
+  some_customcells.genblk1\[79\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.95  Ratio:    0.00       (Area)
+  PAR:   50.08  Ratio: 2697.44       (S.Area)
+  CAR:   10.22  Ratio:    0.00       (C.Area)
+  CAR:   50.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[7\]
+  some_customcells.genblk1\[7\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   23.93  Ratio:    0.00       (Area)
+  PAR:  119.97  Ratio: 2697.44       (S.Area)
+  CAR:   24.20  Ratio:    0.00       (C.Area)
+  CAR:  120.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[80\]
+  some_customcells.genblk1\[80\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   13.26  Ratio:    0.00       (Area)
+  PAR:   68.97  Ratio: 2697.44       (S.Area)
+  CAR:   14.55  Ratio:    0.00       (C.Area)
+  CAR:   75.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.18  Ratio:    0.00       (Area)
+  PAR:    6.67  Ratio:  400.00       (S.Area)
+  CAR:    1.29  Ratio:    0.00       (C.Area)
+  CAR:    6.80  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[81\]
+  some_customcells.genblk1\[81\].name_of_cell  (sky130_customcell)  in
+[1]  met3:
+  PAR:   11.31  Ratio:    0.00       (Area)
+  PAR:   63.44  Ratio: 2697.44       (S.Area)
+  CAR:   25.76  Ratio:    0.00       (C.Area)
+  CAR:  136.79  Ratio:    0.00       (C.S.Area)
+
+[1]  met2:
+  PAR:   14.18  Ratio:    0.00       (Area)
+  PAR:   72.44  Ratio:  400.00       (S.Area)
+  CAR:   14.45  Ratio:    0.00       (C.Area)
+  CAR:   73.36  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M2M3_PR:
+  PAR:    0.32  Ratio:    6.00       (Area)
+  CAR:    0.73  Ratio:    0.00       (C.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[82\]
+  some_customcells.genblk1\[82\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   18.64  Ratio:    0.00       (Area)
+  PAR:   93.52  Ratio: 2697.44       (S.Area)
+  CAR:   18.91  Ratio:    0.00       (C.Area)
+  CAR:   94.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[83\]
+  some_customcells.genblk1\[83\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   10.10  Ratio:    0.00       (Area)
+  PAR:   51.63  Ratio: 2697.44       (S.Area)
+  CAR:   10.88  Ratio:    0.00       (C.Area)
+  CAR:   55.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[84\]
+  some_customcells.genblk1\[84\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    2.77  Ratio:    0.00       (Area)
+  PAR:   14.19  Ratio: 2697.44       (S.Area)
+  CAR:    3.04  Ratio:    0.00       (C.Area)
+  CAR:   15.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[85\]
+  some_customcells.genblk1\[85\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    6.55  Ratio:    0.00       (Area)
+  PAR:   33.08  Ratio: 2697.44       (S.Area)
+  CAR:    6.82  Ratio:    0.00       (C.Area)
+  CAR:   33.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[86\]
+  some_customcells.genblk1\[86\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   10.46  Ratio:    0.00       (Area)
+  PAR:   54.19  Ratio: 2697.44       (S.Area)
+  CAR:   12.26  Ratio:    0.00       (C.Area)
+  CAR:   63.55  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.69  Ratio:    0.00       (Area)
+  PAR:    9.22  Ratio:  400.00       (S.Area)
+  CAR:    1.80  Ratio:    0.00       (C.Area)
+  CAR:    9.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[87\]
+  some_customcells.genblk1\[87\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   12.59  Ratio:    0.00       (Area)
+  PAR:   63.30  Ratio: 2697.44       (S.Area)
+  CAR:   12.86  Ratio:    0.00       (C.Area)
+  CAR:   64.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[88\]
+  some_customcells.genblk1\[88\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   14.48  Ratio:    0.00       (Area)
+  PAR:   72.75  Ratio: 2697.44       (S.Area)
+  CAR:   15.26  Ratio:    0.00       (C.Area)
+  CAR:   76.99  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[89\]
+  some_customcells.genblk1\[89\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   17.50  Ratio:    0.00       (Area)
+  PAR:   87.86  Ratio: 2697.44       (S.Area)
+  CAR:   17.77  Ratio:    0.00       (C.Area)
+  CAR:   88.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[8\]
+  some_customcells.genblk1\[8\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   33.37  Ratio:    0.00       (Area)
+  PAR:  167.19  Ratio: 2697.44       (S.Area)
+  CAR:   40.80  Ratio:    0.00       (C.Area)
+  CAR:  204.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    7.31  Ratio:    0.00       (Area)
+  PAR:   37.33  Ratio:  400.00       (S.Area)
+  CAR:    7.43  Ratio:    0.00       (C.Area)
+  CAR:   37.47  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[90\]
+  some_customcells.genblk1\[90\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   22.04  Ratio:    0.00       (Area)
+  PAR:  110.52  Ratio: 2697.44       (S.Area)
+  CAR:   22.31  Ratio:    0.00       (C.Area)
+  CAR:  111.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[91\]
+  some_customcells.genblk1\[91\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   23.93  Ratio:    0.00       (Area)
+  PAR:  119.97  Ratio: 2697.44       (S.Area)
+  CAR:   24.20  Ratio:    0.00       (C.Area)
+  CAR:  120.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[92\]
+  some_customcells.genblk1\[92\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   29.59  Ratio:    0.00       (Area)
+  PAR:  148.30  Ratio: 2697.44       (S.Area)
+  CAR:   29.86  Ratio:    0.00       (C.Area)
+  CAR:  149.21  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[93\]
+  some_customcells.genblk1\[93\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   37.79  Ratio:    0.00       (Area)
+  PAR:  190.86  Ratio: 2697.44       (S.Area)
+  CAR:   38.57  Ratio:    0.00       (C.Area)
+  CAR:  195.10  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[94\]
+  some_customcells.genblk1\[94\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   32.61  Ratio:    0.00       (Area)
+  PAR:  163.41  Ratio: 2697.44       (S.Area)
+  CAR:   32.88  Ratio:    0.00       (C.Area)
+  CAR:  164.33  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.16  Ratio:    0.00       (Area)
+  PAR:    0.78  Ratio:  400.00       (S.Area)
+  CAR:    0.27  Ratio:    0.00       (C.Area)
+  CAR:    0.91  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[95\]
+  some_customcells.genblk1\[95\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   29.59  Ratio:    0.00       (Area)
+  PAR:  148.30  Ratio: 2697.44       (S.Area)
+  CAR:   32.42  Ratio:    0.00       (C.Area)
+  CAR:  162.77  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    2.71  Ratio:    0.00       (Area)
+  PAR:   14.33  Ratio:  400.00       (S.Area)
+  CAR:    2.83  Ratio:    0.00       (C.Area)
+  CAR:   14.47  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[96\]
+  some_customcells.genblk1\[96\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   39.04  Ratio:    0.00       (Area)
+  PAR:  195.52  Ratio: 2697.44       (S.Area)
+  CAR:   40.84  Ratio:    0.00       (C.Area)
+  CAR:  204.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.69  Ratio:    0.00       (Area)
+  PAR:    9.22  Ratio:  400.00       (S.Area)
+  CAR:    1.80  Ratio:    0.00       (C.Area)
+  CAR:    9.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[97\]
+  some_customcells.genblk1\[97\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   49.61  Ratio:    0.00       (Area)
+  PAR:  248.41  Ratio: 2697.44       (S.Area)
+  CAR:   50.40  Ratio:    0.00       (C.Area)
+  CAR:  252.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.67  Ratio:    0.00       (Area)
+  PAR:    4.11  Ratio:  400.00       (S.Area)
+  CAR:    0.78  Ratio:    0.00       (C.Area)
+  CAR:    4.25  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[98\]
+  some_customcells.genblk1\[98\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   45.46  Ratio:    0.00       (Area)
+  PAR:  227.63  Ratio: 2697.44       (S.Area)
+  CAR:   48.80  Ratio:    0.00       (C.Area)
+  CAR:  244.66  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    3.22  Ratio:    0.00       (Area)
+  PAR:   16.89  Ratio:  400.00       (S.Area)
+  CAR:    3.34  Ratio:    0.00       (C.Area)
+  CAR:   17.02  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[99\]
+  some_customcells.genblk1\[99\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:    9.19  Ratio:    0.00       (Area)
+  PAR:   46.30  Ratio: 2697.44       (S.Area)
+  CAR:   13.55  Ratio:    0.00       (C.Area)
+  CAR:   68.44  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    4.24  Ratio:    0.00       (Area)
+  PAR:   22.00  Ratio:  400.00       (S.Area)
+  CAR:    4.36  Ratio:    0.00       (C.Area)
+  CAR:   22.13  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells._intsig_a_\[9\]
+  some_customcells.genblk1\[9\].name_of_cell  (sky130_customcell)  in
+[1]  met2:
+  PAR:   42.44  Ratio:    0.00       (Area)
+  PAR:  212.52  Ratio: 2697.44       (S.Area)
+  CAR:   44.24  Ratio:    0.00       (C.Area)
+  CAR:  221.88  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    1.69  Ratio:    0.00       (Area)
+  PAR:    9.22  Ratio:  400.00       (S.Area)
+  CAR:    1.80  Ratio:    0.00       (C.Area)
+  CAR:    9.36  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.11  Ratio:    0.00       (Area)
+  PAR:    0.13  Ratio:   75.00       (S.Area)
+  CAR:    0.11  Ratio:    0.00       (C.Area)
+  CAR:    0.13  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.18  Ratio:    6.00       (Area)
+  CAR:    0.41  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.23  Ratio:    3.00       (Area)
+  CAR:    0.23  Ratio:    0.00       (C.Area)
+
+
+Net - some_customcells.out
+  _0_  (sky130_fd_sc_hd__inv_2)  A
+[1]  met2:
+  PAR:    4.01  Ratio:    0.00       (Area)
+  PAR:   20.36  Ratio: 2697.44       (S.Area)
+  CAR:    4.47  Ratio:    0.00       (C.Area)
+  CAR:   22.74  Ratio:    0.00       (C.S.Area)
+
+[1]  met1:
+  PAR:    0.43  Ratio:    0.00       (Area)
+  PAR:    2.35  Ratio:  400.00       (S.Area)
+  CAR:    0.46  Ratio:    0.00       (C.Area)
+  CAR:    2.38  Ratio:    0.00       (C.S.Area)
+
+[1]  li1:
+  PAR:    0.03  Ratio:    0.00       (Area)
+  PAR:    0.03  Ratio:   75.00       (S.Area)
+  CAR:    0.03  Ratio:    0.00       (C.Area)
+  CAR:    0.03  Ratio:    0.00       (C.S.Area)
+
+[1]  M1M2_PR:
+  PAR:    0.05  Ratio:    6.00       (Area)
+  CAR:    0.10  Ratio:    0.00       (C.Area)
+
+[1]  L1M1_PR:
+  PAR:    0.06  Ratio:    3.00       (Area)
+  CAR:    0.06  Ratio:    0.00       (C.Area)
+
+Number of pins violated: 0
+Number of nets violated: 0
+Total number of unspecial nets: 125

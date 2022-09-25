@@ -1,0 +1,98 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO customcells
+  CLASS BLOCK ;
+  FOREIGN customcells ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 150.000 BY 100.000 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 23.570 10.640 25.170 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 52.570 10.640 54.170 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 81.570 10.640 83.170 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 110.570 10.640 112.170 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 139.570 10.640 141.170 87.280 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 16.320 10.640 17.920 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 45.320 10.640 46.920 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 74.320 10.640 75.920 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 103.320 10.640 104.920 87.280 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 132.320 10.640 133.920 87.280 ;
+    END
+  END VPWR
+  PIN in
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 49.680 4.000 50.280 ;
+    END
+  END in
+  PIN out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 146.000 49.680 150.000 50.280 ;
+    END
+  END out
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 144.440 87.125 ;
+      LAYER met1 ;
+        RECT 5.520 10.640 144.440 87.280 ;
+      LAYER met2 ;
+        RECT 6.540 10.695 141.580 87.225 ;
+      LAYER met3 ;
+        RECT 4.000 50.680 146.000 87.205 ;
+        RECT 4.400 49.280 145.600 50.680 ;
+        RECT 4.000 10.715 146.000 49.280 ;
+      LAYER met4 ;
+        RECT 11.335 19.895 15.920 77.345 ;
+        RECT 18.320 19.895 23.170 77.345 ;
+        RECT 25.570 19.895 44.920 77.345 ;
+        RECT 47.320 19.895 52.170 77.345 ;
+        RECT 54.570 19.895 73.920 77.345 ;
+        RECT 76.320 19.895 81.170 77.345 ;
+        RECT 83.570 19.895 102.920 77.345 ;
+        RECT 105.320 19.895 110.170 77.345 ;
+        RECT 112.570 19.895 127.585 77.345 ;
+  END
+END customcells
+END LIBRARY
+

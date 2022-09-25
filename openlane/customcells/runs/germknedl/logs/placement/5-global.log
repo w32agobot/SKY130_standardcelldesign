@@ -1,0 +1,181 @@
+OpenROAD v2.0-3879-g0b8b7ae25 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/floorplan/4-io.def
+[INFO ODB-0128] Design: customcells
+[INFO ODB-0130]     Created 2 pins.
+[INFO ODB-0131]     Created 124 components and 744 component-terminals.
+[INFO ODB-0133]     Created 125 nets and 248 connections.
+[INFO ODB-0134] Finished DEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/floorplan/4-io.def
+[INFO]: Setting RC values...
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
+[INFO]: Setting signal max routing layer to: met4 and clock max routing layer to met4. 
+[INFO GPL-0002] DBU: 1000
+[INFO GPL-0003] SiteSize: 460 2720
+[INFO GPL-0004] CoreAreaLxLy: 5520 10880
+[INFO GPL-0005] CoreAreaUxUy: 144440 87040
+[INFO GPL-0006] NumInstances: 124
+[INFO GPL-0007] NumPlaceInstances: 124
+[INFO GPL-0008] NumFixedInstances: 0
+[INFO GPL-0009] NumDummyInstances: 0
+[INFO GPL-0010] NumNets: 125
+[INFO GPL-0011] NumPins: 250
+[INFO GPL-0012] DieAreaLxLy: 0 0
+[INFO GPL-0013] DieAreaUxUy: 150000 100000
+[INFO GPL-0014] CoreAreaLxLy: 5520 10880
+[INFO GPL-0015] CoreAreaUxUy: 144440 87040
+[INFO GPL-0016] CoreArea: 10580147200
+[INFO GPL-0017] NonPlaceInstsArea: 0
+[INFO GPL-0018] PlaceInstsArea: 3081705600
+[INFO GPL-0019] Util(%): 29.13
+[INFO GPL-0020] StdInstsArea: 3081705600
+[INFO GPL-0021] MacroInstsArea: 0
+[InitialPlace]  Iter: 1 CG residual: 0.00032210 HPWL: 1725920
+[InitialPlace]  Iter: 2 CG residual: 0.00000012 HPWL: 1789710
+[InitialPlace]  Iter: 3 CG residual: 0.00000011 HPWL: 1789706
+[InitialPlace]  Iter: 4 CG residual: 0.00000012 HPWL: 1789702
+[InitialPlace]  Iter: 5 CG residual: 0.00000012 HPWL: 1789702
+[INFO GPL-0031] FillerInit: NumGCells: 296
+[INFO GPL-0032] FillerInit: NumGNets: 125
+[INFO GPL-0033] FillerInit: NumGPins: 250
+[INFO GPL-0023] TargetDensity: 0.70
+[INFO GPL-0024] AveragePlaceInstArea: 24852464
+[INFO GPL-0025] IdealBinArea: 35503520
+[INFO GPL-0026] IdealBinCnt: 298
+[INFO GPL-0027] TotalBinArea: 10580147200
+[INFO GPL-0028] BinCnt: 64 64
+[INFO GPL-0029] BinSize: 2171 1190
+[INFO GPL-0030] NumBins: 4096
+[NesterovSolve] Iter: 1 overflow: 0.887347 HPWL: 426928
+[NesterovSolve] Finished with Overflow: 0.887347
+###############################################################################
+# Created by write_sdc
+# Wed Sep 14 08:54:19 2022
+###############################################################################
+current_design customcells
+###############################################################################
+# Timing Constraints
+###############################################################################
+create_clock -name __VIRTUAL_CLK__ -period 10.0000 
+set_clock_uncertainty 0.2500 __VIRTUAL_CLK__
+set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in}]
+set_output_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {out}]
+###############################################################################
+# Environment
+###############################################################################
+set_load -pin_load 0.0334 [get_ports {out}]
+set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in}]
+set_timing_derate -early 0.9500
+set_timing_derate -late 1.0500
+###############################################################################
+# Design Rules
+###############################################################################
+set_max_fanout 5.0000 [current_design]
+[INFO]: Setting RC values...
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.02    0.01    2.01 ^ in (in)
+     1    0.00                           in (net)
+                  0.02    0.00    2.01 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.01   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.91e-08   5.86e-08   3.90e-10   9.81e-08 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.91e-08   5.86e-08   3.90e-10   9.81e-08 100.0%
+                          39.9%      59.7%       0.4%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 3082 u^2 29% utilization.
+area_report_end
