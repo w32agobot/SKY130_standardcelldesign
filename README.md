@@ -1,6 +1,7 @@
 # SKY130 Workflow RTL-with-Custom-Standardcell to GDSII-Macrocell
 
-## Initial version by Manuel Moser, update by Harald Pretl*
+**Initial version by Manuel Moser,
+update by Harald Pretl.**
 
 If you want RTL mixed with predefined standard cells (including custom cells), synthesized, and converted to a GDSII macro while the workflow is not allowed to "optimize" the structure, then this guide is for you.
 
