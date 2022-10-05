@@ -51,7 +51,7 @@ VIAS 3 ;
     - via3_4_1600_480_1_4_400_400 + VIARULE M2M3_PR + CUTSIZE 200 200  + LAYERS met2 via2 met3  + CUTSPACING 200 200  + ENCLOSURE 40 85 65 65  + ROWCOL 1 4  ;
     - via4_5_1600_480_1_4_400_400 + VIARULE M3M4_PR + CUTSIZE 200 200  + LAYERS met3 via3 met4  + CUTSPACING 200 200  + ENCLOSURE 90 60 100 65  + ROWCOL 1 4  ;
 END VIAS
-COMPONENTS 1073 ;
+COMPONENTS 1089 ;
     - FILLER_0_109 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 55660 10880 ) N ;
     - FILLER_0_113 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 57500 10880 ) N ;
     - FILLER_0_125 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 63020 10880 ) N ;
@@ -94,23 +94,26 @@ COMPONENTS 1073 ;
     - FILLER_10_177 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 86940 38080 ) N ;
     - FILLER_10_189 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 92460 38080 ) N ;
     - FILLER_10_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 38080 ) N ;
-    - FILLER_10_197 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 96140 38080 ) N ;
-    - FILLER_10_203 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 98900 38080 ) N ;
-    - FILLER_10_224 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 108560 38080 ) N ;
-    - FILLER_10_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 38080 ) N ;
-    - FILLER_10_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 38080 ) N ;
-    - FILLER_10_253 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 121900 38080 ) N ;
-    - FILLER_10_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 38080 ) N ;
-    - FILLER_10_274 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 131560 38080 ) N ;
-    - FILLER_10_286 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 137080 38080 ) N ;
+    - FILLER_10_197 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 96140 38080 ) N ;
+    - FILLER_10_205 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 99820 38080 ) N ;
+    - FILLER_10_226 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 109480 38080 ) N ;
+    - FILLER_10_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 38080 ) N ;
+    - FILLER_10_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 38080 ) N ;
+    - FILLER_10_253 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121900 38080 ) N ;
+    - FILLER_10_257 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 123740 38080 ) N ;
+    - FILLER_10_278 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 133400 38080 ) N ;
+    - FILLER_10_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 38080 ) N ;
+    - FILLER_10_290 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 138920 38080 ) N ;
     - FILLER_10_298 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 142600 38080 ) N ;
-    - FILLER_10_49 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 28060 38080 ) N ;
-    - FILLER_10_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 38080 ) N ;
-    - FILLER_10_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 38080 ) N ;
+    - FILLER_10_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 38080 ) N ;
+    - FILLER_10_51 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 28980 38080 ) N ;
+    - FILLER_10_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 38080 ) N ;
+    - FILLER_10_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 38080 ) N ;
     - FILLER_10_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 38080 ) N ;
     - FILLER_10_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 38080 ) N ;
     - FILLER_11_108 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 55200 40800 ) FS ;
-    - FILLER_11_133 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 66700 40800 ) FS ;
+    - FILLER_11_113 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 57500 40800 ) FS ;
+    - FILLER_11_135 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 67620 40800 ) FS ;
     - FILLER_11_161 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 79580 40800 ) FS ;
     - FILLER_11_167 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 82340 40800 ) FS ;
     - FILLER_11_169 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 83260 40800 ) FS ;
@@ -118,138 +121,149 @@ COMPONENTS 1073 ;
     - FILLER_11_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 40800 ) FS ;
     - FILLER_11_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 40800 ) FS ;
     - FILLER_11_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 40800 ) FS ;
-    - FILLER_11_24 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 16560 40800 ) FS ;
-    - FILLER_11_245 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 118220 40800 ) FS ;
-    - FILLER_11_269 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 129260 40800 ) FS ;
-    - FILLER_11_277 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 132940 40800 ) FS ;
+    - FILLER_11_225 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 109020 40800 ) FS ;
+    - FILLER_11_247 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119140 40800 ) FS ;
+    - FILLER_11_271 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 130180 40800 ) FS ;
+    - FILLER_11_279 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 133860 40800 ) FS ;
+    - FILLER_11_28 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 18400 40800 ) FS ;
     - FILLER_11_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 40800 ) FS ;
     - FILLER_11_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 40800 ) FS ;
-    - FILLER_11_3 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 6900 40800 ) FS ;
+    - FILLER_11_3 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 6900 40800 ) FS ;
     - FILLER_11_52 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 29440 40800 ) FS ;
     - FILLER_11_57 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 31740 40800 ) FS ;
+    - FILLER_11_7 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 8740 40800 ) FS ;
     - FILLER_11_80 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 42320 40800 ) FS ;
-    - FILLER_12_112 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 57040 43520 ) N ;
-    - FILLER_12_136 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 68080 43520 ) N ;
+    - FILLER_12_114 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 57960 43520 ) N ;
+    - FILLER_12_138 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 69000 43520 ) N ;
     - FILLER_12_141 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 70380 43520 ) N ;
     - FILLER_12_153 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 75900 43520 ) N ;
     - FILLER_12_177 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 86940 43520 ) N ;
     - FILLER_12_189 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 92460 43520 ) N ;
     - FILLER_12_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 43520 ) N ;
-    - FILLER_12_217 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 105340 43520 ) N ;
-    - FILLER_12_24 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16560 43520 ) N ;
-    - FILLER_12_241 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 116380 43520 ) N ;
-    - FILLER_12_249 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 120060 43520 ) N ;
-    - FILLER_12_273 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 131100 43520 ) N ;
-    - FILLER_12_285 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 136620 43520 ) N ;
-    - FILLER_12_29 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 18860 43520 ) N ;
-    - FILLER_12_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 43520 ) N ;
-    - FILLER_12_3 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 6900 43520 ) N ;
-    - FILLER_12_35 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 21620 43520 ) N ;
-    - FILLER_12_56 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 31280 43520 ) N ;
-    - FILLER_12_80 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 42320 43520 ) N ;
-    - FILLER_12_85 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 44620 43520 ) N ;
-    - FILLER_12_91 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 47380 43520 ) N ;
-    - FILLER_13_108 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 55200 46240 ) FS ;
-    - FILLER_13_113 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 57500 46240 ) FS ;
-    - FILLER_13_119 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 60260 46240 ) FS ;
-    - FILLER_13_140 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 69920 46240 ) FS ;
-    - FILLER_13_164 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 80960 46240 ) FS ;
-    - FILLER_13_189 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 92460 46240 ) FS ;
-    - FILLER_13_213 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 103500 46240 ) FS ;
-    - FILLER_13_221 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 107180 46240 ) FS ;
-    - FILLER_13_245 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 118220 46240 ) FS ;
-    - FILLER_13_269 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 129260 46240 ) FS ;
-    - FILLER_13_277 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 132940 46240 ) FS ;
-    - FILLER_13_28 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 18400 46240 ) FS ;
+    - FILLER_12_197 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 96140 43520 ) N ;
+    - FILLER_12_219 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 106260 43520 ) N ;
+    - FILLER_12_243 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 117300 43520 ) N ;
+    - FILLER_12_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 43520 ) N ;
+    - FILLER_12_253 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 121900 43520 ) N ;
+    - FILLER_12_26 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 17480 43520 ) N ;
+    - FILLER_12_275 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 132020 43520 ) N ;
+    - FILLER_12_287 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 137540 43520 ) N ;
+    - FILLER_12_29 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 18860 43520 ) N ;
+    - FILLER_12_3 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 6900 43520 ) N ;
+    - FILLER_12_37 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 22540 43520 ) N ;
+    - FILLER_12_58 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 32200 43520 ) N ;
+    - FILLER_12_82 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 43240 43520 ) N ;
+    - FILLER_12_85 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 44620 43520 ) N ;
+    - FILLER_12_93 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 48300 43520 ) N ;
+    - FILLER_13_110 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 56120 46240 ) FS ;
+    - FILLER_13_113 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 57500 46240 ) FS ;
+    - FILLER_13_121 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 61180 46240 ) FS ;
+    - FILLER_13_142 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 70840 46240 ) FS ;
+    - FILLER_13_166 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 81880 46240 ) FS ;
+    - FILLER_13_169 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 83260 46240 ) FS ;
+    - FILLER_13_191 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 93380 46240 ) FS ;
+    - FILLER_13_215 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 104420 46240 ) FS ;
+    - FILLER_13_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 46240 ) FS ;
+    - FILLER_13_225 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 109020 46240 ) FS ;
+    - FILLER_13_247 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119140 46240 ) FS ;
+    - FILLER_13_271 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 130180 46240 ) FS ;
+    - FILLER_13_279 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 133860 46240 ) FS ;
     - FILLER_13_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 46240 ) FS ;
     - FILLER_13_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 46240 ) FS ;
-    - FILLER_13_3 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 6900 46240 ) FS ;
-    - FILLER_13_52 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 29440 46240 ) FS ;
-    - FILLER_13_57 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 31740 46240 ) FS ;
-    - FILLER_13_63 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 34500 46240 ) FS ;
-    - FILLER_13_7 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 8740 46240 ) FS ;
-    - FILLER_13_84 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 44160 46240 ) FS ;
-    - FILLER_14_112 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 57040 48960 ) N ;
-    - FILLER_14_136 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 68080 48960 ) N ;
+    - FILLER_13_3 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 6900 46240 ) FS ;
+    - FILLER_13_30 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 19320 46240 ) FS ;
+    - FILLER_13_54 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 30360 46240 ) FS ;
+    - FILLER_13_57 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 31740 46240 ) FS ;
+    - FILLER_13_65 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 35420 46240 ) FS ;
+    - FILLER_13_86 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 45080 46240 ) FS ;
+    - FILLER_13_9 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 9660 46240 ) FS ;
+    - FILLER_14_114 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 57960 48960 ) N ;
+    - FILLER_14_138 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 69000 48960 ) N ;
     - FILLER_14_141 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 70380 48960 ) N ;
     - FILLER_14_153 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 75900 48960 ) N ;
     - FILLER_14_181 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 88780 48960 ) N ;
     - FILLER_14_193 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 94300 48960 ) N ;
-    - FILLER_14_217 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 105340 48960 ) N ;
-    - FILLER_14_24 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16560 48960 ) N ;
-    - FILLER_14_241 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 116380 48960 ) N ;
-    - FILLER_14_249 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 120060 48960 ) N ;
-    - FILLER_14_273 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 131100 48960 ) N ;
-    - FILLER_14_285 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 136620 48960 ) N ;
-    - FILLER_14_29 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 18860 48960 ) N ;
-    - FILLER_14_291 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 139380 48960 ) N ;
-    - FILLER_14_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 48960 ) N ;
-    - FILLER_14_3 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 6900 48960 ) N ;
-    - FILLER_14_35 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 21620 48960 ) N ;
-    - FILLER_14_56 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 31280 48960 ) N ;
-    - FILLER_14_80 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 42320 48960 ) N ;
-    - FILLER_14_85 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 44620 48960 ) N ;
-    - FILLER_14_91 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 47380 48960 ) N ;
-    - FILLER_15_108 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 55200 51680 ) FS ;
-    - FILLER_15_113 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 57500 51680 ) FS ;
-    - FILLER_15_119 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 60260 51680 ) FS ;
-    - FILLER_15_140 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 69920 51680 ) FS ;
-    - FILLER_15_164 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 80960 51680 ) FS ;
-    - FILLER_15_189 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 92460 51680 ) FS ;
-    - FILLER_15_213 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 103500 51680 ) FS ;
-    - FILLER_15_221 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 107180 51680 ) FS ;
-    - FILLER_15_245 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 118220 51680 ) FS ;
-    - FILLER_15_269 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 129260 51680 ) FS ;
-    - FILLER_15_277 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 132940 51680 ) FS ;
-    - FILLER_15_28 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 18400 51680 ) FS ;
+    - FILLER_14_197 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 96140 48960 ) N ;
+    - FILLER_14_219 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 106260 48960 ) N ;
+    - FILLER_14_243 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 117300 48960 ) N ;
+    - FILLER_14_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 48960 ) N ;
+    - FILLER_14_253 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 121900 48960 ) N ;
+    - FILLER_14_26 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 17480 48960 ) N ;
+    - FILLER_14_275 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 132020 48960 ) N ;
+    - FILLER_14_287 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 137540 48960 ) N ;
+    - FILLER_14_29 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 18860 48960 ) N ;
+    - FILLER_14_293 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 140300 48960 ) N ;
+    - FILLER_14_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 48960 ) N ;
+    - FILLER_14_3 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 6900 48960 ) N ;
+    - FILLER_14_37 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 22540 48960 ) N ;
+    - FILLER_14_58 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 32200 48960 ) N ;
+    - FILLER_14_82 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 43240 48960 ) N ;
+    - FILLER_14_85 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 44620 48960 ) N ;
+    - FILLER_14_93 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 48300 48960 ) N ;
+    - FILLER_15_110 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 56120 51680 ) FS ;
+    - FILLER_15_113 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 57500 51680 ) FS ;
+    - FILLER_15_141 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 70380 51680 ) FS ;
+    - FILLER_15_165 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 81420 51680 ) FS ;
+    - FILLER_15_169 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 83260 51680 ) FS ;
+    - FILLER_15_191 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 93380 51680 ) FS ;
+    - FILLER_15_215 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 104420 51680 ) FS ;
+    - FILLER_15_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 51680 ) FS ;
+    - FILLER_15_225 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 109020 51680 ) FS ;
+    - FILLER_15_247 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119140 51680 ) FS ;
+    - FILLER_15_271 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 130180 51680 ) FS ;
+    - FILLER_15_279 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 133860 51680 ) FS ;
     - FILLER_15_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 51680 ) FS ;
     - FILLER_15_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 51680 ) FS ;
-    - FILLER_15_3 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 6900 51680 ) FS ;
-    - FILLER_15_52 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 29440 51680 ) FS ;
-    - FILLER_15_57 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 31740 51680 ) FS ;
-    - FILLER_15_63 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 34500 51680 ) FS ;
-    - FILLER_15_7 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 8740 51680 ) FS ;
-    - FILLER_15_84 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 44160 51680 ) FS ;
+    - FILLER_15_3 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 6900 51680 ) FS ;
+    - FILLER_15_30 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 19320 51680 ) FS ;
+    - FILLER_15_54 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 30360 51680 ) FS ;
+    - FILLER_15_57 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 31740 51680 ) FS ;
+    - FILLER_15_65 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 35420 51680 ) FS ;
+    - FILLER_15_86 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 45080 51680 ) FS ;
+    - FILLER_15_9 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 9660 51680 ) FS ;
     - FILLER_16_112 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 57040 54400 ) N ;
-    - FILLER_16_136 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 68080 54400 ) N ;
+    - FILLER_16_116 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 58880 54400 ) N ;
+    - FILLER_16_137 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 68540 54400 ) N ;
     - FILLER_16_141 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 70380 54400 ) N ;
     - FILLER_16_173 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 85100 54400 ) N ;
     - FILLER_16_185 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 90620 54400 ) N ;
     - FILLER_16_193 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 94300 54400 ) N ;
-    - FILLER_16_217 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 105340 54400 ) N ;
-    - FILLER_16_24 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16560 54400 ) N ;
-    - FILLER_16_241 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 116380 54400 ) N ;
-    - FILLER_16_249 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 120060 54400 ) N ;
-    - FILLER_16_273 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 131100 54400 ) N ;
-    - FILLER_16_285 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 136620 54400 ) N ;
-    - FILLER_16_29 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 18860 54400 ) N ;
-    - FILLER_16_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 54400 ) N ;
-    - FILLER_16_3 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 6900 54400 ) N ;
-    - FILLER_16_35 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 21620 54400 ) N ;
-    - FILLER_16_56 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 31280 54400 ) N ;
-    - FILLER_16_80 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 42320 54400 ) N ;
+    - FILLER_16_197 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 96140 54400 ) N ;
+    - FILLER_16_219 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 106260 54400 ) N ;
+    - FILLER_16_243 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 117300 54400 ) N ;
+    - FILLER_16_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 54400 ) N ;
+    - FILLER_16_253 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 121900 54400 ) N ;
+    - FILLER_16_26 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 17480 54400 ) N ;
+    - FILLER_16_275 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 132020 54400 ) N ;
+    - FILLER_16_287 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 137540 54400 ) N ;
+    - FILLER_16_29 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 18860 54400 ) N ;
+    - FILLER_16_3 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 6900 54400 ) N ;
+    - FILLER_16_37 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 22540 54400 ) N ;
+    - FILLER_16_58 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 32200 54400 ) N ;
+    - FILLER_16_82 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 43240 54400 ) N ;
     - FILLER_16_85 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 44620 54400 ) N ;
     - FILLER_16_91 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 47380 54400 ) N ;
     - FILLER_17_104 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 53360 57120 ) FS ;
     - FILLER_17_113 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 57500 57120 ) FS ;
-    - FILLER_17_125 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 63020 57120 ) FS ;
+    - FILLER_17_145 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 72220 57120 ) FS ;
+    - FILLER_17_15 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 12420 57120 ) FS ;
     - FILLER_17_157 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 77740 57120 ) FS ;
     - FILLER_17_165 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 81420 57120 ) FS ;
     - FILLER_17_169 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 83260 57120 ) FS ;
-    - FILLER_17_181 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 88780 57120 ) FS ;
-    - FILLER_17_193 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 94300 57120 ) FS ;
-    - FILLER_17_199 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 97060 57120 ) FS ;
-    - FILLER_17_220 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 106720 57120 ) FS ;
-    - FILLER_17_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 57120 ) FS ;
-    - FILLER_17_245 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 118220 57120 ) FS ;
-    - FILLER_17_249 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120060 57120 ) FS ;
+    - FILLER_17_181 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 88780 57120 ) FS ;
+    - FILLER_17_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 57120 ) FS ;
+    - FILLER_17_221 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 107180 57120 ) FS ;
+    - FILLER_17_225 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 109020 57120 ) FS ;
+    - FILLER_17_229 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 110860 57120 ) FS ;
+    - FILLER_17_250 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 120520 57120 ) FS ;
     - FILLER_17_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 57120 ) FS ;
-    - FILLER_17_270 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 129720 57120 ) FS ;
-    - FILLER_17_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 57120 ) FS ;
+    - FILLER_17_274 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 131560 57120 ) FS ;
     - FILLER_17_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 57120 ) FS ;
     - FILLER_17_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 57120 ) FS ;
+    - FILLER_17_3 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 6900 57120 ) FS ;
     - FILLER_17_48 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27600 57120 ) FS ;
-    - FILLER_17_77 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 40940 57120 ) FS ;
+    - FILLER_17_57 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 31740 57120 ) FS ;
+    - FILLER_17_79 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 41860 57120 ) FS ;
     - FILLER_17_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 57120 ) FS ;
     - FILLER_18_109 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 55660 59840 ) N ;
     - FILLER_18_121 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 61180 59840 ) N ;
@@ -261,20 +275,20 @@ COMPONENTS 1073 ;
     - FILLER_18_177 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 86940 59840 ) N ;
     - FILLER_18_189 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 92460 59840 ) N ;
     - FILLER_18_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 59840 ) N ;
-    - FILLER_18_197 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 96140 59840 ) N ;
-    - FILLER_18_203 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 98900 59840 ) N ;
-    - FILLER_18_224 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 108560 59840 ) N ;
-    - FILLER_18_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 59840 ) N ;
-    - FILLER_18_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 59840 ) N ;
-    - FILLER_18_253 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121900 59840 ) N ;
-    - FILLER_18_257 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 123740 59840 ) N ;
-    - FILLER_18_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 59840 ) N ;
-    - FILLER_18_278 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 133400 59840 ) N ;
-    - FILLER_18_290 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 138920 59840 ) N ;
-    - FILLER_18_298 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 142600 59840 ) N ;
-    - FILLER_18_49 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 28060 59840 ) N ;
-    - FILLER_18_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 59840 ) N ;
-    - FILLER_18_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 59840 ) N ;
+    - FILLER_18_197 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 96140 59840 ) N ;
+    - FILLER_18_205 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 99820 59840 ) N ;
+    - FILLER_18_226 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 109480 59840 ) N ;
+    - FILLER_18_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 59840 ) N ;
+    - FILLER_18_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 59840 ) N ;
+    - FILLER_18_253 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 121900 59840 ) N ;
+    - FILLER_18_261 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 125580 59840 ) N ;
+    - FILLER_18_283 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 135700 59840 ) N ;
+    - FILLER_18_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 59840 ) N ;
+    - FILLER_18_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 59840 ) N ;
+    - FILLER_18_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 59840 ) N ;
+    - FILLER_18_51 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 28980 59840 ) N ;
+    - FILLER_18_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 59840 ) N ;
+    - FILLER_18_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 59840 ) N ;
     - FILLER_18_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 59840 ) N ;
     - FILLER_18_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 59840 ) N ;
     - FILLER_19_105 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 53820 62560 ) FS ;
@@ -287,18 +301,18 @@ COMPONENTS 1073 ;
     - FILLER_19_167 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 82340 62560 ) FS ;
     - FILLER_19_169 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 83260 62560 ) FS ;
     - FILLER_19_181 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 88780 62560 ) FS ;
-    - FILLER_19_193 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 94300 62560 ) FS ;
-    - FILLER_19_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 62560 ) FS ;
-    - FILLER_19_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 62560 ) FS ;
-    - FILLER_19_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 62560 ) FS ;
-    - FILLER_19_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 62560 ) FS ;
-    - FILLER_19_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 62560 ) FS ;
-    - FILLER_19_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 62560 ) FS ;
-    - FILLER_19_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 62560 ) FS ;
-    - FILLER_19_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 62560 ) FS ;
+    - FILLER_19_193 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 94300 62560 ) FS ;
+    - FILLER_19_201 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 97980 62560 ) FS ;
+    - FILLER_19_222 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 107640 62560 ) FS ;
+    - FILLER_19_225 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 109020 62560 ) FS ;
+    - FILLER_19_233 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 112700 62560 ) FS ;
+    - FILLER_19_25 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 17020 62560 ) FS ;
+    - FILLER_19_254 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 122360 62560 ) FS ;
+    - FILLER_19_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 62560 ) FS ;
     - FILLER_19_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 62560 ) FS ;
     - FILLER_19_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 62560 ) FS ;
-    - FILLER_19_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 62560 ) FS ;
+    - FILLER_19_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 62560 ) FS ;
+    - FILLER_19_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 62560 ) FS ;
     - FILLER_19_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 62560 ) FS ;
     - FILLER_19_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 62560 ) FS ;
     - FILLER_19_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 62560 ) FS ;
@@ -348,18 +362,19 @@ COMPONENTS 1073 ;
     - FILLER_20_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 65280 ) N ;
     - FILLER_20_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 65280 ) N ;
     - FILLER_20_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 65280 ) N ;
-    - FILLER_20_221 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 107180 65280 ) N ;
-    - FILLER_20_227 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 109940 65280 ) N ;
-    - FILLER_20_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 65280 ) N ;
-    - FILLER_20_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 65280 ) N ;
+    - FILLER_20_221 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 107180 65280 ) N ;
+    - FILLER_20_229 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 110860 65280 ) N ;
+    - FILLER_20_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 65280 ) N ;
+    - FILLER_20_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 65280 ) N ;
     - FILLER_20_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 65280 ) N ;
-    - FILLER_20_265 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 127420 65280 ) N ;
-    - FILLER_20_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 65280 ) N ;
-    - FILLER_20_287 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 137540 65280 ) N ;
-    - FILLER_20_49 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28060 65280 ) N ;
-    - FILLER_20_61 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 33580 65280 ) N ;
-    - FILLER_20_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 65280 ) N ;
-    - FILLER_20_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 65280 ) N ;
+    - FILLER_20_265 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 127420 65280 ) N ;
+    - FILLER_20_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 65280 ) N ;
+    - FILLER_20_291 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 139380 65280 ) N ;
+    - FILLER_20_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 65280 ) N ;
+    - FILLER_20_51 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28980 65280 ) N ;
+    - FILLER_20_63 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 34500 65280 ) N ;
+    - FILLER_20_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 65280 ) N ;
+    - FILLER_20_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 65280 ) N ;
     - FILLER_20_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 65280 ) N ;
     - FILLER_20_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 65280 ) N ;
     - FILLER_21_105 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 53820 68000 ) FS ;
@@ -376,14 +391,15 @@ COMPONENTS 1073 ;
     - FILLER_21_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 68000 ) FS ;
     - FILLER_21_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 68000 ) FS ;
     - FILLER_21_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 68000 ) FS ;
-    - FILLER_21_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 68000 ) FS ;
-    - FILLER_21_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 68000 ) FS ;
-    - FILLER_21_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 68000 ) FS ;
-    - FILLER_21_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 68000 ) FS ;
-    - FILLER_21_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 68000 ) FS ;
+    - FILLER_21_225 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 109020 68000 ) FS ;
+    - FILLER_21_233 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 112700 68000 ) FS ;
+    - FILLER_21_25 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 17020 68000 ) FS ;
+    - FILLER_21_254 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 122360 68000 ) FS ;
+    - FILLER_21_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 68000 ) FS ;
     - FILLER_21_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 68000 ) FS ;
     - FILLER_21_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 68000 ) FS ;
-    - FILLER_21_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 68000 ) FS ;
+    - FILLER_21_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 68000 ) FS ;
+    - FILLER_21_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 68000 ) FS ;
     - FILLER_21_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 68000 ) FS ;
     - FILLER_21_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 68000 ) FS ;
     - FILLER_21_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 68000 ) FS ;
@@ -401,19 +417,19 @@ COMPONENTS 1073 ;
     - FILLER_22_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 70720 ) N ;
     - FILLER_22_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 70720 ) N ;
     - FILLER_22_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 70720 ) N ;
-    - FILLER_22_221 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 107180 70720 ) N ;
-    - FILLER_22_227 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 109940 70720 ) N ;
-    - FILLER_22_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 70720 ) N ;
-    - FILLER_22_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 70720 ) N ;
+    - FILLER_22_221 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 107180 70720 ) N ;
+    - FILLER_22_229 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 110860 70720 ) N ;
+    - FILLER_22_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 70720 ) N ;
+    - FILLER_22_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 70720 ) N ;
     - FILLER_22_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 70720 ) N ;
-    - FILLER_22_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 70720 ) N ;
-    - FILLER_22_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 70720 ) N ;
-    - FILLER_22_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 70720 ) N ;
-    - FILLER_22_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 70720 ) N ;
-    - FILLER_22_49 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28060 70720 ) N ;
-    - FILLER_22_61 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 33580 70720 ) N ;
-    - FILLER_22_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 70720 ) N ;
-    - FILLER_22_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 70720 ) N ;
+    - FILLER_22_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 70720 ) N ;
+    - FILLER_22_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 70720 ) N ;
+    - FILLER_22_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 70720 ) N ;
+    - FILLER_22_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 70720 ) N ;
+    - FILLER_22_51 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28980 70720 ) N ;
+    - FILLER_22_63 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 34500 70720 ) N ;
+    - FILLER_22_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 70720 ) N ;
+    - FILLER_22_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 70720 ) N ;
     - FILLER_22_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 70720 ) N ;
     - FILLER_22_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 70720 ) N ;
     - FILLER_23_105 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 53820 73440 ) FS ;
@@ -430,15 +446,17 @@ COMPONENTS 1073 ;
     - FILLER_23_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 73440 ) FS ;
     - FILLER_23_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 73440 ) FS ;
     - FILLER_23_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 73440 ) FS ;
-    - FILLER_23_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 73440 ) FS ;
-    - FILLER_23_23 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 16100 73440 ) FS ;
-    - FILLER_23_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 73440 ) FS ;
-    - FILLER_23_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 73440 ) FS ;
-    - FILLER_23_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 73440 ) FS ;
+    - FILLER_23_225 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 109020 73440 ) FS ;
+    - FILLER_23_237 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 114540 73440 ) FS ;
+    - FILLER_23_249 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 120060 73440 ) FS ;
+    - FILLER_23_25 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 17020 73440 ) FS ;
+    - FILLER_23_257 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 123740 73440 ) FS ;
+    - FILLER_23_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 73440 ) FS ;
     - FILLER_23_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 73440 ) FS ;
     - FILLER_23_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 73440 ) FS ;
-    - FILLER_23_35 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 21620 73440 ) FS ;
-    - FILLER_23_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 73440 ) FS ;
+    - FILLER_23_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 73440 ) FS ;
+    - FILLER_23_37 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 22540 73440 ) FS ;
+    - FILLER_23_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 73440 ) FS ;
     - FILLER_23_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 73440 ) FS ;
     - FILLER_23_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 73440 ) FS ;
     - FILLER_23_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 73440 ) FS ;
@@ -457,16 +475,15 @@ COMPONENTS 1073 ;
     - FILLER_24_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 76160 ) N ;
     - FILLER_24_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 76160 ) N ;
     - FILLER_24_221 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 107180 76160 ) N ;
-    - FILLER_24_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 76160 ) N ;
     - FILLER_24_233 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 112700 76160 ) N ;
     - FILLER_24_245 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 118220 76160 ) N ;
+    - FILLER_24_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 76160 ) N ;
     - FILLER_24_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 76160 ) N ;
     - FILLER_24_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 76160 ) N ;
-    - FILLER_24_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 76160 ) N ;
-    - FILLER_24_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 76160 ) N ;
-    - FILLER_24_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 76160 ) N ;
+    - FILLER_24_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 76160 ) N ;
     - FILLER_24_29 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 18860 76160 ) N ;
-    - FILLER_24_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 76160 ) N ;
+    - FILLER_24_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 76160 ) N ;
+    - FILLER_24_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 76160 ) N ;
     - FILLER_24_41 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 24380 76160 ) N ;
     - FILLER_24_53 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 29900 76160 ) N ;
     - FILLER_24_65 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 35420 76160 ) N ;
@@ -491,10 +508,10 @@ COMPONENTS 1073 ;
     - FILLER_25_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 78880 ) FS ;
     - FILLER_25_225 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 109020 78880 ) FS ;
     - FILLER_25_237 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 114540 78880 ) FS ;
-    - FILLER_25_249 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 120060 78880 ) FS ;
-    - FILLER_25_255 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 122820 78880 ) FS ;
+    - FILLER_25_249 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 120060 78880 ) FS ;
+    - FILLER_25_257 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 123740 78880 ) FS ;
     - FILLER_25_27 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 17940 78880 ) FS ;
-    - FILLER_25_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 78880 ) FS ;
+    - FILLER_25_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 78880 ) FS ;
     - FILLER_25_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 78880 ) FS ;
     - FILLER_25_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 78880 ) FS ;
     - FILLER_25_3 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 6900 78880 ) FS ;
@@ -523,11 +540,10 @@ COMPONENTS 1073 ;
     - FILLER_26_245 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 118220 81600 ) N ;
     - FILLER_26_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 81600 ) N ;
     - FILLER_26_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 81600 ) N ;
-    - FILLER_26_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 81600 ) N ;
+    - FILLER_26_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 81600 ) N ;
     - FILLER_26_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 81600 ) N ;
-    - FILLER_26_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 81600 ) N ;
     - FILLER_26_29 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 18860 81600 ) N ;
-    - FILLER_26_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 81600 ) N ;
+    - FILLER_26_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 81600 ) N ;
     - FILLER_26_3 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 6900 81600 ) N ;
     - FILLER_26_41 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 24380 81600 ) N ;
     - FILLER_26_53 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 29900 81600 ) N ;
@@ -586,11 +602,10 @@ COMPONENTS 1073 ;
     - FILLER_2_245 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 118220 16320 ) N ;
     - FILLER_2_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 16320 ) N ;
     - FILLER_2_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 16320 ) N ;
-    - FILLER_2_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 16320 ) N ;
+    - FILLER_2_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 16320 ) N ;
     - FILLER_2_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 16320 ) N ;
-    - FILLER_2_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 16320 ) N ;
     - FILLER_2_29 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 18860 16320 ) N ;
-    - FILLER_2_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 16320 ) N ;
+    - FILLER_2_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 16320 ) N ;
     - FILLER_2_3 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 6900 16320 ) N ;
     - FILLER_2_41 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 24380 16320 ) N ;
     - FILLER_2_53 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 29900 16320 ) N ;
@@ -616,10 +631,10 @@ COMPONENTS 1073 ;
     - FILLER_3_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 19040 ) FS ;
     - FILLER_3_225 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 109020 19040 ) FS ;
     - FILLER_3_237 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 114540 19040 ) FS ;
-    - FILLER_3_249 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 120060 19040 ) FS ;
-    - FILLER_3_255 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 122820 19040 ) FS ;
+    - FILLER_3_249 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 120060 19040 ) FS ;
+    - FILLER_3_257 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 123740 19040 ) FS ;
     - FILLER_3_27 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 17940 19040 ) FS ;
-    - FILLER_3_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 19040 ) FS ;
+    - FILLER_3_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 19040 ) FS ;
     - FILLER_3_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 19040 ) FS ;
     - FILLER_3_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 19040 ) FS ;
     - FILLER_3_3 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 6900 19040 ) FS ;
@@ -643,16 +658,15 @@ COMPONENTS 1073 ;
     - FILLER_4_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 21760 ) N ;
     - FILLER_4_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 21760 ) N ;
     - FILLER_4_221 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 107180 21760 ) N ;
-    - FILLER_4_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 21760 ) N ;
     - FILLER_4_233 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 112700 21760 ) N ;
     - FILLER_4_245 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 118220 21760 ) N ;
+    - FILLER_4_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 21760 ) N ;
     - FILLER_4_251 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 120980 21760 ) N ;
     - FILLER_4_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 21760 ) N ;
-    - FILLER_4_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 21760 ) N ;
-    - FILLER_4_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 21760 ) N ;
-    - FILLER_4_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 21760 ) N ;
+    - FILLER_4_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 21760 ) N ;
     - FILLER_4_29 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 18860 21760 ) N ;
-    - FILLER_4_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 21760 ) N ;
+    - FILLER_4_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 21760 ) N ;
+    - FILLER_4_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 21760 ) N ;
     - FILLER_4_41 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 24380 21760 ) N ;
     - FILLER_4_53 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 29900 21760 ) N ;
     - FILLER_4_65 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 35420 21760 ) N ;
@@ -674,15 +688,16 @@ COMPONENTS 1073 ;
     - FILLER_5_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 24480 ) FS ;
     - FILLER_5_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 24480 ) FS ;
     - FILLER_5_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 24480 ) FS ;
-    - FILLER_5_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 24480 ) FS ;
-    - FILLER_5_23 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 16100 24480 ) FS ;
-    - FILLER_5_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 24480 ) FS ;
-    - FILLER_5_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 24480 ) FS ;
-    - FILLER_5_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 24480 ) FS ;
+    - FILLER_5_225 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 109020 24480 ) FS ;
+    - FILLER_5_233 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 112700 24480 ) FS ;
+    - FILLER_5_25 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 17020 24480 ) FS ;
+    - FILLER_5_254 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 122360 24480 ) FS ;
+    - FILLER_5_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 24480 ) FS ;
     - FILLER_5_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 24480 ) FS ;
     - FILLER_5_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 24480 ) FS ;
-    - FILLER_5_35 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 21620 24480 ) FS ;
-    - FILLER_5_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 24480 ) FS ;
+    - FILLER_5_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 24480 ) FS ;
+    - FILLER_5_37 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 22540 24480 ) FS ;
+    - FILLER_5_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 24480 ) FS ;
     - FILLER_5_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 24480 ) FS ;
     - FILLER_5_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 24480 ) FS ;
     - FILLER_5_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 24480 ) FS ;
@@ -700,19 +715,19 @@ COMPONENTS 1073 ;
     - FILLER_6_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 27200 ) N ;
     - FILLER_6_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 27200 ) N ;
     - FILLER_6_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 27200 ) N ;
-    - FILLER_6_221 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 107180 27200 ) N ;
-    - FILLER_6_227 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 109940 27200 ) N ;
-    - FILLER_6_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 27200 ) N ;
-    - FILLER_6_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 27200 ) N ;
+    - FILLER_6_221 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 107180 27200 ) N ;
+    - FILLER_6_229 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 110860 27200 ) N ;
+    - FILLER_6_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 27200 ) N ;
+    - FILLER_6_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 27200 ) N ;
     - FILLER_6_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 27200 ) N ;
-    - FILLER_6_265 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 127420 27200 ) N ;
-    - FILLER_6_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 27200 ) N ;
-    - FILLER_6_273 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 131100 27200 ) N ;
-    - FILLER_6_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 27200 ) N ;
-    - FILLER_6_49 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28060 27200 ) N ;
-    - FILLER_6_61 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 33580 27200 ) N ;
-    - FILLER_6_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 27200 ) N ;
-    - FILLER_6_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 27200 ) N ;
+    - FILLER_6_265 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 127420 27200 ) N ;
+    - FILLER_6_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 27200 ) N ;
+    - FILLER_6_297 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 142140 27200 ) N ;
+    - FILLER_6_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 27200 ) N ;
+    - FILLER_6_51 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28980 27200 ) N ;
+    - FILLER_6_63 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 34500 27200 ) N ;
+    - FILLER_6_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 27200 ) N ;
+    - FILLER_6_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 27200 ) N ;
     - FILLER_6_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 27200 ) N ;
     - FILLER_6_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 27200 ) N ;
     - FILLER_7_105 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 53820 29920 ) FS ;
@@ -729,14 +744,15 @@ COMPONENTS 1073 ;
     - FILLER_7_205 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 99820 29920 ) FS ;
     - FILLER_7_217 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 105340 29920 ) FS ;
     - FILLER_7_223 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 108100 29920 ) FS ;
-    - FILLER_7_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 29920 ) FS ;
-    - FILLER_7_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 29920 ) FS ;
-    - FILLER_7_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 29920 ) FS ;
-    - FILLER_7_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 29920 ) FS ;
-    - FILLER_7_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 29920 ) FS ;
+    - FILLER_7_225 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 109020 29920 ) FS ;
+    - FILLER_7_233 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 112700 29920 ) FS ;
+    - FILLER_7_25 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 17020 29920 ) FS ;
+    - FILLER_7_254 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 122360 29920 ) FS ;
+    - FILLER_7_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 29920 ) FS ;
     - FILLER_7_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 29920 ) FS ;
     - FILLER_7_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 29920 ) FS ;
-    - FILLER_7_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 29920 ) FS ;
+    - FILLER_7_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 29920 ) FS ;
+    - FILLER_7_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 29920 ) FS ;
     - FILLER_7_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 29920 ) FS ;
     - FILLER_7_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 29920 ) FS ;
     - FILLER_7_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 29920 ) FS ;
@@ -754,22 +770,22 @@ COMPONENTS 1073 ;
     - FILLER_8_195 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 95220 32640 ) N ;
     - FILLER_8_197 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 96140 32640 ) N ;
     - FILLER_8_209 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 101660 32640 ) N ;
-    - FILLER_8_221 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 107180 32640 ) N ;
-    - FILLER_8_227 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 109940 32640 ) N ;
-    - FILLER_8_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 32640 ) N ;
-    - FILLER_8_248 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 119600 32640 ) N ;
-    - FILLER_8_253 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 121900 32640 ) N ;
-    - FILLER_8_261 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 125580 32640 ) N ;
-    - FILLER_8_27 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 17940 32640 ) N ;
-    - FILLER_8_283 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 135700 32640 ) N ;
-    - FILLER_8_295 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 141220 32640 ) N ;
-    - FILLER_8_49 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28060 32640 ) N ;
-    - FILLER_8_61 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 33580 32640 ) N ;
-    - FILLER_8_73 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 39100 32640 ) N ;
-    - FILLER_8_81 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 42780 32640 ) N ;
+    - FILLER_8_221 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 107180 32640 ) N ;
+    - FILLER_8_229 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 110860 32640 ) N ;
+    - FILLER_8_25 sky130_fd_sc_hd__decap_3 + SOURCE DIST + PLACED ( 17020 32640 ) N ;
+    - FILLER_8_250 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 120520 32640 ) N ;
+    - FILLER_8_253 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 121900 32640 ) N ;
+    - FILLER_8_265 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 127420 32640 ) N ;
+    - FILLER_8_287 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 137540 32640 ) N ;
+    - FILLER_8_29 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 18860 32640 ) N ;
+    - FILLER_8_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 32640 ) N ;
+    - FILLER_8_51 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 28980 32640 ) N ;
+    - FILLER_8_63 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 34500 32640 ) N ;
+    - FILLER_8_75 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 40020 32640 ) N ;
+    - FILLER_8_83 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 43700 32640 ) N ;
     - FILLER_8_85 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 44620 32640 ) N ;
     - FILLER_8_97 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 50140 32640 ) N ;
-    - FILLER_9_105 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 53820 35360 ) FS ;
+    - FILLER_9_103 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 52900 35360 ) FS ;
     - FILLER_9_111 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 56580 35360 ) FS ;
     - FILLER_9_113 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 57500 35360 ) FS ;
     - FILLER_9_125 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 63020 35360 ) FS ;
@@ -779,22 +795,22 @@ COMPONENTS 1073 ;
     - FILLER_9_167 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 82340 35360 ) FS ;
     - FILLER_9_169 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 83260 35360 ) FS ;
     - FILLER_9_181 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 88780 35360 ) FS ;
-    - FILLER_9_193 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 94300 35360 ) FS ;
-    - FILLER_9_199 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 97060 35360 ) FS ;
-    - FILLER_9_220 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 106720 35360 ) FS ;
-    - FILLER_9_225 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 109020 35360 ) FS ;
-    - FILLER_9_23 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 16100 35360 ) FS ;
-    - FILLER_9_231 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 111780 35360 ) FS ;
-    - FILLER_9_252 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 121440 35360 ) FS ;
-    - FILLER_9_276 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 132480 35360 ) FS ;
+    - FILLER_9_193 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 94300 35360 ) FS ;
+    - FILLER_9_201 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 97980 35360 ) FS ;
+    - FILLER_9_222 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 107640 35360 ) FS ;
+    - FILLER_9_225 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 109020 35360 ) FS ;
+    - FILLER_9_233 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 112700 35360 ) FS ;
+    - FILLER_9_25 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 17020 35360 ) FS ;
+    - FILLER_9_254 sky130_fd_sc_hd__decap_4 + SOURCE DIST + PLACED ( 122360 35360 ) FS ;
+    - FILLER_9_278 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 133400 35360 ) FS ;
     - FILLER_9_281 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 134780 35360 ) FS ;
     - FILLER_9_293 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 140300 35360 ) FS ;
-    - FILLER_9_47 sky130_fd_sc_hd__decap_8 + SOURCE DIST + PLACED ( 27140 35360 ) FS ;
+    - FILLER_9_3 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 6900 35360 ) FS ;
+    - FILLER_9_49 sky130_fd_sc_hd__decap_6 + SOURCE DIST + PLACED ( 28060 35360 ) FS ;
     - FILLER_9_55 sky130_fd_sc_hd__fill_1 + SOURCE DIST + PLACED ( 30820 35360 ) FS ;
-    - FILLER_9_57 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 31740 35360 ) FS ;
-    - FILLER_9_69 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 37260 35360 ) FS ;
-    - FILLER_9_81 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 42780 35360 ) FS ;
-    - FILLER_9_93 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 48300 35360 ) FS ;
+    - FILLER_9_57 sky130_fd_sc_hd__fill_2 + SOURCE DIST + PLACED ( 31740 35360 ) FS ;
+    - FILLER_9_79 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 41860 35360 ) FS ;
+    - FILLER_9_91 sky130_ef_sc_hd__decap_12 + SOURCE DIST + PLACED ( 47380 35360 ) FS ;
     - PHY_0 sky130_fd_sc_hd__decap_3 + SOURCE DIST + FIXED ( 5520 10880 ) N ;
     - PHY_1 sky130_fd_sc_hd__decap_3 + SOURCE DIST + FIXED ( 143060 10880 ) FN ;
     - PHY_10 sky130_fd_sc_hd__decap_3 + SOURCE DIST + FIXED ( 5520 24480 ) FS ;
@@ -1001,130 +1017,130 @@ COMPONENTS 1073 ;
     - TAP_97 sky130_fd_sc_hd__tapvpwrvgnd_1 + SOURCE DIST + FIXED ( 57040 29920 ) FS ;
     - TAP_98 sky130_fd_sc_hd__tapvpwrvgnd_1 + SOURCE DIST + FIXED ( 82800 29920 ) FS ;
     - TAP_99 sky130_fd_sc_hd__tapvpwrvgnd_1 + SOURCE DIST + FIXED ( 108560 29920 ) FS ;
-    - _0_ sky130_fd_sc_hd__inv_2 + PLACED ( 139840 48960 ) N ;
-    - some_customcells.genblk1\[100\].name_of_cell sky130_customcell + PLACED ( 123280 68000 ) FS ;
-    - some_customcells.genblk1\[101\].name_of_cell sky130_customcell + PLACED ( 110400 59840 ) FN ;
-    - some_customcells.genblk1\[102\].name_of_cell sky130_customcell + PLACED ( 112240 35360 ) FS ;
-    - some_customcells.genblk1\[103\].name_of_cell sky130_customcell + PLACED ( 112240 62560 ) S ;
-    - some_customcells.genblk1\[104\].name_of_cell sky130_customcell + PLACED ( 132020 21760 ) N ;
-    - some_customcells.genblk1\[105\].name_of_cell sky130_customcell + PLACED ( 132020 76160 ) FN ;
-    - some_customcells.genblk1\[106\].name_of_cell sky130_customcell + PLACED ( 123280 24480 ) S ;
-    - some_customcells.genblk1\[107\].name_of_cell sky130_customcell + PLACED ( 123280 73440 ) S ;
-    - some_customcells.genblk1\[108\].name_of_cell sky130_customcell + PLACED ( 110400 32640 ) FN ;
-    - some_customcells.genblk1\[109\].name_of_cell sky130_customcell + PLACED ( 110400 65280 ) N ;
-    - some_customcells.genblk1\[10\].name_of_cell sky130_customcell + PLACED ( 17940 35360 ) FS ;
-    - some_customcells.genblk1\[110\].name_of_cell sky130_customcell + PLACED ( 112240 29920 ) FS ;
-    - some_customcells.genblk1\[111\].name_of_cell sky130_customcell + PLACED ( 112240 68000 ) S ;
-    - some_customcells.genblk1\[112\].name_of_cell sky130_customcell + PLACED ( 97520 57120 ) S ;
-    - some_customcells.genblk1\[113\].name_of_cell sky130_customcell + PLACED ( 99360 38080 ) N ;
-    - some_customcells.genblk1\[114\].name_of_cell sky130_customcell + PLACED ( 99360 59840 ) FN ;
-    - some_customcells.genblk1\[115\].name_of_cell sky130_customcell + PLACED ( 132020 16320 ) N ;
-    - some_customcells.genblk1\[116\].name_of_cell sky130_customcell + PLACED ( 132020 81600 ) FN ;
-    - some_customcells.genblk1\[117\].name_of_cell sky130_customcell + PLACED ( 123280 19040 ) S ;
-    - some_customcells.genblk1\[118\].name_of_cell sky130_customcell + PLACED ( 123280 78880 ) S ;
-    - some_customcells.genblk1\[119\].name_of_cell sky130_customcell + PLACED ( 110400 27200 ) FN ;
-    - some_customcells.genblk1\[11\].name_of_cell sky130_customcell + PLACED ( 17940 62560 ) S ;
-    - some_customcells.genblk1\[120\].name_of_cell sky130_customcell + PLACED ( 110400 70720 ) N ;
-    - some_customcells.genblk1\[121\].name_of_cell sky130_customcell + PLACED ( 112240 24480 ) FS ;
-    - some_customcells.genblk1\[122\].name_of_cell sky130_customcell + PLACED ( 112240 73440 ) S ;
-    - some_customcells.genblk1\[123\].name_of_cell sky130_customcell + PLACED ( 97520 35360 ) S ;
-    - some_customcells.genblk1\[12\].name_of_cell sky130_customcell + PLACED ( 6900 27200 ) FN ;
-    - some_customcells.genblk1\[13\].name_of_cell sky130_customcell + PLACED ( 6900 70720 ) N ;
-    - some_customcells.genblk1\[14\].name_of_cell sky130_customcell + PLACED ( 18860 32640 ) N ;
-    - some_customcells.genblk1\[15\].name_of_cell sky130_customcell + PLACED ( 18860 65280 ) FN ;
-    - some_customcells.genblk1\[16\].name_of_cell sky130_customcell + PLACED ( 6900 24480 ) S ;
-    - some_customcells.genblk1\[17\].name_of_cell sky130_customcell + PLACED ( 6900 73440 ) FS ;
-    - some_customcells.genblk1\[18\].name_of_cell sky130_customcell + PLACED ( 17940 29920 ) FS ;
-    - some_customcells.genblk1\[19\].name_of_cell sky130_customcell + PLACED ( 17940 68000 ) S ;
-    - some_customcells.genblk1\[1\].name_of_cell sky130_customcell + PLACED ( 6900 59840 ) N ;
-    - some_customcells.genblk1\[20\].name_of_cell sky130_customcell + PLACED ( 29900 38080 ) N ;
-    - some_customcells.genblk1\[21\].name_of_cell sky130_customcell + PLACED ( 29900 59840 ) FN ;
-    - some_customcells.genblk1\[22\].name_of_cell sky130_customcell + PLACED ( 6900 21760 ) FN ;
-    - some_customcells.genblk1\[23\].name_of_cell sky130_customcell + PLACED ( 6900 76160 ) N ;
-    - some_customcells.genblk1\[24\].name_of_cell sky130_customcell + PLACED ( 18860 27200 ) N ;
-    - some_customcells.genblk1\[25\].name_of_cell sky130_customcell + PLACED ( 18860 70720 ) FN ;
-    - some_customcells.genblk1\[26\].name_of_cell sky130_customcell + PLACED ( 6900 38080 ) FN ;
-    - some_customcells.genblk1\[27\].name_of_cell sky130_customcell + PLACED ( 6900 57120 ) FS ;
-    - some_customcells.genblk1\[28\].name_of_cell sky130_customcell + PLACED ( 7360 40800 ) S ;
-    - some_customcells.genblk1\[29\].name_of_cell sky130_customcell + PLACED ( 7360 54400 ) FN ;
-    - some_customcells.genblk1\[2\].name_of_cell sky130_customcell + PLACED ( 6900 35360 ) S ;
-    - some_customcells.genblk1\[30\].name_of_cell sky130_customcell + PLACED ( 7360 43520 ) N ;
-    - some_customcells.genblk1\[31\].name_of_cell sky130_customcell + PLACED ( 9200 51680 ) S ;
-    - some_customcells.genblk1\[32\].name_of_cell sky130_customcell + PLACED ( 9200 46240 ) FS ;
-    - some_customcells.genblk1\[33\].name_of_cell sky130_customcell + PLACED ( 7360 48960 ) FN ;
+    - _0_ sky130_fd_sc_hd__inv_2 + PLACED ( 140760 48960 ) N ;
+    - some_customcells.genblk1\[100\].name_of_cell sky130_customcell + PLACED ( 124200 29920 ) S ;
+    - some_customcells.genblk1\[101\].name_of_cell sky130_customcell + PLACED ( 111320 38080 ) FN ;
+    - some_customcells.genblk1\[102\].name_of_cell sky130_customcell + PLACED ( 111320 59840 ) FN ;
+    - some_customcells.genblk1\[103\].name_of_cell sky130_customcell + PLACED ( 113160 35360 ) FS ;
+    - some_customcells.genblk1\[104\].name_of_cell sky130_customcell + PLACED ( 113160 62560 ) S ;
+    - some_customcells.genblk1\[105\].name_of_cell sky130_customcell + PLACED ( 132940 21760 ) N ;
+    - some_customcells.genblk1\[106\].name_of_cell sky130_customcell + PLACED ( 132940 76160 ) FN ;
+    - some_customcells.genblk1\[107\].name_of_cell sky130_customcell + PLACED ( 124200 24480 ) S ;
+    - some_customcells.genblk1\[108\].name_of_cell sky130_customcell + PLACED ( 124200 73440 ) S ;
+    - some_customcells.genblk1\[109\].name_of_cell sky130_customcell + PLACED ( 111320 32640 ) FN ;
+    - some_customcells.genblk1\[10\].name_of_cell sky130_customcell + PLACED ( 7820 27200 ) FN ;
+    - some_customcells.genblk1\[110\].name_of_cell sky130_customcell + PLACED ( 111320 65280 ) N ;
+    - some_customcells.genblk1\[111\].name_of_cell sky130_customcell + PLACED ( 113160 29920 ) FS ;
+    - some_customcells.genblk1\[112\].name_of_cell sky130_customcell + PLACED ( 113160 68000 ) S ;
+    - some_customcells.genblk1\[113\].name_of_cell sky130_customcell + PLACED ( 100280 38080 ) FN ;
+    - some_customcells.genblk1\[114\].name_of_cell sky130_customcell + PLACED ( 100280 59840 ) FN ;
+    - some_customcells.genblk1\[115\].name_of_cell sky130_customcell + PLACED ( 132940 16320 ) N ;
+    - some_customcells.genblk1\[116\].name_of_cell sky130_customcell + PLACED ( 132940 81600 ) FN ;
+    - some_customcells.genblk1\[117\].name_of_cell sky130_customcell + PLACED ( 98440 35360 ) S ;
+    - some_customcells.genblk1\[118\].name_of_cell sky130_customcell + PLACED ( 98440 62560 ) FS ;
+    - some_customcells.genblk1\[119\].name_of_cell sky130_customcell + PLACED ( 124200 19040 ) FS ;
+    - some_customcells.genblk1\[11\].name_of_cell sky130_customcell + PLACED ( 7820 70720 ) N ;
+    - some_customcells.genblk1\[120\].name_of_cell sky130_customcell + PLACED ( 124200 78880 ) S ;
+    - some_customcells.genblk1\[121\].name_of_cell sky130_customcell + PLACED ( 111320 27200 ) FN ;
+    - some_customcells.genblk1\[122\].name_of_cell sky130_customcell + PLACED ( 111320 70720 ) N ;
+    - some_customcells.genblk1\[123\].name_of_cell sky130_customcell + PLACED ( 113160 24480 ) FS ;
+    - some_customcells.genblk1\[12\].name_of_cell sky130_customcell + PLACED ( 19780 32640 ) N ;
+    - some_customcells.genblk1\[13\].name_of_cell sky130_customcell + PLACED ( 19780 65280 ) FN ;
+    - some_customcells.genblk1\[14\].name_of_cell sky130_customcell + PLACED ( 32660 57120 ) FS ;
+    - some_customcells.genblk1\[15\].name_of_cell sky130_customcell + PLACED ( 7820 24480 ) S ;
+    - some_customcells.genblk1\[16\].name_of_cell sky130_customcell + PLACED ( 7820 73440 ) FS ;
+    - some_customcells.genblk1\[17\].name_of_cell sky130_customcell + PLACED ( 18860 29920 ) FS ;
+    - some_customcells.genblk1\[18\].name_of_cell sky130_customcell + PLACED ( 18860 68000 ) S ;
+    - some_customcells.genblk1\[19\].name_of_cell sky130_customcell + PLACED ( 30820 38080 ) N ;
+    - some_customcells.genblk1\[1\].name_of_cell sky130_customcell + PLACED ( 7820 62560 ) FS ;
+    - some_customcells.genblk1\[20\].name_of_cell sky130_customcell + PLACED ( 30820 59840 ) FN ;
+    - some_customcells.genblk1\[21\].name_of_cell sky130_customcell + PLACED ( 7820 21760 ) FN ;
+    - some_customcells.genblk1\[22\].name_of_cell sky130_customcell + PLACED ( 7820 76160 ) N ;
+    - some_customcells.genblk1\[23\].name_of_cell sky130_customcell + PLACED ( 19780 27200 ) N ;
+    - some_customcells.genblk1\[24\].name_of_cell sky130_customcell + PLACED ( 19780 70720 ) FN ;
+    - some_customcells.genblk1\[25\].name_of_cell sky130_customcell + PLACED ( 32660 35360 ) FS ;
+    - some_customcells.genblk1\[26\].name_of_cell sky130_customcell + PLACED ( 7820 35360 ) S ;
+    - some_customcells.genblk1\[27\].name_of_cell sky130_customcell + PLACED ( 7820 59840 ) FN ;
+    - some_customcells.genblk1\[28\].name_of_cell sky130_customcell + PLACED ( 7820 38080 ) N ;
+    - some_customcells.genblk1\[29\].name_of_cell sky130_customcell + PLACED ( 9200 40800 ) FS ;
+    - some_customcells.genblk1\[2\].name_of_cell sky130_customcell + PLACED ( 7820 32640 ) FN ;
+    - some_customcells.genblk1\[30\].name_of_cell sky130_customcell + PLACED ( 8280 54400 ) FN ;
+    - some_customcells.genblk1\[31\].name_of_cell sky130_customcell + PLACED ( 8280 43520 ) N ;
+    - some_customcells.genblk1\[32\].name_of_cell sky130_customcell + PLACED ( 10120 51680 ) FS ;
+    - some_customcells.genblk1\[33\].name_of_cell sky130_customcell + PLACED ( 10120 46240 ) S ;
     - some_customcells.genblk1\[34\].name_of_cell sky130_customcell + PLACED ( 18400 57120 ) FS ;
     - some_customcells.genblk1\[35\].name_of_cell sky130_customcell + PLACED ( 20240 40800 ) S ;
-    - some_customcells.genblk1\[36\].name_of_cell sky130_customcell + PLACED ( 22080 54400 ) N ;
-    - some_customcells.genblk1\[37\].name_of_cell sky130_customcell + PLACED ( 22080 43520 ) FN ;
-    - some_customcells.genblk1\[38\].name_of_cell sky130_customcell + PLACED ( 20240 51680 ) FS ;
-    - some_customcells.genblk1\[39\].name_of_cell sky130_customcell + PLACED ( 20240 46240 ) S ;
-    - some_customcells.genblk1\[3\].name_of_cell sky130_customcell + PLACED ( 6900 62560 ) S ;
-    - some_customcells.genblk1\[40\].name_of_cell sky130_customcell + PLACED ( 31740 57120 ) FS ;
-    - some_customcells.genblk1\[41\].name_of_cell sky130_customcell + PLACED ( 22080 48960 ) FN ;
+    - some_customcells.genblk1\[36\].name_of_cell sky130_customcell + PLACED ( 8280 48960 ) FN ;
+    - some_customcells.genblk1\[37\].name_of_cell sky130_customcell + PLACED ( 23000 54400 ) N ;
+    - some_customcells.genblk1\[38\].name_of_cell sky130_customcell + PLACED ( 23000 43520 ) FN ;
+    - some_customcells.genblk1\[39\].name_of_cell sky130_customcell + PLACED ( 21160 51680 ) S ;
+    - some_customcells.genblk1\[3\].name_of_cell sky130_customcell + PLACED ( 7820 65280 ) FN ;
+    - some_customcells.genblk1\[40\].name_of_cell sky130_customcell + PLACED ( 21160 46240 ) FS ;
+    - some_customcells.genblk1\[41\].name_of_cell sky130_customcell + PLACED ( 23000 48960 ) N ;
     - some_customcells.genblk1\[42\].name_of_cell sky130_customcell + PLACED ( 33120 40800 ) FS ;
-    - some_customcells.genblk1\[43\].name_of_cell sky130_customcell + PLACED ( 33120 54400 ) FN ;
-    - some_customcells.genblk1\[44\].name_of_cell sky130_customcell + PLACED ( 33120 43520 ) N ;
-    - some_customcells.genblk1\[45\].name_of_cell sky130_customcell + PLACED ( 34960 51680 ) S ;
-    - some_customcells.genblk1\[46\].name_of_cell sky130_customcell + PLACED ( 34960 46240 ) FS ;
-    - some_customcells.genblk1\[47\].name_of_cell sky130_customcell + PLACED ( 33120 48960 ) FN ;
+    - some_customcells.genblk1\[43\].name_of_cell sky130_customcell + PLACED ( 34040 54400 ) FN ;
+    - some_customcells.genblk1\[44\].name_of_cell sky130_customcell + PLACED ( 34040 43520 ) N ;
+    - some_customcells.genblk1\[45\].name_of_cell sky130_customcell + PLACED ( 35880 51680 ) S ;
+    - some_customcells.genblk1\[46\].name_of_cell sky130_customcell + PLACED ( 35880 46240 ) FS ;
+    - some_customcells.genblk1\[47\].name_of_cell sky130_customcell + PLACED ( 34040 48960 ) FN ;
     - some_customcells.genblk1\[48\].name_of_cell sky130_customcell + PLACED ( 44160 57120 ) FS ;
     - some_customcells.genblk1\[49\].name_of_cell sky130_customcell + PLACED ( 46000 40800 ) S ;
-    - some_customcells.genblk1\[4\].name_of_cell sky130_customcell + PLACED ( 6900 32640 ) FN ;
+    - some_customcells.genblk1\[4\].name_of_cell sky130_customcell + PLACED ( 19780 38080 ) N ;
     - some_customcells.genblk1\[50\].name_of_cell sky130_customcell + PLACED ( 47840 54400 ) N ;
-    - some_customcells.genblk1\[51\].name_of_cell sky130_customcell + PLACED ( 47840 43520 ) FN ;
-    - some_customcells.genblk1\[52\].name_of_cell sky130_customcell + PLACED ( 46000 51680 ) S ;
-    - some_customcells.genblk1\[53\].name_of_cell sky130_customcell + PLACED ( 46000 46240 ) FS ;
-    - some_customcells.genblk1\[54\].name_of_cell sky130_customcell + PLACED ( 47840 48960 ) N ;
-    - some_customcells.genblk1\[55\].name_of_cell sky130_customcell + PLACED ( 57500 40800 ) FS ;
-    - some_customcells.genblk1\[56\].name_of_cell sky130_customcell + PLACED ( 58880 54400 ) FN ;
-    - some_customcells.genblk1\[57\].name_of_cell sky130_customcell + PLACED ( 58880 43520 ) N ;
-    - some_customcells.genblk1\[58\].name_of_cell sky130_customcell + PLACED ( 60720 51680 ) S ;
-    - some_customcells.genblk1\[59\].name_of_cell sky130_customcell + PLACED ( 60720 46240 ) FS ;
-    - some_customcells.genblk1\[5\].name_of_cell sky130_customcell + PLACED ( 6900 65280 ) FN ;
-    - some_customcells.genblk1\[60\].name_of_cell sky130_customcell + PLACED ( 58880 48960 ) FN ;
-    - some_customcells.genblk1\[61\].name_of_cell sky130_customcell + PLACED ( 68540 57120 ) FS ;
-    - some_customcells.genblk1\[62\].name_of_cell sky130_customcell + PLACED ( 70380 40800 ) S ;
-    - some_customcells.genblk1\[63\].name_of_cell sky130_customcell + PLACED ( 71760 51680 ) FS ;
-    - some_customcells.genblk1\[64\].name_of_cell sky130_customcell + PLACED ( 71760 46240 ) S ;
+    - some_customcells.genblk1\[51\].name_of_cell sky130_customcell + PLACED ( 48760 43520 ) FN ;
+    - some_customcells.genblk1\[52\].name_of_cell sky130_customcell + PLACED ( 46920 51680 ) S ;
+    - some_customcells.genblk1\[53\].name_of_cell sky130_customcell + PLACED ( 46920 46240 ) FS ;
+    - some_customcells.genblk1\[54\].name_of_cell sky130_customcell + PLACED ( 58420 40800 ) FS ;
+    - some_customcells.genblk1\[55\].name_of_cell sky130_customcell + PLACED ( 48760 48960 ) FN ;
+    - some_customcells.genblk1\[56\].name_of_cell sky130_customcell + PLACED ( 59340 54400 ) N ;
+    - some_customcells.genblk1\[57\].name_of_cell sky130_customcell + PLACED ( 59800 43520 ) N ;
+    - some_customcells.genblk1\[58\].name_of_cell sky130_customcell + PLACED ( 63020 57120 ) S ;
+    - some_customcells.genblk1\[59\].name_of_cell sky130_customcell + PLACED ( 61180 51680 ) S ;
+    - some_customcells.genblk1\[5\].name_of_cell sky130_customcell + PLACED ( 19780 59840 ) FN ;
+    - some_customcells.genblk1\[60\].name_of_cell sky130_customcell + PLACED ( 61640 46240 ) FS ;
+    - some_customcells.genblk1\[61\].name_of_cell sky130_customcell + PLACED ( 59800 48960 ) FN ;
+    - some_customcells.genblk1\[62\].name_of_cell sky130_customcell + PLACED ( 70380 40800 ) FS ;
+    - some_customcells.genblk1\[63\].name_of_cell sky130_customcell + PLACED ( 72220 51680 ) S ;
+    - some_customcells.genblk1\[64\].name_of_cell sky130_customcell + PLACED ( 72680 46240 ) FS ;
     - some_customcells.genblk1\[65\].name_of_cell sky130_customcell + PLACED ( 75900 54400 ) N ;
     - some_customcells.genblk1\[66\].name_of_cell sky130_customcell + PLACED ( 77740 43520 ) FN ;
     - some_customcells.genblk1\[67\].name_of_cell sky130_customcell + PLACED ( 79580 48960 ) N ;
-    - some_customcells.genblk1\[68\].name_of_cell sky130_customcell + PLACED ( 83260 46240 ) FS ;
-    - some_customcells.genblk1\[69\].name_of_cell sky130_customcell + PLACED ( 83260 51680 ) S ;
-    - some_customcells.genblk1\[6\].name_of_cell sky130_customcell + PLACED ( 18860 38080 ) N ;
-    - some_customcells.genblk1\[70\].name_of_cell sky130_customcell + PLACED ( 96140 48960 ) N ;
-    - some_customcells.genblk1\[71\].name_of_cell sky130_customcell + PLACED ( 94300 46240 ) S ;
-    - some_customcells.genblk1\[72\].name_of_cell sky130_customcell + PLACED ( 94300 51680 ) S ;
+    - some_customcells.genblk1\[68\].name_of_cell sky130_customcell + PLACED ( 84180 46240 ) FS ;
+    - some_customcells.genblk1\[69\].name_of_cell sky130_customcell + PLACED ( 84180 51680 ) S ;
+    - some_customcells.genblk1\[6\].name_of_cell sky130_customcell + PLACED ( 7820 29920 ) S ;
+    - some_customcells.genblk1\[70\].name_of_cell sky130_customcell + PLACED ( 97060 48960 ) N ;
+    - some_customcells.genblk1\[71\].name_of_cell sky130_customcell + PLACED ( 95220 46240 ) S ;
+    - some_customcells.genblk1\[72\].name_of_cell sky130_customcell + PLACED ( 95220 51680 ) S ;
     - some_customcells.genblk1\[73\].name_of_cell sky130_customcell + PLACED ( 90620 40800 ) S ;
-    - some_customcells.genblk1\[74\].name_of_cell sky130_customcell + PLACED ( 96140 43520 ) N ;
-    - some_customcells.genblk1\[75\].name_of_cell sky130_customcell + PLACED ( 96140 54400 ) FN ;
-    - some_customcells.genblk1\[76\].name_of_cell sky130_customcell + PLACED ( 107180 48960 ) N ;
-    - some_customcells.genblk1\[77\].name_of_cell sky130_customcell + PLACED ( 109020 46240 ) FS ;
-    - some_customcells.genblk1\[78\].name_of_cell sky130_customcell + PLACED ( 109020 51680 ) S ;
-    - some_customcells.genblk1\[79\].name_of_cell sky130_customcell + PLACED ( 107180 43520 ) FN ;
-    - some_customcells.genblk1\[7\].name_of_cell sky130_customcell + PLACED ( 18860 59840 ) FN ;
-    - some_customcells.genblk1\[80\].name_of_cell sky130_customcell + PLACED ( 107180 54400 ) FN ;
-    - some_customcells.genblk1\[81\].name_of_cell sky130_customcell + PLACED ( 109020 40800 ) FS ;
-    - some_customcells.genblk1\[82\].name_of_cell sky130_customcell + PLACED ( 109020 57120 ) S ;
-    - some_customcells.genblk1\[83\].name_of_cell sky130_customcell + PLACED ( 121900 48960 ) N ;
-    - some_customcells.genblk1\[84\].name_of_cell sky130_customcell + PLACED ( 120060 46240 ) S ;
-    - some_customcells.genblk1\[85\].name_of_cell sky130_customcell + PLACED ( 120060 51680 ) S ;
-    - some_customcells.genblk1\[86\].name_of_cell sky130_customcell + PLACED ( 121900 43520 ) N ;
-    - some_customcells.genblk1\[87\].name_of_cell sky130_customcell + PLACED ( 121900 54400 ) FN ;
-    - some_customcells.genblk1\[88\].name_of_cell sky130_customcell + PLACED ( 120060 40800 ) S ;
-    - some_customcells.genblk1\[89\].name_of_cell sky130_customcell + PLACED ( 120520 57120 ) S ;
-    - some_customcells.genblk1\[8\].name_of_cell sky130_customcell + PLACED ( 6900 29920 ) S ;
-    - some_customcells.genblk1\[90\].name_of_cell sky130_customcell + PLACED ( 122360 38080 ) N ;
-    - some_customcells.genblk1\[91\].name_of_cell sky130_customcell + PLACED ( 124200 59840 ) FN ;
-    - some_customcells.genblk1\[92\].name_of_cell sky130_customcell + PLACED ( 126500 32640 ) N ;
-    - some_customcells.genblk1\[93\].name_of_cell sky130_customcell + PLACED ( 128340 65280 ) FN ;
-    - some_customcells.genblk1\[94\].name_of_cell sky130_customcell + PLACED ( 123280 35360 ) S ;
-    - some_customcells.genblk1\[95\].name_of_cell sky130_customcell + PLACED ( 123280 62560 ) S ;
-    - some_customcells.genblk1\[96\].name_of_cell sky130_customcell + PLACED ( 132020 27200 ) N ;
-    - some_customcells.genblk1\[97\].name_of_cell sky130_customcell + PLACED ( 132020 70720 ) FN ;
-    - some_customcells.genblk1\[98\].name_of_cell sky130_customcell + PLACED ( 123280 29920 ) S ;
-    - some_customcells.genblk1\[99\].name_of_cell sky130_customcell + PLACED ( 110400 38080 ) FN ;
-    - some_customcells.genblk1\[9\].name_of_cell sky130_customcell + PLACED ( 6900 68000 ) FS ;
+    - some_customcells.genblk1\[74\].name_of_cell sky130_customcell + PLACED ( 92460 57120 ) FS ;
+    - some_customcells.genblk1\[75\].name_of_cell sky130_customcell + PLACED ( 97060 43520 ) N ;
+    - some_customcells.genblk1\[76\].name_of_cell sky130_customcell + PLACED ( 97060 54400 ) FN ;
+    - some_customcells.genblk1\[77\].name_of_cell sky130_customcell + PLACED ( 108100 48960 ) N ;
+    - some_customcells.genblk1\[78\].name_of_cell sky130_customcell + PLACED ( 109940 46240 ) FS ;
+    - some_customcells.genblk1\[79\].name_of_cell sky130_customcell + PLACED ( 109940 51680 ) S ;
+    - some_customcells.genblk1\[7\].name_of_cell sky130_customcell + PLACED ( 7820 68000 ) FS ;
+    - some_customcells.genblk1\[80\].name_of_cell sky130_customcell + PLACED ( 108100 43520 ) FN ;
+    - some_customcells.genblk1\[81\].name_of_cell sky130_customcell + PLACED ( 108100 54400 ) FN ;
+    - some_customcells.genblk1\[82\].name_of_cell sky130_customcell + PLACED ( 109940 40800 ) FS ;
+    - some_customcells.genblk1\[83\].name_of_cell sky130_customcell + PLACED ( 122820 48960 ) N ;
+    - some_customcells.genblk1\[84\].name_of_cell sky130_customcell + PLACED ( 111320 57120 ) S ;
+    - some_customcells.genblk1\[85\].name_of_cell sky130_customcell + PLACED ( 120980 46240 ) FS ;
+    - some_customcells.genblk1\[86\].name_of_cell sky130_customcell + PLACED ( 120980 51680 ) S ;
+    - some_customcells.genblk1\[87\].name_of_cell sky130_customcell + PLACED ( 122820 43520 ) N ;
+    - some_customcells.genblk1\[88\].name_of_cell sky130_customcell + PLACED ( 122820 54400 ) FN ;
+    - some_customcells.genblk1\[89\].name_of_cell sky130_customcell + PLACED ( 120980 40800 ) S ;
+    - some_customcells.genblk1\[8\].name_of_cell sky130_customcell + PLACED ( 18860 35360 ) FS ;
+    - some_customcells.genblk1\[90\].name_of_cell sky130_customcell + PLACED ( 122360 57120 ) S ;
+    - some_customcells.genblk1\[91\].name_of_cell sky130_customcell + PLACED ( 124200 38080 ) N ;
+    - some_customcells.genblk1\[92\].name_of_cell sky130_customcell + PLACED ( 126500 59840 ) FN ;
+    - some_customcells.genblk1\[93\].name_of_cell sky130_customcell + PLACED ( 128340 32640 ) N ;
+    - some_customcells.genblk1\[94\].name_of_cell sky130_customcell + PLACED ( 130180 65280 ) FN ;
+    - some_customcells.genblk1\[95\].name_of_cell sky130_customcell + PLACED ( 124200 35360 ) S ;
+    - some_customcells.genblk1\[96\].name_of_cell sky130_customcell + PLACED ( 124200 62560 ) S ;
+    - some_customcells.genblk1\[97\].name_of_cell sky130_customcell + PLACED ( 132940 27200 ) N ;
+    - some_customcells.genblk1\[98\].name_of_cell sky130_customcell + PLACED ( 132940 70720 ) FN ;
+    - some_customcells.genblk1\[99\].name_of_cell sky130_customcell + PLACED ( 124200 68000 ) S ;
+    - some_customcells.genblk1\[9\].name_of_cell sky130_customcell + PLACED ( 18860 62560 ) S ;
 END COMPONENTS
 PINS 4 ;
     - VGND + NET VGND + SPECIAL + DIRECTION INOUT + USE GROUND
@@ -1924,1120 +1940,1106 @@ SPECIALNETS 4 ;
 END SPECIALNETS
 NETS 125 ;
     - in ( PIN in ) ( some_customcells.genblk1\[1\].name_of_cell in ) + USE SIGNAL
-      + ROUTED met3 ( 3220 49980 0 ) ( 8050 * )
-      NEW met2 ( 8050 49980 ) ( * 60350 )
-      NEW met2 ( 8050 49980 ) M2M3_PR
-      NEW li1 ( 8050 60350 ) L1M1_PR
-      NEW met1 ( 8050 60350 ) M1M2_PR
-      NEW met1 ( 8050 60350 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 13110 63750 ) ( * 64090 )
+      NEW met1 ( 12190 64090 ) ( 13110 * )
+      NEW met1 ( 13110 63750 ) ( 14030 * )
+      NEW met3 ( 3220 49980 0 ) ( 14030 * )
+      NEW met2 ( 14030 49980 ) ( * 63750 )
+      NEW li1 ( 12190 64090 ) L1M1_PR_MR
+      NEW met1 ( 14030 63750 ) M1M2_PR
+      NEW met2 ( 14030 49980 ) M2M3_PR ;
     - out ( PIN out ) ( _0_ Y ) + USE SIGNAL
-      + ROUTED met2 ( 140530 49810 ) ( * 49980 )
-      NEW met3 ( 140530 49980 ) ( 146740 * 0 )
-      NEW li1 ( 140530 49810 ) L1M1_PR
-      NEW met1 ( 140530 49810 ) M1M2_PR
-      NEW met2 ( 140530 49980 ) M2M3_PR
-      NEW met1 ( 140530 49810 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 141450 49810 ) ( * 49980 )
+      NEW met3 ( 141450 49980 ) ( 146740 * 0 )
+      NEW li1 ( 141450 49810 ) L1M1_PR_MR
+      NEW met1 ( 141450 49810 ) M1M2_PR
+      NEW met2 ( 141450 49980 ) M2M3_PR
+      NEW met1 ( 141450 49810 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[100\] ( some_customcells.genblk1\[99\].name_of_cell out ) ( some_customcells.genblk1\[100\].name_of_cell in ) + USE SIGNAL
-      + ROUTED met1 ( 117990 69530 ) ( 123510 * )
-      NEW met1 ( 114310 39270 ) ( 117990 * )
-      NEW met2 ( 117990 39270 ) ( * 69530 )
-      NEW met1 ( 117990 69530 ) M1M2_PR
-      NEW li1 ( 123510 69530 ) L1M1_PR
-      NEW met1 ( 117990 39270 ) M1M2_PR
-      NEW li1 ( 114310 39270 ) L1M1_PR ;
+      + ROUTED met1 ( 128110 69530 ) ( 130870 * )
+      NEW met1 ( 129490 32130 ) ( 130870 * )
+      NEW met2 ( 130870 32130 ) ( * 69530 )
+      NEW met1 ( 130870 69530 ) M1M2_PR
+      NEW li1 ( 128110 69530 ) L1M1_PR_MR
+      NEW met1 ( 130870 32130 ) M1M2_PR
+      NEW li1 ( 129490 32130 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[101\] ( some_customcells.genblk1\[101\].name_of_cell in ) ( some_customcells.genblk1\[100\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 118450 68850 ) ( 127190 * )
-      NEW met1 ( 127190 68850 ) ( * 69530 )
-      NEW met1 ( 127190 69530 ) ( 128570 * )
-      NEW met2 ( 118450 62050 ) ( * 68850 )
-      NEW met1 ( 118450 68850 ) M1M2_PR
-      NEW li1 ( 128570 69530 ) L1M1_PR
-      NEW li1 ( 118450 62050 ) L1M1_PR
-      NEW met1 ( 118450 62050 ) M1M2_PR
-      NEW met1 ( 118450 62050 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 128110 31450 ) ( * 39270 )
+      NEW met1 ( 120290 39270 ) ( 128110 * )
+      NEW li1 ( 128110 31450 ) L1M1_PR_MR
+      NEW met1 ( 128110 31450 ) M1M2_PR
+      NEW met1 ( 128110 39270 ) M1M2_PR
+      NEW li1 ( 120290 39270 ) L1M1_PR_MR
+      NEW met1 ( 128110 31450 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[102\] ( some_customcells.genblk1\[102\].name_of_cell in ) ( some_customcells.genblk1\[101\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 114310 61030 ) ( 116150 * )
-      NEW met2 ( 116150 37570 ) ( * 61030 )
-      NEW li1 ( 116150 37570 ) L1M1_PR
-      NEW met1 ( 116150 37570 ) M1M2_PR
-      NEW met1 ( 116150 61030 ) M1M2_PR
-      NEW li1 ( 114310 61030 ) L1M1_PR
-      NEW met1 ( 116150 37570 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 115230 39270 ) ( 116610 * )
+      NEW met2 ( 116610 39270 ) ( * 60350 )
+      NEW li1 ( 115230 39270 ) L1M1_PR_MR
+      NEW met1 ( 116610 39270 ) M1M2_PR
+      NEW li1 ( 116610 60350 ) L1M1_PR_MR
+      NEW met1 ( 116610 60350 ) M1M2_PR
+      NEW met1 ( 116610 60350 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[103\] ( some_customcells.genblk1\[103\].name_of_cell in ) ( some_customcells.genblk1\[102\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 120290 37570 ) ( 120980 * )
-      NEW met2 ( 120290 37570 ) ( * 63070 )
-      NEW li1 ( 120290 63070 ) L1M1_PR
-      NEW met1 ( 120290 63070 ) M1M2_PR
-      NEW met1 ( 120290 37570 ) M1M2_PR
-      NEW li1 ( 120980 37570 ) L1M1_PR
-      NEW met1 ( 120290 63070 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 114310 37570 ) ( * 60350 )
+      NEW met1 ( 114310 60350 ) ( 115000 * )
+      NEW li1 ( 114310 37570 ) L1M1_PR_MR
+      NEW met1 ( 114310 37570 ) M1M2_PR
+      NEW met1 ( 114310 60350 ) M1M2_PR
+      NEW li1 ( 115000 60350 ) L1M1_PR_MR
+      NEW met1 ( 114310 37570 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[104\] ( some_customcells.genblk1\[104\].name_of_cell in ) ( some_customcells.genblk1\[103\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 136390 22950 ) ( 136850 * )
-      NEW met1 ( 126730 53210 ) ( 136850 * )
-      NEW met2 ( 126730 53210 ) ( * 63750 )
-      NEW met1 ( 123050 63750 ) ( 126730 * )
-      NEW met1 ( 123050 63750 ) ( * 64090 )
-      NEW met1 ( 116150 64090 ) ( 123050 * )
-      NEW met2 ( 136850 22950 ) ( * 53210 )
-      NEW met1 ( 136850 22950 ) M1M2_PR
-      NEW li1 ( 136390 22950 ) L1M1_PR
-      NEW met1 ( 136850 53210 ) M1M2_PR
-      NEW met1 ( 126730 53210 ) M1M2_PR
-      NEW met1 ( 126730 63750 ) M1M2_PR
-      NEW li1 ( 116150 64090 ) L1M1_PR ;
+      + ROUTED met1 ( 120750 63070 ) ( 121210 * )
+      NEW met1 ( 118450 36550 ) ( 120750 * )
+      NEW met1 ( 118450 36550 ) ( * 36890 )
+      NEW met2 ( 120750 36550 ) ( * 63070 )
+      NEW met1 ( 120750 63070 ) M1M2_PR
+      NEW li1 ( 121210 63070 ) L1M1_PR_MR
+      NEW met1 ( 120750 36550 ) M1M2_PR
+      NEW li1 ( 118450 36890 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[105\] ( some_customcells.genblk1\[105\].name_of_cell in ) ( some_customcells.genblk1\[104\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 139150 76670 ) ( 140070 * )
-      NEW met1 ( 137310 22950 ) ( 139150 * )
-      NEW met2 ( 139150 22950 ) ( * 76670 )
-      NEW met1 ( 139150 76670 ) M1M2_PR
-      NEW li1 ( 140070 76670 ) L1M1_PR
-      NEW met1 ( 139150 22950 ) M1M2_PR
-      NEW li1 ( 137310 22950 ) L1M1_PR ;
+      + ROUTED met1 ( 117070 64090 ) ( 119370 * )
+      NEW met1 ( 119370 23970 ) ( 134090 * )
+      NEW met2 ( 119370 23970 ) ( * 64090 )
+      NEW met1 ( 119370 64090 ) M1M2_PR
+      NEW li1 ( 117070 64090 ) L1M1_PR_MR
+      NEW met1 ( 119370 23970 ) M1M2_PR
+      NEW li1 ( 134090 23970 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[106\] ( some_customcells.genblk1\[106\].name_of_cell in ) ( some_customcells.genblk1\[105\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 135470 77350 ) ( 135930 * )
-      NEW met1 ( 132250 26010 ) ( 135470 * )
-      NEW met2 ( 135470 26010 ) ( * 77350 )
-      NEW met1 ( 135470 77350 ) M1M2_PR
-      NEW li1 ( 135930 77350 ) L1M1_PR
-      NEW met1 ( 135470 26010 ) M1M2_PR
-      NEW li1 ( 132250 26010 ) L1M1_PR ;
+      + ROUTED met1 ( 138230 76670 ) ( 138690 * )
+      NEW met1 ( 138230 22950 ) ( 138690 * )
+      NEW met2 ( 138690 22950 ) ( * 76670 )
+      NEW met1 ( 138690 76670 ) M1M2_PR
+      NEW li1 ( 138230 76670 ) L1M1_PR_MR
+      NEW met1 ( 138690 22950 ) M1M2_PR
+      NEW li1 ( 138230 22950 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[107\] ( some_customcells.genblk1\[107\].name_of_cell in ) ( some_customcells.genblk1\[106\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 131330 73950 ) ( 136390 * )
-      NEW met1 ( 131790 26350 ) ( 136390 * )
-      NEW met1 ( 131790 26010 ) ( * 26350 )
-      NEW met1 ( 127190 26010 ) ( 131790 * )
-      NEW met2 ( 136390 26350 ) ( * 73950 )
-      NEW met1 ( 136390 73950 ) M1M2_PR
-      NEW li1 ( 131330 73950 ) L1M1_PR
-      NEW met1 ( 136390 26350 ) M1M2_PR
-      NEW li1 ( 127190 26010 ) L1M1_PR ;
+      + ROUTED met1 ( 133170 26010 ) ( 136850 * )
+      NEW met2 ( 136850 26010 ) ( * 77350 )
+      NEW li1 ( 136850 77350 ) L1M1_PR_MR
+      NEW met1 ( 136850 77350 ) M1M2_PR
+      NEW met1 ( 136850 26010 ) M1M2_PR
+      NEW li1 ( 133170 26010 ) L1M1_PR_MR
+      NEW met1 ( 136850 77350 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[108\] ( some_customcells.genblk1\[108\].name_of_cell in ) ( some_customcells.genblk1\[107\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 123510 75650 ) ( 123740 * )
-      NEW met1 ( 119370 33830 ) ( 123510 * )
-      NEW met2 ( 123510 33830 ) ( * 75650 )
-      NEW met1 ( 123510 75650 ) M1M2_PR
-      NEW li1 ( 123740 75650 ) L1M1_PR
-      NEW li1 ( 119370 33830 ) L1M1_PR
-      NEW met1 ( 123510 33830 ) M1M2_PR ;
+      + ROUTED met1 ( 128570 74970 ) ( 129030 * )
+      NEW met2 ( 127650 26010 ) ( 128570 * )
+      NEW met1 ( 127650 26010 ) ( 127880 * )
+      NEW met2 ( 128570 26010 ) ( * 74970 )
+      NEW met1 ( 128570 74970 ) M1M2_PR
+      NEW li1 ( 129030 74970 ) L1M1_PR_MR
+      NEW met1 ( 127650 26010 ) M1M2_PR
+      NEW li1 ( 127880 26010 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[109\] ( some_customcells.genblk1\[109\].name_of_cell in ) ( some_customcells.genblk1\[108\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 114310 33830 ) ( 114770 * )
-      NEW met2 ( 114770 33830 ) ( * 66470 )
-      NEW li1 ( 114770 66470 ) L1M1_PR
-      NEW met1 ( 114770 66470 ) M1M2_PR
-      NEW met1 ( 114770 33830 ) M1M2_PR
-      NEW li1 ( 114310 33830 ) L1M1_PR
-      NEW met1 ( 114770 66470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 117530 75650 ) ( 124660 * )
+      NEW met1 ( 117530 34170 ) ( 119370 * )
+      NEW met2 ( 117530 34170 ) ( * 75650 )
+      NEW met1 ( 117530 75650 ) M1M2_PR
+      NEW li1 ( 124660 75650 ) L1M1_PR_MR
+      NEW met1 ( 117530 34170 ) M1M2_PR
+      NEW li1 ( 119370 34170 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[10\] ( some_customcells.genblk1\[9\].name_of_cell out ) ( some_customcells.genblk1\[10\].name_of_cell in ) + USE SIGNAL
-      + ROUTED met1 ( 12190 68850 ) ( * 69530 )
-      NEW met1 ( 12190 68850 ) ( 18170 * )
-      NEW met2 ( 18170 36890 ) ( * 68850 )
-      NEW met1 ( 18170 68850 ) M1M2_PR
-      NEW li1 ( 12190 69530 ) L1M1_PR
-      NEW li1 ( 18170 36890 ) L1M1_PR
-      NEW met1 ( 18170 36890 ) M1M2_PR
-      NEW met1 ( 18170 36890 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 14950 63750 ) ( 22770 * )
+      NEW met1 ( 22770 63750 ) ( * 64090 )
+      NEW met1 ( 14950 29410 ) ( 15870 * )
+      NEW met2 ( 14950 29410 ) ( * 63750 )
+      NEW met1 ( 14950 63750 ) M1M2_PR
+      NEW li1 ( 22770 64090 ) L1M1_PR_MR
+      NEW met1 ( 14950 29410 ) M1M2_PR
+      NEW li1 ( 15870 29410 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[110\] ( some_customcells.genblk1\[110\].name_of_cell in ) ( some_customcells.genblk1\[109\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 115690 62100 ) ( * 66470 )
-      NEW met2 ( 116610 31450 ) ( * 62100 )
-      NEW met2 ( 115690 62100 ) ( 116610 * )
-      NEW li1 ( 115690 66470 ) L1M1_PR
-      NEW met1 ( 115690 66470 ) M1M2_PR
-      NEW li1 ( 116610 31450 ) L1M1_PR
-      NEW met1 ( 116610 31450 ) M1M2_PR
-      NEW met1 ( 115690 66470 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 116610 31450 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 115230 66980 ) ( 116150 * )
+      NEW met2 ( 115230 66470 ) ( * 66980 )
+      NEW met1 ( 115230 33830 ) ( 116150 * )
+      NEW met2 ( 116150 33830 ) ( * 66980 )
+      NEW li1 ( 115230 66470 ) L1M1_PR_MR
+      NEW met1 ( 115230 66470 ) M1M2_PR
+      NEW met1 ( 116150 33830 ) M1M2_PR
+      NEW li1 ( 115230 33830 ) L1M1_PR_MR
+      NEW met1 ( 115230 66470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[111\] ( some_customcells.genblk1\[111\].name_of_cell in ) ( some_customcells.genblk1\[110\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 119830 69190 ) ( 120290 * )
-      NEW met1 ( 117530 31450 ) ( 119830 * )
-      NEW met2 ( 119830 31450 ) ( * 69190 )
-      NEW met1 ( 119830 69190 ) M1M2_PR
-      NEW li1 ( 120290 69190 ) L1M1_PR
-      NEW met1 ( 119830 31450 ) M1M2_PR
-      NEW li1 ( 117530 31450 ) L1M1_PR ;
+      + ROUTED met1 ( 115690 66470 ) ( 116610 * )
+      NEW met1 ( 114310 32130 ) ( 115690 * )
+      NEW met2 ( 115690 32130 ) ( * 66470 )
+      NEW met1 ( 115690 66470 ) M1M2_PR
+      NEW li1 ( 116610 66470 ) L1M1_PR_MR
+      NEW met1 ( 115690 32130 ) M1M2_PR
+      NEW li1 ( 114310 32130 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[112\] ( some_customcells.genblk1\[112\].name_of_cell in ) ( some_customcells.genblk1\[111\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 106490 58650 ) ( * 70210 )
-      NEW met1 ( 106490 70210 ) ( 112700 * )
-      NEW met1 ( 106490 70210 ) M1M2_PR
-      NEW li1 ( 106490 58650 ) L1M1_PR
-      NEW met1 ( 106490 58650 ) M1M2_PR
-      NEW li1 ( 112700 70210 ) L1M1_PR
-      NEW met1 ( 106490 58650 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 117990 31450 ) ( 118450 * )
+      NEW met2 ( 117990 31450 ) ( * 69530 )
+      NEW li1 ( 117990 69530 ) L1M1_PR_MR
+      NEW met1 ( 117990 69530 ) M1M2_PR
+      NEW met1 ( 117990 31450 ) M1M2_PR
+      NEW li1 ( 118450 31450 ) L1M1_PR_MR
+      NEW met1 ( 117990 69530 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[113\] ( some_customcells.genblk1\[113\].name_of_cell in ) ( some_customcells.genblk1\[112\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 100510 40290 ) ( * 58650 )
-      NEW met1 ( 100510 58650 ) ( 101430 * )
-      NEW li1 ( 100510 40290 ) L1M1_PR
-      NEW met1 ( 100510 40290 ) M1M2_PR
-      NEW met1 ( 100510 58650 ) M1M2_PR
-      NEW li1 ( 101430 58650 ) L1M1_PR
-      NEW met1 ( 100510 40290 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 108330 40290 ) ( * 68850 )
+      NEW met1 ( 108330 68850 ) ( 117070 * )
+      NEW met1 ( 117070 68850 ) ( * 69530 )
+      NEW li1 ( 108330 40290 ) L1M1_PR_MR
+      NEW met1 ( 108330 40290 ) M1M2_PR
+      NEW met1 ( 108330 68850 ) M1M2_PR
+      NEW li1 ( 117070 69530 ) L1M1_PR_MR
+      NEW met1 ( 108330 40290 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[114\] ( some_customcells.genblk1\[114\].name_of_cell in ) ( some_customcells.genblk1\[113\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 104650 39270 ) ( 105110 * )
-      NEW met2 ( 105110 39270 ) ( * 60350 )
-      NEW met1 ( 104650 60350 ) ( 105110 * )
-      NEW li1 ( 104650 39270 ) L1M1_PR
-      NEW met1 ( 105110 39270 ) M1M2_PR
-      NEW met1 ( 105110 60350 ) M1M2_PR
-      NEW li1 ( 104650 60350 ) L1M1_PR ;
+      + ROUTED met1 ( 104190 39270 ) ( 105570 * )
+      NEW met2 ( 105570 39270 ) ( * 60350 )
+      NEW li1 ( 104190 39270 ) L1M1_PR_MR
+      NEW met1 ( 105570 39270 ) M1M2_PR
+      NEW li1 ( 105570 60350 ) L1M1_PR_MR
+      NEW met1 ( 105570 60350 ) M1M2_PR
+      NEW met1 ( 105570 60350 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[115\] ( some_customcells.genblk1\[115\].name_of_cell in ) ( some_customcells.genblk1\[114\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 136850 22100 ) ( 137310 * )
-      NEW met2 ( 136850 17510 ) ( * 22100 )
-      NEW met1 ( 136390 17510 ) ( 136850 * )
-      NEW met3 ( 103270 58140 ) ( 137310 * )
-      NEW met2 ( 103270 58140 ) ( * 61030 )
-      NEW met2 ( 137310 22100 ) ( * 58140 )
-      NEW met1 ( 136850 17510 ) M1M2_PR
-      NEW li1 ( 136390 17510 ) L1M1_PR
-      NEW met2 ( 137310 58140 ) M2M3_PR
-      NEW met2 ( 103270 58140 ) M2M3_PR
-      NEW li1 ( 103270 61030 ) L1M1_PR
-      NEW met1 ( 103270 61030 ) M1M2_PR
-      NEW met1 ( 103270 61030 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 104190 61030 ) ( 110400 * )
+      NEW met1 ( 110400 61030 ) ( * 61370 )
+      NEW met1 ( 110400 61370 ) ( 115230 * )
+      NEW met1 ( 115230 61030 ) ( * 61370 )
+      NEW met1 ( 115230 61030 ) ( 122130 * )
+      NEW met1 ( 122130 61030 ) ( * 61370 )
+      NEW met1 ( 122130 61370 ) ( 130410 * )
+      NEW met1 ( 130410 61030 ) ( * 61370 )
+      NEW met1 ( 130410 61030 ) ( 135470 * )
+      NEW met2 ( 135470 18530 ) ( * 61030 )
+      NEW met1 ( 134090 18530 ) ( 135470 * )
+      NEW li1 ( 104190 61030 ) L1M1_PR_MR
+      NEW met1 ( 135470 61030 ) M1M2_PR
+      NEW met1 ( 135470 18530 ) M1M2_PR
+      NEW li1 ( 134090 18530 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[116\] ( some_customcells.genblk1\[116\].name_of_cell in ) ( some_customcells.genblk1\[115\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 138230 83130 ) ( 140070 * )
-      NEW met1 ( 137310 17510 ) ( 138230 * )
-      NEW met2 ( 138230 17510 ) ( * 83130 )
-      NEW met1 ( 138230 83130 ) M1M2_PR
-      NEW li1 ( 140070 83130 ) L1M1_PR
-      NEW met1 ( 138230 17510 ) M1M2_PR
-      NEW li1 ( 137310 17510 ) L1M1_PR ;
+      + ROUTED met1 ( 139150 83130 ) ( 140990 * )
+      NEW met1 ( 138230 17510 ) ( 139150 * )
+      NEW met2 ( 139150 17510 ) ( * 83130 )
+      NEW met1 ( 139150 83130 ) M1M2_PR
+      NEW li1 ( 140990 83130 ) L1M1_PR_MR
+      NEW met1 ( 139150 17510 ) M1M2_PR
+      NEW li1 ( 138230 17510 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[117\] ( some_customcells.genblk1\[117\].name_of_cell in ) ( some_customcells.genblk1\[116\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 132250 20570 ) ( 135930 * )
-      NEW met2 ( 135930 20570 ) ( * 82790 )
-      NEW li1 ( 135930 82790 ) L1M1_PR
-      NEW met1 ( 135930 82790 ) M1M2_PR
-      NEW met1 ( 135930 20570 ) M1M2_PR
-      NEW li1 ( 132250 20570 ) L1M1_PR
-      NEW met1 ( 135930 82790 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 136390 82790 ) ( 136850 * )
+      NEW met3 ( 107410 41820 ) ( 136390 * )
+      NEW met2 ( 107410 36890 ) ( * 41820 )
+      NEW met2 ( 136390 41820 ) ( * 82790 )
+      NEW met1 ( 136390 82790 ) M1M2_PR
+      NEW li1 ( 136850 82790 ) L1M1_PR_MR
+      NEW met2 ( 136390 41820 ) M2M3_PR
+      NEW met2 ( 107410 41820 ) M2M3_PR
+      NEW li1 ( 107410 36890 ) L1M1_PR_MR
+      NEW met1 ( 107410 36890 ) M1M2_PR
+      NEW met1 ( 107410 36890 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[118\] ( some_customcells.genblk1\[118\].name_of_cell in ) ( some_customcells.genblk1\[117\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met3 ( 127420 77180 ) ( 128110 * )
-      NEW met2 ( 128110 77180 ) ( * 80410 )
-      NEW met3 ( 127190 20060 ) ( 127420 * )
-      NEW met2 ( 127190 20060 ) ( * 20570 )
-      NEW met4 ( 127420 20060 ) ( * 77180 )
-      NEW met3 ( 127420 77180 ) M3M4_PR
-      NEW met2 ( 128110 77180 ) M2M3_PR
-      NEW li1 ( 128110 80410 ) L1M1_PR
-      NEW met1 ( 128110 80410 ) M1M2_PR
-      NEW met3 ( 127420 20060 ) M3M4_PR
-      NEW met2 ( 127190 20060 ) M2M3_PR
-      NEW li1 ( 127190 20570 ) L1M1_PR
-      NEW met1 ( 127190 20570 ) M1M2_PR
-      NEW met1 ( 128110 80410 ) RECT ( -355 -70 0 70 ) 
-      NEW met3 ( 127420 20060 ) RECT ( 0 -150 390 150 ) 
-      NEW met1 ( 127190 20570 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 101890 36890 ) ( 102350 * )
+      NEW met2 ( 101890 36890 ) ( * 64090 )
+      NEW met1 ( 101890 64090 ) ( 102350 * )
+      NEW li1 ( 102350 36890 ) L1M1_PR_MR
+      NEW met1 ( 101890 36890 ) M1M2_PR
+      NEW met1 ( 101890 64090 ) M1M2_PR
+      NEW li1 ( 102350 64090 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[119\] ( some_customcells.genblk1\[119\].name_of_cell in ) ( some_customcells.genblk1\[118\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met3 ( 126500 76500 ) ( 127190 * )
-      NEW met2 ( 127190 76500 ) ( * 80410 )
-      NEW met1 ( 115690 27710 ) ( 116150 * )
-      NEW met2 ( 116150 27710 ) ( * 28220 )
-      NEW met3 ( 116150 28220 ) ( 126500 * )
-      NEW met4 ( 126500 28220 ) ( * 76500 )
-      NEW met3 ( 126500 76500 ) M3M4_PR
-      NEW met2 ( 127190 76500 ) M2M3_PR
-      NEW li1 ( 127190 80410 ) L1M1_PR
-      NEW met1 ( 127190 80410 ) M1M2_PR
-      NEW li1 ( 115690 27710 ) L1M1_PR
-      NEW met1 ( 116150 27710 ) M1M2_PR
-      NEW met2 ( 116150 28220 ) M2M3_PR
-      NEW met3 ( 126500 28220 ) M3M4_PR
-      NEW met1 ( 127190 80410 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 102810 64090 ) ( 103730 * )
+      NEW met2 ( 102810 20570 ) ( * 64090 )
+      NEW met1 ( 102810 20570 ) ( 124430 * )
+      NEW met1 ( 102810 20570 ) M1M2_PR
+      NEW met1 ( 102810 64090 ) M1M2_PR
+      NEW li1 ( 103730 64090 ) L1M1_PR_MR
+      NEW li1 ( 124430 20570 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[11\] ( some_customcells.genblk1\[11\].name_of_cell in ) ( some_customcells.genblk1\[10\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 21850 62220 ) ( 22310 * )
-      NEW met2 ( 22310 62220 ) ( * 64090 )
-      NEW met1 ( 22310 64090 ) ( 22770 * )
-      NEW met1 ( 21850 36890 ) ( 23230 * )
-      NEW met2 ( 21850 36890 ) ( * 62220 )
-      NEW met1 ( 22310 64090 ) M1M2_PR
-      NEW li1 ( 22770 64090 ) L1M1_PR
-      NEW met1 ( 21850 36890 ) M1M2_PR
-      NEW li1 ( 23230 36890 ) L1M1_PR ;
-    - some_customcells._intsig_a_\[120\] ( some_customcells.genblk1\[120\].name_of_cell in ) ( some_customcells.genblk1\[119\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 114310 71230 ) ( 115230 * )
-      NEW met2 ( 115230 55930 ) ( 115690 * )
-      NEW met2 ( 115690 28390 ) ( * 55930 )
-      NEW met1 ( 114310 28390 ) ( 115690 * )
-      NEW met2 ( 115230 55930 ) ( * 71230 )
-      NEW li1 ( 114310 71230 ) L1M1_PR
-      NEW met1 ( 114310 71230 ) M1M2_PR
-      NEW met1 ( 115690 28390 ) M1M2_PR
-      NEW li1 ( 114310 28390 ) L1M1_PR
-      NEW met1 ( 114310 71230 ) RECT ( -355 -70 0 70 )  ;
-    - some_customcells._intsig_a_\[121\] ( some_customcells.genblk1\[121\].name_of_cell in ) ( some_customcells.genblk1\[120\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 110170 26010 ) ( * 71230 )
-      NEW met1 ( 110170 71230 ) ( 110400 * )
-      NEW met1 ( 110400 71230 ) ( * 71910 )
-      NEW met1 ( 110400 71910 ) ( 115690 * )
-      NEW met1 ( 110170 26010 ) ( 112470 * )
-      NEW met1 ( 110170 26010 ) M1M2_PR
-      NEW met1 ( 110170 71230 ) M1M2_PR
-      NEW li1 ( 115690 71910 ) L1M1_PR
-      NEW li1 ( 112470 26010 ) L1M1_PR ;
-    - some_customcells._intsig_a_\[122\] ( some_customcells.genblk1\[122\].name_of_cell in ) ( some_customcells.genblk1\[121\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 119370 73950 ) ( 120290 * )
-      NEW met1 ( 117530 26010 ) ( 119370 * )
-      NEW met2 ( 119370 26010 ) ( * 73950 )
-      NEW met1 ( 119370 73950 ) M1M2_PR
-      NEW li1 ( 120290 73950 ) L1M1_PR
-      NEW met1 ( 119370 26010 ) M1M2_PR
-      NEW li1 ( 117530 26010 ) L1M1_PR ;
-    - some_customcells._intsig_a_\[123\] ( some_customcells.genblk1\[123\].name_of_cell in ) ( some_customcells.genblk1\[122\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 105570 37570 ) ( * 75650 )
-      NEW met1 ( 105570 75650 ) ( 112700 * )
-      NEW met1 ( 105570 75650 ) M1M2_PR
-      NEW li1 ( 105570 37570 ) L1M1_PR
-      NEW met1 ( 105570 37570 ) M1M2_PR
-      NEW li1 ( 112700 75650 ) L1M1_PR
-      NEW met1 ( 105570 37570 ) RECT ( -355 -70 0 70 )  ;
-    - some_customcells._intsig_a_\[12\] ( some_customcells.genblk1\[12\].name_of_cell in ) ( some_customcells.genblk1\[11\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 20470 64090 ) ( 21850 * )
-      NEW met1 ( 15870 28390 ) ( 20470 * )
-      NEW met2 ( 20470 28390 ) ( * 64090 )
-      NEW met1 ( 20470 64090 ) M1M2_PR
-      NEW li1 ( 21850 64090 ) L1M1_PR
-      NEW li1 ( 15870 28390 ) L1M1_PR
-      NEW met1 ( 20470 28390 ) M1M2_PR ;
-    - some_customcells._intsig_a_\[13\] ( some_customcells.genblk1\[13\].name_of_cell in ) ( some_customcells.genblk1\[12\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 10810 28390 ) ( 11730 * )
-      NEW met2 ( 11730 28390 ) ( * 34500 )
-      NEW met2 ( 10350 34500 ) ( 11730 * )
-      NEW met1 ( 10350 71230 ) ( 10810 * )
-      NEW met2 ( 10350 34500 ) ( * 71230 )
-      NEW met1 ( 11730 28390 ) M1M2_PR
-      NEW li1 ( 10810 28390 ) L1M1_PR
+      + ROUTED met1 ( 10350 71230 ) ( 11730 * )
+      NEW met1 ( 10350 28390 ) ( 11730 * )
+      NEW met2 ( 10350 28390 ) ( * 71230 )
       NEW met1 ( 10350 71230 ) M1M2_PR
-      NEW li1 ( 10810 71230 ) L1M1_PR ;
+      NEW li1 ( 11730 71230 ) L1M1_PR_MR
+      NEW met1 ( 10350 28390 ) M1M2_PR
+      NEW li1 ( 11730 28390 ) L1M1_PR_MR ;
+    - some_customcells._intsig_a_\[120\] ( some_customcells.genblk1\[120\].name_of_cell in ) ( some_customcells.genblk1\[119\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met3 ( 129490 76500 ) ( 130180 * )
+      NEW met2 ( 129490 76500 ) ( * 80410 )
+      NEW met3 ( 129490 20060 ) ( 130180 * )
+      NEW met2 ( 129490 20060 ) ( * 20570 )
+      NEW met4 ( 130180 20060 ) ( * 76500 )
+      NEW met3 ( 130180 76500 ) M3M4_PR
+      NEW met2 ( 129490 76500 ) M2M3_PR
+      NEW li1 ( 129490 80410 ) L1M1_PR_MR
+      NEW met1 ( 129490 80410 ) M1M2_PR
+      NEW met3 ( 130180 20060 ) M3M4_PR
+      NEW met2 ( 129490 20060 ) M2M3_PR
+      NEW li1 ( 129490 20570 ) L1M1_PR_MR
+      NEW met1 ( 129490 20570 ) M1M2_PR
+      NEW met1 ( 129490 80410 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 129490 20570 ) RECT ( -355 -70 0 70 )  ;
+    - some_customcells._intsig_a_\[121\] ( some_customcells.genblk1\[121\].name_of_cell in ) ( some_customcells.genblk1\[120\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 118910 81090 ) ( 124660 * )
+      NEW met1 ( 118910 29410 ) ( 119370 * )
+      NEW met2 ( 118910 29410 ) ( * 81090 )
+      NEW met1 ( 118910 81090 ) M1M2_PR
+      NEW li1 ( 124660 81090 ) L1M1_PR_MR
+      NEW met1 ( 118910 29410 ) M1M2_PR
+      NEW li1 ( 119370 29410 ) L1M1_PR_MR ;
+    - some_customcells._intsig_a_\[122\] ( some_customcells.genblk1\[122\].name_of_cell in ) ( some_customcells.genblk1\[121\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 114770 71230 ) ( 115230 * )
+      NEW met1 ( 114770 28390 ) ( 115230 * )
+      NEW met2 ( 114770 28390 ) ( * 71230 )
+      NEW met1 ( 114770 71230 ) M1M2_PR
+      NEW li1 ( 115230 71230 ) L1M1_PR_MR
+      NEW met1 ( 114770 28390 ) M1M2_PR
+      NEW li1 ( 115230 28390 ) L1M1_PR_MR ;
+    - some_customcells._intsig_a_\[123\] ( some_customcells.genblk1\[123\].name_of_cell in ) ( some_customcells.genblk1\[122\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 110170 71910 ) ( 116610 * )
+      NEW met2 ( 110170 26010 ) ( * 71910 )
+      NEW met1 ( 110170 26010 ) ( 113390 * )
+      NEW met1 ( 110170 26010 ) M1M2_PR
+      NEW met1 ( 110170 71910 ) M1M2_PR
+      NEW li1 ( 116610 71910 ) L1M1_PR_MR
+      NEW li1 ( 113390 26010 ) L1M1_PR_MR ;
+    - some_customcells._intsig_a_\[12\] ( some_customcells.genblk1\[12\].name_of_cell in ) ( some_customcells.genblk1\[11\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 13110 71910 ) ( 13570 * )
+      NEW met2 ( 13570 48300 ) ( * 71910 )
+      NEW met2 ( 13570 48300 ) ( 14030 * )
+      NEW met2 ( 14030 45050 ) ( * 48300 )
+      NEW met1 ( 14030 45050 ) ( 20930 * )
+      NEW met2 ( 20930 34850 ) ( * 45050 )
+      NEW met1 ( 13570 71910 ) M1M2_PR
+      NEW li1 ( 13110 71910 ) L1M1_PR_MR
+      NEW met1 ( 14030 45050 ) M1M2_PR
+      NEW met1 ( 20930 45050 ) M1M2_PR
+      NEW li1 ( 20930 34850 ) L1M1_PR_MR
+      NEW met1 ( 20930 34850 ) M1M2_PR
+      NEW met1 ( 20930 34850 ) RECT ( -355 -70 0 70 )  ;
+    - some_customcells._intsig_a_\[13\] ( some_customcells.genblk1\[13\].name_of_cell in ) ( some_customcells.genblk1\[12\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 25070 65790 ) ( 26450 * )
+      NEW met1 ( 25070 34510 ) ( 26450 * )
+      NEW met1 ( 25070 33830 ) ( * 34510 )
+      NEW met2 ( 26450 34510 ) ( * 65790 )
+      NEW met1 ( 26450 65790 ) M1M2_PR
+      NEW li1 ( 25070 65790 ) L1M1_PR_MR
+      NEW met1 ( 26450 34510 ) M1M2_PR
+      NEW li1 ( 25070 33830 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[14\] ( some_customcells.genblk1\[14\].name_of_cell in ) ( some_customcells.genblk1\[13\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 15640 71230 ) ( 18630 * )
-      NEW met1 ( 18630 33830 ) ( 19090 * )
-      NEW met2 ( 18630 33830 ) ( * 71230 )
-      NEW met1 ( 18630 71230 ) M1M2_PR
-      NEW li1 ( 15640 71230 ) L1M1_PR
-      NEW met1 ( 18630 33830 ) M1M2_PR
-      NEW li1 ( 19090 33830 ) L1M1_PR ;
+      + ROUTED met1 ( 23690 66470 ) ( 32890 * )
+      NEW met2 ( 32890 58650 ) ( * 66470 )
+      NEW met1 ( 32890 66470 ) M1M2_PR
+      NEW li1 ( 23690 66470 ) L1M1_PR_MR
+      NEW li1 ( 32890 58650 ) L1M1_PR_MR
+      NEW met1 ( 32890 58650 ) M1M2_PR
+      NEW met1 ( 32890 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[15\] ( some_customcells.genblk1\[15\].name_of_cell in ) ( some_customcells.genblk1\[14\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 23230 66470 ) ( 23690 * )
-      NEW met2 ( 22770 56100 ) ( 23230 * )
-      NEW met2 ( 22770 34510 ) ( * 56100 )
-      NEW met1 ( 22770 33830 ) ( * 34510 )
-      NEW met1 ( 22770 33830 ) ( 24150 * )
-      NEW met2 ( 23230 56100 ) ( * 66470 )
-      NEW met1 ( 23230 66470 ) M1M2_PR
-      NEW li1 ( 23690 66470 ) L1M1_PR
-      NEW met1 ( 22770 34510 ) M1M2_PR
-      NEW li1 ( 24150 33830 ) L1M1_PR ;
+      + ROUTED met1 ( 16790 26010 ) ( 35650 * )
+      NEW met2 ( 35650 26010 ) ( * 58650 )
+      NEW met1 ( 35650 58650 ) ( 37950 * )
+      NEW li1 ( 16790 26010 ) L1M1_PR_MR
+      NEW met1 ( 35650 26010 ) M1M2_PR
+      NEW met1 ( 35650 58650 ) M1M2_PR
+      NEW li1 ( 37950 58650 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[16\] ( some_customcells.genblk1\[16\].name_of_cell in ) ( some_customcells.genblk1\[15\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 12190 26690 ) ( * 27540 )
-      NEW met3 ( 22540 62220 ) ( 22770 * )
-      NEW met2 ( 22770 62220 ) ( * 66470 )
-      NEW met3 ( 12190 27540 ) ( 22540 * )
-      NEW met4 ( 22540 27540 ) ( * 62220 )
-      NEW met2 ( 12190 27540 ) M2M3_PR
-      NEW li1 ( 12190 26690 ) L1M1_PR
-      NEW met1 ( 12190 26690 ) M1M2_PR
-      NEW met3 ( 22540 62220 ) M3M4_PR
-      NEW met2 ( 22770 62220 ) M2M3_PR
-      NEW li1 ( 22770 66470 ) L1M1_PR
-      NEW met1 ( 22770 66470 ) M1M2_PR
-      NEW met3 ( 22540 27540 ) M3M4_PR
-      NEW met1 ( 12190 26690 ) RECT ( 0 -70 355 70 ) 
-      NEW met3 ( 22540 62220 ) RECT ( -390 -150 0 150 ) 
-      NEW met1 ( 22770 66470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 8970 73950 ) ( 10810 * )
+      NEW met1 ( 10810 26010 ) ( 11730 * )
+      NEW met2 ( 10810 26010 ) ( * 73950 )
+      NEW met1 ( 10810 73950 ) M1M2_PR
+      NEW li1 ( 8970 73950 ) L1M1_PR_MR
+      NEW met1 ( 10810 26010 ) M1M2_PR
+      NEW li1 ( 11730 26010 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[17\] ( some_customcells.genblk1\[17\].name_of_cell in ) ( some_customcells.genblk1\[16\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 6670 26690 ) ( 7360 * )
-      NEW met1 ( 6670 73950 ) ( 8050 * )
-      NEW met2 ( 6670 26690 ) ( * 73950 )
-      NEW met1 ( 6670 26690 ) M1M2_PR
-      NEW li1 ( 7360 26690 ) L1M1_PR
-      NEW met1 ( 6670 73950 ) M1M2_PR
-      NEW li1 ( 8050 73950 ) L1M1_PR ;
+      + ROUTED met1 ( 9430 74970 ) ( 13110 * )
+      NEW met1 ( 9430 34170 ) ( 11270 * )
+      NEW met2 ( 11270 30940 ) ( * 34170 )
+      NEW met2 ( 11270 30940 ) ( 13110 * )
+      NEW met2 ( 13110 30940 ) ( * 31450 )
+      NEW met2 ( 9430 34170 ) ( * 74970 )
+      NEW met1 ( 13110 31450 ) ( 19090 * )
+      NEW met1 ( 9430 74970 ) M1M2_PR
+      NEW li1 ( 13110 74970 ) L1M1_PR_MR
+      NEW met1 ( 9430 34170 ) M1M2_PR
+      NEW met1 ( 11270 34170 ) M1M2_PR
+      NEW met1 ( 13110 31450 ) M1M2_PR
+      NEW li1 ( 19090 31450 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[18\] ( some_customcells.genblk1\[18\].name_of_cell in ) ( some_customcells.genblk1\[17\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 15640 75650 ) ( 19090 * )
-      NEW met2 ( 19090 32130 ) ( * 75650 )
-      NEW met1 ( 19090 75650 ) M1M2_PR
-      NEW li1 ( 15640 75650 ) L1M1_PR
-      NEW li1 ( 19090 32130 ) L1M1_PR
-      NEW met1 ( 19090 32130 ) M1M2_PR
-      NEW met1 ( 19090 32130 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 21390 69530 ) ( 23230 * )
+      NEW met1 ( 23230 69530 ) ( 23690 * )
+      NEW met1 ( 21390 31450 ) ( 24150 * )
+      NEW met2 ( 21390 31450 ) ( * 69530 )
+      NEW met1 ( 23230 69530 ) M1M2_PR
+      NEW li1 ( 23690 69530 ) L1M1_PR_MR
+      NEW met1 ( 21390 31450 ) M1M2_PR
+      NEW li1 ( 24150 31450 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[19\] ( some_customcells.genblk1\[19\].name_of_cell in ) ( some_customcells.genblk1\[18\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 26910 69530 ) ( 27370 * )
-      NEW met1 ( 26680 32130 ) ( 27370 * )
-      NEW met2 ( 27370 32130 ) ( * 69530 )
-      NEW met1 ( 27370 69530 ) M1M2_PR
-      NEW li1 ( 26910 69530 ) L1M1_PR
-      NEW met1 ( 27370 32130 ) M1M2_PR
-      NEW li1 ( 26680 32130 ) L1M1_PR ;
+      + ROUTED met1 ( 30590 60350 ) ( 31970 * )
+      NEW met1 ( 30590 60350 ) ( * 61030 )
+      NEW met1 ( 22310 61030 ) ( 30590 * )
+      NEW met2 ( 22310 61030 ) ( * 68850 )
+      NEW met1 ( 22310 68850 ) ( 22770 * )
+      NEW met1 ( 22770 68850 ) ( * 69530 )
+      NEW met2 ( 31970 40290 ) ( * 60350 )
+      NEW li1 ( 31970 40290 ) L1M1_PR_MR
+      NEW met1 ( 31970 40290 ) M1M2_PR
+      NEW met1 ( 31970 60350 ) M1M2_PR
+      NEW met1 ( 22310 61030 ) M1M2_PR
+      NEW met1 ( 22310 68850 ) M1M2_PR
+      NEW li1 ( 22770 69530 ) L1M1_PR_MR
+      NEW met1 ( 31970 40290 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[20\] ( some_customcells.genblk1\[20\].name_of_cell in ) ( some_customcells.genblk1\[19\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 23230 68850 ) ( 31050 * )
-      NEW met1 ( 23230 68850 ) ( * 69530 )
-      NEW met1 ( 21850 69530 ) ( 23230 * )
-      NEW met2 ( 31050 40290 ) ( * 68850 )
-      NEW met1 ( 31050 68850 ) M1M2_PR
-      NEW li1 ( 21850 69530 ) L1M1_PR
-      NEW li1 ( 31050 40290 ) L1M1_PR
-      NEW met1 ( 31050 40290 ) M1M2_PR
-      NEW met1 ( 31050 40290 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 36110 39270 ) ( * 60350 )
+      NEW li1 ( 36110 39270 ) L1M1_PR_MR
+      NEW met1 ( 36110 39270 ) M1M2_PR
+      NEW li1 ( 36110 60350 ) L1M1_PR_MR
+      NEW met1 ( 36110 60350 ) M1M2_PR
+      NEW met1 ( 36110 39270 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 36110 60350 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[21\] ( some_customcells.genblk1\[21\].name_of_cell in ) ( some_customcells.genblk1\[20\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 35190 39270 ) ( * 60350 )
-      NEW li1 ( 35190 39270 ) L1M1_PR
-      NEW met1 ( 35190 39270 ) M1M2_PR
-      NEW li1 ( 35190 60350 ) L1M1_PR
-      NEW met1 ( 35190 60350 ) M1M2_PR
-      NEW met1 ( 35190 39270 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 35190 60350 ) RECT ( 0 -70 355 70 )  ;
+      + ROUTED met1 ( 15870 23970 ) ( 35190 * )
+      NEW met2 ( 35190 23970 ) ( * 61030 )
+      NEW met1 ( 34730 61030 ) ( 35190 * )
+      NEW li1 ( 15870 23970 ) L1M1_PR_MR
+      NEW met1 ( 35190 23970 ) M1M2_PR
+      NEW met1 ( 35190 61030 ) M1M2_PR
+      NEW li1 ( 34730 61030 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[22\] ( some_customcells.genblk1\[22\].name_of_cell in ) ( some_customcells.genblk1\[21\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 14950 23970 ) ( 27830 * )
-      NEW met2 ( 27830 23970 ) ( * 60350 )
-      NEW met1 ( 27830 60350 ) ( 30360 * )
-      NEW li1 ( 14950 23970 ) L1M1_PR
-      NEW met1 ( 27830 23970 ) M1M2_PR
-      NEW met1 ( 27830 60350 ) M1M2_PR
-      NEW li1 ( 30360 60350 ) L1M1_PR ;
-    - some_customcells._intsig_a_\[23\] ( some_customcells.genblk1\[23\].name_of_cell in ) ( some_customcells.genblk1\[22\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met3 ( 10810 27540 ) ( 11500 * )
-      NEW met2 ( 10810 22950 ) ( * 27540 )
-      NEW met3 ( 10810 76500 ) ( 11500 * )
-      NEW met2 ( 10810 76500 ) ( * 76670 )
-      NEW met4 ( 11500 27540 ) ( * 76500 )
-      NEW met3 ( 11500 27540 ) M3M4_PR
-      NEW met2 ( 10810 27540 ) M2M3_PR
-      NEW li1 ( 10810 22950 ) L1M1_PR
-      NEW met1 ( 10810 22950 ) M1M2_PR
-      NEW met3 ( 11500 76500 ) M3M4_PR
-      NEW met2 ( 10810 76500 ) M2M3_PR
-      NEW li1 ( 10810 76670 ) L1M1_PR
-      NEW met1 ( 10810 76670 ) M1M2_PR
-      NEW met1 ( 10810 22950 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 10810 76670 ) RECT ( -355 -70 0 70 )  ;
-    - some_customcells._intsig_a_\[24\] ( some_customcells.genblk1\[24\].name_of_cell in ) ( some_customcells.genblk1\[23\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met3 ( 12190 76500 ) ( 12420 * )
-      NEW met2 ( 12190 76500 ) ( * 77350 )
-      NEW met4 ( 12420 30940 ) ( * 76500 )
-      NEW met2 ( 20930 29410 ) ( * 30940 )
-      NEW met1 ( 20010 29410 ) ( 20930 * )
-      NEW met3 ( 12420 30940 ) ( 20930 * )
-      NEW met3 ( 12420 30940 ) M3M4_PR
+      + ROUTED met3 ( 11730 76500 ) ( 12420 * )
+      NEW met2 ( 11730 76500 ) ( * 76670 )
+      NEW met3 ( 11730 27540 ) ( 12420 * )
+      NEW met2 ( 11730 22950 ) ( * 27540 )
+      NEW met4 ( 12420 27540 ) ( * 76500 )
       NEW met3 ( 12420 76500 ) M3M4_PR
-      NEW met2 ( 12190 76500 ) M2M3_PR
-      NEW li1 ( 12190 77350 ) L1M1_PR
-      NEW met1 ( 12190 77350 ) M1M2_PR
+      NEW met2 ( 11730 76500 ) M2M3_PR
+      NEW li1 ( 11730 76670 ) L1M1_PR_MR
+      NEW met1 ( 11730 76670 ) M1M2_PR
+      NEW met3 ( 12420 27540 ) M3M4_PR
+      NEW met2 ( 11730 27540 ) M2M3_PR
+      NEW li1 ( 11730 22950 ) L1M1_PR_MR
+      NEW met1 ( 11730 22950 ) M1M2_PR
+      NEW met1 ( 11730 76670 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 11730 22950 ) RECT ( -355 -70 0 70 )  ;
+    - some_customcells._intsig_a_\[23\] ( some_customcells.genblk1\[23\].name_of_cell in ) ( some_customcells.genblk1\[22\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met3 ( 13110 76500 ) ( 13340 * )
+      NEW met2 ( 13110 76500 ) ( * 77350 )
+      NEW met4 ( 13340 30940 ) ( * 76500 )
+      NEW met2 ( 20930 29410 ) ( * 30940 )
+      NEW met3 ( 13340 30940 ) ( 20930 * )
+      NEW met3 ( 13340 76500 ) M3M4_PR
+      NEW met2 ( 13110 76500 ) M2M3_PR
+      NEW li1 ( 13110 77350 ) L1M1_PR_MR
+      NEW met1 ( 13110 77350 ) M1M2_PR
+      NEW met3 ( 13340 30940 ) M3M4_PR
       NEW met2 ( 20930 30940 ) M2M3_PR
+      NEW li1 ( 20930 29410 ) L1M1_PR_MR
       NEW met1 ( 20930 29410 ) M1M2_PR
-      NEW li1 ( 20010 29410 ) L1M1_PR
-      NEW met3 ( 12420 76500 ) RECT ( 0 -150 390 150 ) 
-      NEW met1 ( 12190 77350 ) RECT ( -355 -70 0 70 )  ;
+      NEW met3 ( 13340 76500 ) RECT ( 0 -150 390 150 ) 
+      NEW met1 ( 13110 77350 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 20930 29410 ) RECT ( -355 -70 0 70 )  ;
+    - some_customcells._intsig_a_\[24\] ( some_customcells.genblk1\[24\].name_of_cell in ) ( some_customcells.genblk1\[23\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 27370 71230 ) ( 27830 * )
+      NEW met2 ( 26910 45220 ) ( 27370 * )
+      NEW met2 ( 26910 28390 ) ( * 45220 )
+      NEW met1 ( 25070 28390 ) ( 26910 * )
+      NEW met2 ( 27370 45220 ) ( * 71230 )
+      NEW met1 ( 27370 71230 ) M1M2_PR
+      NEW li1 ( 27830 71230 ) L1M1_PR_MR
+      NEW met1 ( 26910 28390 ) M1M2_PR
+      NEW li1 ( 25070 28390 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[25\] ( some_customcells.genblk1\[25\].name_of_cell in ) ( some_customcells.genblk1\[24\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 25990 71230 ) ( 26910 * )
-      NEW met1 ( 24150 28390 ) ( 25990 * )
-      NEW met2 ( 25990 28390 ) ( * 71230 )
-      NEW met1 ( 25990 71230 ) M1M2_PR
-      NEW li1 ( 26910 71230 ) L1M1_PR
-      NEW met1 ( 25990 28390 ) M1M2_PR
-      NEW li1 ( 24150 28390 ) L1M1_PR ;
+      + ROUTED met1 ( 23690 71910 ) ( 32430 * )
+      NEW met1 ( 32430 36890 ) ( 32890 * )
+      NEW met2 ( 32430 36890 ) ( * 71910 )
+      NEW met1 ( 32430 71910 ) M1M2_PR
+      NEW li1 ( 23690 71910 ) L1M1_PR_MR
+      NEW met1 ( 32430 36890 ) M1M2_PR
+      NEW li1 ( 32890 36890 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[26\] ( some_customcells.genblk1\[26\].name_of_cell in ) ( some_customcells.genblk1\[25\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 19320 71230 ) ( 19550 * )
-      NEW met1 ( 15870 39270 ) ( 19550 * )
-      NEW met2 ( 19550 39270 ) ( * 71230 )
-      NEW met1 ( 19550 71230 ) M1M2_PR
-      NEW li1 ( 19320 71230 ) L1M1_PR
-      NEW li1 ( 15870 39270 ) L1M1_PR
-      NEW met1 ( 19550 39270 ) M1M2_PR ;
+      + ROUTED met1 ( 16790 36890 ) ( 24150 * )
+      NEW met1 ( 24150 36550 ) ( * 36890 )
+      NEW met1 ( 24150 36550 ) ( 33350 * )
+      NEW met1 ( 33350 36550 ) ( * 36890 )
+      NEW met1 ( 33350 36890 ) ( 37950 * )
+      NEW li1 ( 16790 36890 ) L1M1_PR_MR
+      NEW li1 ( 37950 36890 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[27\] ( some_customcells.genblk1\[27\].name_of_cell in ) ( some_customcells.genblk1\[26\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 10810 39270 ) ( * 58650 )
-      NEW li1 ( 10810 39270 ) L1M1_PR
-      NEW met1 ( 10810 39270 ) M1M2_PR
-      NEW li1 ( 10810 58650 ) L1M1_PR
-      NEW met1 ( 10810 58650 ) M1M2_PR
-      NEW met1 ( 10810 39270 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 10810 58650 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 15870 36890 ) ( * 60350 )
+      NEW met1 ( 11730 36890 ) ( 15870 * )
+      NEW li1 ( 11730 36890 ) L1M1_PR_MR
+      NEW met1 ( 15870 36890 ) M1M2_PR
+      NEW li1 ( 15870 60350 ) L1M1_PR_MR
+      NEW met1 ( 15870 60350 ) M1M2_PR
+      NEW met1 ( 15870 60350 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[28\] ( some_customcells.genblk1\[28\].name_of_cell in ) ( some_customcells.genblk1\[27\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 14950 43010 ) ( 15410 * )
-      NEW met2 ( 14950 43010 ) ( * 58650 )
-      NEW met1 ( 12190 58650 ) ( 14950 * )
-      NEW li1 ( 12190 58650 ) L1M1_PR
-      NEW li1 ( 15410 43010 ) L1M1_PR
-      NEW met1 ( 14950 43010 ) M1M2_PR
-      NEW met1 ( 14950 58650 ) M1M2_PR ;
+      + ROUTED met2 ( 11730 39270 ) ( * 61030 )
+      NEW li1 ( 11730 61030 ) L1M1_PR_MR
+      NEW met1 ( 11730 61030 ) M1M2_PR
+      NEW li1 ( 11730 39270 ) L1M1_PR_MR
+      NEW met1 ( 11730 39270 ) M1M2_PR
+      NEW met1 ( 11730 61030 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 11730 39270 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[29\] ( some_customcells.genblk1\[29\].name_of_cell in ) ( some_customcells.genblk1\[28\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met2 ( 13110 39270 ) ( * 42330 )
+      NEW li1 ( 13110 42330 ) L1M1_PR_MR
+      NEW met1 ( 13110 42330 ) M1M2_PR
+      NEW li1 ( 13110 39270 ) L1M1_PR_MR
+      NEW met1 ( 13110 39270 ) M1M2_PR
+      NEW met1 ( 13110 42330 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 13110 39270 ) RECT ( -355 -70 0 70 )  ;
+    - some_customcells._intsig_a_\[2\] ( some_customcells.genblk1\[2\].name_of_cell in ) ( some_customcells.genblk1\[1\].name_of_cell out ) + USE SIGNAL
+      + ROUTED met1 ( 13340 64770 ) ( 19090 * )
+      NEW met1 ( 16790 33830 ) ( 19090 * )
+      NEW met2 ( 19090 33830 ) ( * 64770 )
+      NEW li1 ( 13340 64770 ) L1M1_PR_MR
+      NEW met1 ( 19090 64770 ) M1M2_PR
+      NEW li1 ( 16790 33830 ) L1M1_PR_MR
+      NEW met1 ( 19090 33830 ) M1M2_PR ;
+    - some_customcells._intsig_a_\[30\] ( some_customcells.genblk1\[30\].name_of_cell in ) ( some_customcells.genblk1\[29\].name_of_cell out ) + USE SIGNAL
       + ROUTED met2 ( 14490 42330 ) ( * 55250 )
-      NEW met1 ( 14490 55250 ) ( 15410 * )
-      NEW met1 ( 11270 42330 ) ( 14490 * )
-      NEW li1 ( 11270 42330 ) L1M1_PR
+      NEW met1 ( 14490 55250 ) ( 16330 * )
+      NEW li1 ( 14490 42330 ) L1M1_PR_MR
       NEW met1 ( 14490 42330 ) M1M2_PR
       NEW met1 ( 14490 55250 ) M1M2_PR
-      NEW li1 ( 15410 55250 ) L1M1_PR ;
-    - some_customcells._intsig_a_\[2\] ( some_customcells.genblk1\[2\].name_of_cell in ) ( some_customcells.genblk1\[1\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 12190 37570 ) ( * 61030 )
-      NEW li1 ( 12190 37570 ) L1M1_PR
-      NEW met1 ( 12190 37570 ) M1M2_PR
-      NEW li1 ( 12190 61030 ) L1M1_PR
-      NEW met1 ( 12190 61030 ) M1M2_PR
-      NEW met1 ( 12190 37570 ) RECT ( 0 -70 355 70 ) 
-      NEW met1 ( 12190 61030 ) RECT ( -355 -70 0 70 )  ;
-    - some_customcells._intsig_a_\[30\] ( some_customcells.genblk1\[30\].name_of_cell in ) ( some_customcells.genblk1\[29\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 11270 44710 ) ( * 55590 )
-      NEW li1 ( 11270 55590 ) L1M1_PR
-      NEW met1 ( 11270 55590 ) M1M2_PR
-      NEW li1 ( 11270 44710 ) L1M1_PR
-      NEW met1 ( 11270 44710 ) M1M2_PR
-      NEW met1 ( 11270 55590 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 11270 44710 ) RECT ( -355 -70 0 70 )  ;
+      NEW li1 ( 16330 55250 ) L1M1_PR_MR
+      NEW met1 ( 14490 42330 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[31\] ( some_customcells.genblk1\[31\].name_of_cell in ) ( some_customcells.genblk1\[30\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 14030 44710 ) ( * 53210 )
-      NEW met1 ( 12650 44710 ) ( 14030 * )
-      NEW li1 ( 12650 44710 ) L1M1_PR
-      NEW met1 ( 14030 44710 ) M1M2_PR
-      NEW li1 ( 14030 53210 ) L1M1_PR
-      NEW met1 ( 14030 53210 ) M1M2_PR
-      NEW met1 ( 14030 53210 ) RECT ( 0 -70 355 70 )  ;
+      + ROUTED met2 ( 12190 44030 ) ( * 55590 )
+      NEW li1 ( 12190 55590 ) L1M1_PR_MR
+      NEW met1 ( 12190 55590 ) M1M2_PR
+      NEW li1 ( 12190 44030 ) L1M1_PR_MR
+      NEW met1 ( 12190 44030 ) M1M2_PR
+      NEW met1 ( 12190 55590 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 12190 44030 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[32\] ( some_customcells.genblk1\[32\].name_of_cell in ) ( some_customcells.genblk1\[31\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 13110 47770 ) ( * 53210 )
-      NEW li1 ( 13110 47770 ) L1M1_PR
-      NEW met1 ( 13110 47770 ) M1M2_PR
-      NEW li1 ( 13110 53210 ) L1M1_PR
-      NEW met1 ( 13110 53210 ) M1M2_PR
-      NEW met1 ( 13110 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 13110 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 11270 44710 ) ( 13570 * )
+      NEW met2 ( 11270 44710 ) ( * 52190 )
+      NEW li1 ( 13570 44710 ) L1M1_PR_MR
+      NEW met1 ( 11270 44710 ) M1M2_PR
+      NEW li1 ( 11270 52190 ) L1M1_PR_MR
+      NEW met1 ( 11270 52190 ) M1M2_PR
+      NEW met1 ( 11270 52190 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[33\] ( some_customcells.genblk1\[33\].name_of_cell in ) ( some_customcells.genblk1\[32\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 15410 47770 ) ( * 49470 )
-      NEW met1 ( 14490 47770 ) ( 15410 * )
-      NEW li1 ( 15410 49470 ) L1M1_PR
-      NEW met1 ( 15410 49470 ) M1M2_PR
-      NEW met1 ( 15410 47770 ) M1M2_PR
-      NEW li1 ( 14490 47770 ) L1M1_PR
-      NEW met1 ( 15410 49470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 15410 48450 ) ( * 53210 )
+      NEW li1 ( 15410 48450 ) L1M1_PR_MR
+      NEW met1 ( 15410 48450 ) M1M2_PR
+      NEW li1 ( 15410 53210 ) L1M1_PR_MR
+      NEW met1 ( 15410 53210 ) M1M2_PR
+      NEW met1 ( 15410 48450 ) RECT ( 0 -70 355 70 ) 
+      NEW met1 ( 15410 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[34\] ( some_customcells.genblk1\[34\].name_of_cell in ) ( some_customcells.genblk1\[33\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 20930 50150 ) ( * 58650 )
-      NEW met1 ( 20930 58650 ) ( 22310 * )
-      NEW met1 ( 11270 50150 ) ( 20930 * )
-      NEW li1 ( 11270 50150 ) L1M1_PR
-      NEW met1 ( 20930 50150 ) M1M2_PR
-      NEW met1 ( 20930 58650 ) M1M2_PR
-      NEW li1 ( 22310 58650 ) L1M1_PR ;
+      + ROUTED met1 ( 14030 47770 ) ( 15410 * )
+      NEW met1 ( 15410 47770 ) ( * 48110 )
+      NEW met1 ( 15410 48110 ) ( 22310 * )
+      NEW met2 ( 22310 48110 ) ( * 58650 )
+      NEW li1 ( 14030 47770 ) L1M1_PR_MR
+      NEW met1 ( 22310 48110 ) M1M2_PR
+      NEW li1 ( 22310 58650 ) L1M1_PR_MR
+      NEW met1 ( 22310 58650 ) M1M2_PR
+      NEW met1 ( 22310 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[35\] ( some_customcells.genblk1\[35\].name_of_cell in ) ( some_customcells.genblk1\[34\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 25530 43010 ) ( 26450 * )
-      NEW met2 ( 26450 43010 ) ( * 58650 )
-      NEW met1 ( 23690 58650 ) ( 26450 * )
-      NEW li1 ( 25530 43010 ) L1M1_PR
-      NEW met1 ( 26450 43010 ) M1M2_PR
-      NEW met1 ( 26450 58650 ) M1M2_PR
-      NEW li1 ( 23690 58650 ) L1M1_PR ;
+      + ROUTED met1 ( 25530 43010 ) ( 25990 * )
+      NEW met2 ( 25990 43010 ) ( * 44030 )
+      NEW met1 ( 21850 44030 ) ( 25990 * )
+      NEW met2 ( 21850 44030 ) ( * 55250 )
+      NEW met1 ( 21850 55250 ) ( 23690 * )
+      NEW met2 ( 23690 55250 ) ( * 58650 )
+      NEW li1 ( 25530 43010 ) L1M1_PR_MR
+      NEW met1 ( 25990 43010 ) M1M2_PR
+      NEW met1 ( 25990 44030 ) M1M2_PR
+      NEW met1 ( 21850 44030 ) M1M2_PR
+      NEW met1 ( 21850 55250 ) M1M2_PR
+      NEW met1 ( 23690 55250 ) M1M2_PR
+      NEW li1 ( 23690 58650 ) L1M1_PR_MR
+      NEW met1 ( 23690 58650 ) M1M2_PR
+      NEW met1 ( 23690 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[36\] ( some_customcells.genblk1\[36\].name_of_cell in ) ( some_customcells.genblk1\[35\].name_of_cell out ) + USE SIGNAL
       + ROUTED met1 ( 23230 42330 ) ( 24150 * )
-      NEW met2 ( 23230 42330 ) ( * 55250 )
-      NEW li1 ( 24150 42330 ) L1M1_PR
+      NEW met2 ( 23230 42330 ) ( * 49470 )
+      NEW met1 ( 16330 49470 ) ( 23230 * )
+      NEW li1 ( 24150 42330 ) L1M1_PR_MR
       NEW met1 ( 23230 42330 ) M1M2_PR
-      NEW li1 ( 23230 55250 ) L1M1_PR
-      NEW met1 ( 23230 55250 ) M1M2_PR
-      NEW met1 ( 23230 55250 ) RECT ( -355 -70 0 70 )  ;
+      NEW met1 ( 23230 49470 ) M1M2_PR
+      NEW li1 ( 16330 49470 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[37\] ( some_customcells.genblk1\[37\].name_of_cell in ) ( some_customcells.genblk1\[36\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 27370 55590 ) ( 30130 * )
-      NEW met2 ( 30130 45730 ) ( * 55590 )
-      NEW li1 ( 27370 55590 ) L1M1_PR
-      NEW met1 ( 30130 55590 ) M1M2_PR
-      NEW li1 ( 30130 45730 ) L1M1_PR
-      NEW met1 ( 30130 45730 ) M1M2_PR
-      NEW met1 ( 30130 45730 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 23230 50150 ) ( * 55590 )
+      NEW met1 ( 12190 50150 ) ( 23230 * )
+      NEW li1 ( 12190 50150 ) L1M1_PR_MR
+      NEW met1 ( 23230 50150 ) M1M2_PR
+      NEW li1 ( 23230 55590 ) L1M1_PR_MR
+      NEW met1 ( 23230 55590 ) M1M2_PR
+      NEW met1 ( 23230 55590 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[38\] ( some_customcells.genblk1\[38\].name_of_cell in ) ( some_customcells.genblk1\[37\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 21390 44030 ) ( 22540 * )
-      NEW met2 ( 21390 44030 ) ( * 52190 )
-      NEW li1 ( 22540 44030 ) L1M1_PR
-      NEW met1 ( 21390 44030 ) M1M2_PR
-      NEW li1 ( 21390 52190 ) L1M1_PR
-      NEW met1 ( 21390 52190 ) M1M2_PR
-      NEW met1 ( 21390 52190 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 28290 44710 ) ( * 55590 )
+      NEW li1 ( 28290 55590 ) L1M1_PR_MR
+      NEW met1 ( 28290 55590 ) M1M2_PR
+      NEW li1 ( 28290 44710 ) L1M1_PR_MR
+      NEW met1 ( 28290 44710 ) M1M2_PR
+      NEW met1 ( 28290 55590 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 28290 44710 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[39\] ( some_customcells.genblk1\[39\].name_of_cell in ) ( some_customcells.genblk1\[38\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 25530 47770 ) ( * 53210 )
-      NEW li1 ( 25530 47770 ) L1M1_PR
-      NEW met1 ( 25530 47770 ) M1M2_PR
-      NEW li1 ( 25530 53210 ) L1M1_PR
-      NEW met1 ( 25530 53210 ) M1M2_PR
-      NEW met1 ( 25530 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 25530 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 27830 52190 ) ( 29210 * )
+      NEW met2 ( 27830 44710 ) ( * 52190 )
+      NEW met2 ( 27370 44710 ) ( 27830 * )
+      NEW met1 ( 26910 44710 ) ( 27370 * )
+      NEW li1 ( 29210 52190 ) L1M1_PR_MR
+      NEW met1 ( 27830 52190 ) M1M2_PR
+      NEW met1 ( 27370 44710 ) M1M2_PR
+      NEW li1 ( 26910 44710 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[3\] ( some_customcells.genblk1\[3\].name_of_cell in ) ( some_customcells.genblk1\[2\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 10810 36890 ) ( 12650 * )
-      NEW met1 ( 12190 64090 ) ( 12650 * )
-      NEW met2 ( 12650 36890 ) ( * 64090 )
-      NEW met1 ( 12650 36890 ) M1M2_PR
-      NEW li1 ( 10810 36890 ) L1M1_PR
-      NEW met1 ( 12650 64090 ) M1M2_PR
-      NEW li1 ( 12190 64090 ) L1M1_PR ;
+      + ROUTED met1 ( 16790 66470 ) ( 18630 * )
+      NEW met1 ( 11730 33830 ) ( 13800 * )
+      NEW met1 ( 13800 33490 ) ( * 33830 )
+      NEW met1 ( 13800 33490 ) ( 18630 * )
+      NEW met2 ( 18630 33490 ) ( * 66470 )
+      NEW li1 ( 11730 33830 ) L1M1_PR_MR
+      NEW met1 ( 18630 66470 ) M1M2_PR
+      NEW li1 ( 16790 66470 ) L1M1_PR_MR
+      NEW met1 ( 18630 33490 ) M1M2_PR ;
     - some_customcells._intsig_a_\[40\] ( some_customcells.genblk1\[40\].name_of_cell in ) ( some_customcells.genblk1\[39\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met3 ( 24150 47940 ) ( 32890 * )
-      NEW met2 ( 24150 47770 ) ( * 47940 )
-      NEW met2 ( 32890 47940 ) ( * 57630 )
-      NEW li1 ( 32890 57630 ) L1M1_PR
-      NEW met1 ( 32890 57630 ) M1M2_PR
-      NEW met2 ( 32890 47940 ) M2M3_PR
-      NEW met2 ( 24150 47940 ) M2M3_PR
-      NEW li1 ( 24150 47770 ) L1M1_PR
-      NEW met1 ( 24150 47770 ) M1M2_PR
-      NEW met1 ( 32890 57630 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 24150 47770 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 25530 47770 ) ( 25990 * )
+      NEW met2 ( 25990 47770 ) ( * 53210 )
+      NEW met1 ( 25070 53210 ) ( 25990 * )
+      NEW li1 ( 25530 47770 ) L1M1_PR_MR
+      NEW met1 ( 25990 47770 ) M1M2_PR
+      NEW met1 ( 25990 53210 ) M1M2_PR
+      NEW li1 ( 25070 53210 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[41\] ( some_customcells.genblk1\[41\].name_of_cell in ) ( some_customcells.genblk1\[40\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 30130 51170 ) ( 34730 * )
-      NEW met2 ( 34730 51170 ) ( * 58650 )
-      NEW met1 ( 34730 58650 ) ( 37030 * )
-      NEW li1 ( 30130 51170 ) L1M1_PR
-      NEW met1 ( 34730 51170 ) M1M2_PR
-      NEW met1 ( 34730 58650 ) M1M2_PR
-      NEW li1 ( 37030 58650 ) L1M1_PR ;
+      + ROUTED met2 ( 26910 47770 ) ( * 49470 )
+      NEW met1 ( 26450 47770 ) ( 26910 * )
+      NEW li1 ( 26910 49470 ) L1M1_PR_MR
+      NEW met1 ( 26910 49470 ) M1M2_PR
+      NEW met1 ( 26910 47770 ) M1M2_PR
+      NEW li1 ( 26450 47770 ) L1M1_PR_MR
+      NEW met1 ( 26910 49470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[42\] ( some_customcells.genblk1\[42\].name_of_cell in ) ( some_customcells.genblk1\[41\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 32430 42330 ) ( 33350 * )
-      NEW met2 ( 32430 42330 ) ( * 50150 )
-      NEW met1 ( 25990 50150 ) ( 32430 * )
-      NEW li1 ( 33350 42330 ) L1M1_PR
-      NEW met1 ( 32430 42330 ) M1M2_PR
-      NEW met1 ( 32430 50150 ) M1M2_PR
-      NEW li1 ( 25990 50150 ) L1M1_PR ;
+      + ROUTED met1 ( 31740 49470 ) ( 34730 * )
+      NEW met2 ( 34730 43010 ) ( * 49470 )
+      NEW met1 ( 34270 43010 ) ( 34730 * )
+      NEW li1 ( 31740 49470 ) L1M1_PR_MR
+      NEW met1 ( 34730 49470 ) M1M2_PR
+      NEW met1 ( 34730 43010 ) M1M2_PR
+      NEW li1 ( 34270 43010 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[43\] ( some_customcells.genblk1\[43\].name_of_cell in ) ( some_customcells.genblk1\[42\].name_of_cell out ) + USE SIGNAL
       + ROUTED met2 ( 38410 42330 ) ( * 55590 )
-      NEW li1 ( 38410 42330 ) L1M1_PR
+      NEW met1 ( 38410 55590 ) ( 38870 * )
+      NEW li1 ( 38410 42330 ) L1M1_PR_MR
       NEW met1 ( 38410 42330 ) M1M2_PR
-      NEW li1 ( 38410 55590 ) L1M1_PR
       NEW met1 ( 38410 55590 ) M1M2_PR
-      NEW met1 ( 38410 42330 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 38410 55590 ) RECT ( -355 -70 0 70 )  ;
+      NEW li1 ( 38870 55590 ) L1M1_PR_MR
+      NEW met1 ( 38410 42330 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[44\] ( some_customcells.genblk1\[44\].name_of_cell in ) ( some_customcells.genblk1\[43\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 37030 44710 ) ( * 55590 )
-      NEW li1 ( 37030 55590 ) L1M1_PR
-      NEW met1 ( 37030 55590 ) M1M2_PR
-      NEW li1 ( 37030 44710 ) L1M1_PR
-      NEW met1 ( 37030 44710 ) M1M2_PR
-      NEW met1 ( 37030 55590 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 37030 44710 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 37950 44710 ) ( * 55590 )
+      NEW li1 ( 37950 55590 ) L1M1_PR_MR
+      NEW met1 ( 37950 55590 ) M1M2_PR
+      NEW li1 ( 37950 44710 ) L1M1_PR_MR
+      NEW met1 ( 37950 44710 ) M1M2_PR
+      NEW met1 ( 37950 55590 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 37950 44710 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[45\] ( some_customcells.genblk1\[45\].name_of_cell in ) ( some_customcells.genblk1\[44\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 41860 44030 ) ( 43010 * )
-      NEW met2 ( 43010 44030 ) ( * 52190 )
-      NEW li1 ( 41860 44030 ) L1M1_PR
-      NEW met1 ( 43010 44030 ) M1M2_PR
-      NEW li1 ( 43010 52190 ) L1M1_PR
-      NEW met1 ( 43010 52190 ) M1M2_PR
-      NEW met1 ( 43010 52190 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 42780 44030 ) ( 43930 * )
+      NEW met2 ( 43930 44030 ) ( * 52190 )
+      NEW li1 ( 42780 44030 ) L1M1_PR_MR
+      NEW met1 ( 43930 44030 ) M1M2_PR
+      NEW li1 ( 43930 52190 ) L1M1_PR_MR
+      NEW met1 ( 43930 52190 ) M1M2_PR
+      NEW met1 ( 43930 52190 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[46\] ( some_customcells.genblk1\[46\].name_of_cell in ) ( some_customcells.genblk1\[45\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 38870 47770 ) ( * 53210 )
-      NEW li1 ( 38870 47770 ) L1M1_PR
-      NEW met1 ( 38870 47770 ) M1M2_PR
-      NEW li1 ( 38870 53210 ) L1M1_PR
-      NEW met1 ( 38870 53210 ) M1M2_PR
-      NEW met1 ( 38870 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 38870 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 39790 48450 ) ( * 53210 )
+      NEW li1 ( 39790 48450 ) L1M1_PR_MR
+      NEW met1 ( 39790 48450 ) M1M2_PR
+      NEW li1 ( 39790 53210 ) L1M1_PR_MR
+      NEW met1 ( 39790 53210 ) M1M2_PR
+      NEW met1 ( 39790 48450 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 39790 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[47\] ( some_customcells.genblk1\[47\].name_of_cell in ) ( some_customcells.genblk1\[46\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 41170 47770 ) ( * 49470 )
-      NEW met1 ( 40250 47770 ) ( 41170 * )
-      NEW li1 ( 41170 49470 ) L1M1_PR
-      NEW met1 ( 41170 49470 ) M1M2_PR
-      NEW met1 ( 41170 47770 ) M1M2_PR
-      NEW li1 ( 40250 47770 ) L1M1_PR
-      NEW met1 ( 41170 49470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 39330 47770 ) ( * 49470 )
+      NEW met1 ( 39330 47770 ) ( 41170 * )
+      NEW li1 ( 39330 49470 ) L1M1_PR_MR
+      NEW met1 ( 39330 49470 ) M1M2_PR
+      NEW met1 ( 39330 47770 ) M1M2_PR
+      NEW li1 ( 41170 47770 ) L1M1_PR_MR
+      NEW met1 ( 39330 49470 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[48\] ( some_customcells.genblk1\[48\].name_of_cell in ) ( some_customcells.genblk1\[47\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 37030 50150 ) ( 41630 * )
+      + ROUTED met1 ( 37950 50150 ) ( 41630 * )
       NEW met2 ( 41630 50150 ) ( * 57630 )
       NEW met1 ( 41630 57630 ) ( 45310 * )
-      NEW li1 ( 37030 50150 ) L1M1_PR
+      NEW li1 ( 37950 50150 ) L1M1_PR_MR
       NEW met1 ( 41630 50150 ) M1M2_PR
       NEW met1 ( 41630 57630 ) M1M2_PR
-      NEW li1 ( 45310 57630 ) L1M1_PR ;
+      NEW li1 ( 45310 57630 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[49\] ( some_customcells.genblk1\[49\].name_of_cell in ) ( some_customcells.genblk1\[48\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 50830 42330 ) ( * 58650 )
-      NEW met1 ( 49450 58650 ) ( 50830 * )
-      NEW li1 ( 50830 42330 ) L1M1_PR
-      NEW met1 ( 50830 42330 ) M1M2_PR
-      NEW met1 ( 50830 58650 ) M1M2_PR
-      NEW li1 ( 49450 58650 ) L1M1_PR
-      NEW met1 ( 50830 42330 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 51290 43010 ) ( * 58650 )
+      NEW met1 ( 49450 58650 ) ( 51290 * )
+      NEW li1 ( 51290 43010 ) L1M1_PR_MR
+      NEW met1 ( 51290 43010 ) M1M2_PR
+      NEW met1 ( 51290 58650 ) M1M2_PR
+      NEW li1 ( 49450 58650 ) L1M1_PR_MR
+      NEW met1 ( 51290 43010 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[4\] ( some_customcells.genblk1\[4\].name_of_cell in ) ( some_customcells.genblk1\[3\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 11730 37060 ) ( 12190 * )
-      NEW met2 ( 12190 33830 ) ( * 37060 )
-      NEW met1 ( 10810 64090 ) ( 11730 * )
-      NEW met2 ( 11730 37060 ) ( * 64090 )
-      NEW li1 ( 12190 33830 ) L1M1_PR
-      NEW met1 ( 12190 33830 ) M1M2_PR
-      NEW met1 ( 11730 64090 ) M1M2_PR
-      NEW li1 ( 10810 64090 ) L1M1_PR
-      NEW met1 ( 12190 33830 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 9890 66470 ) ( 11730 * )
+      NEW met1 ( 9890 43010 ) ( 13110 * )
+      NEW met2 ( 13110 43010 ) ( 13570 * )
+      NEW met2 ( 13570 40290 ) ( * 43010 )
+      NEW met1 ( 13570 40290 ) ( 20930 * )
+      NEW met2 ( 9890 43010 ) ( * 66470 )
+      NEW met1 ( 9890 66470 ) M1M2_PR
+      NEW li1 ( 11730 66470 ) L1M1_PR_MR
+      NEW met1 ( 9890 43010 ) M1M2_PR
+      NEW met1 ( 13110 43010 ) M1M2_PR
+      NEW met1 ( 13570 40290 ) M1M2_PR
+      NEW li1 ( 20930 40290 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[50\] ( some_customcells.genblk1\[50\].name_of_cell in ) ( some_customcells.genblk1\[49\].name_of_cell out ) + USE SIGNAL
       + ROUTED met1 ( 48990 42330 ) ( 49910 * )
       NEW met2 ( 48990 42330 ) ( * 55250 )
-      NEW li1 ( 49910 42330 ) L1M1_PR
+      NEW li1 ( 49910 42330 ) L1M1_PR_MR
       NEW met1 ( 48990 42330 ) M1M2_PR
-      NEW li1 ( 48990 55250 ) L1M1_PR
+      NEW li1 ( 48990 55250 ) L1M1_PR_MR
       NEW met1 ( 48990 55250 ) M1M2_PR
       NEW met1 ( 48990 55250 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[51\] ( some_customcells.genblk1\[51\].name_of_cell in ) ( some_customcells.genblk1\[50\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 52210 55590 ) ( 53130 * )
-      NEW met2 ( 52210 44710 ) ( * 55590 )
-      NEW met1 ( 52210 44710 ) ( 52670 * )
-      NEW li1 ( 53130 55590 ) L1M1_PR
-      NEW met1 ( 52210 55590 ) M1M2_PR
-      NEW met1 ( 52210 44710 ) M1M2_PR
-      NEW li1 ( 52670 44710 ) L1M1_PR ;
+      + ROUTED met1 ( 53130 55590 ) ( 55890 * )
+      NEW met2 ( 55890 45730 ) ( * 55590 )
+      NEW met1 ( 55890 45730 ) ( 56810 * )
+      NEW li1 ( 53130 55590 ) L1M1_PR_MR
+      NEW met1 ( 55890 55590 ) M1M2_PR
+      NEW met1 ( 55890 45730 ) M1M2_PR
+      NEW li1 ( 56810 45730 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[52\] ( some_customcells.genblk1\[52\].name_of_cell in ) ( some_customcells.genblk1\[51\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 51290 44710 ) ( * 53210 )
-      NEW met1 ( 51290 44710 ) ( 51750 * )
-      NEW li1 ( 51290 53210 ) L1M1_PR
-      NEW met1 ( 51290 53210 ) M1M2_PR
-      NEW met1 ( 51290 44710 ) M1M2_PR
-      NEW li1 ( 51750 44710 ) L1M1_PR
-      NEW met1 ( 51290 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 52210 44710 ) ( * 53210 )
+      NEW met1 ( 52210 44710 ) ( 52670 * )
+      NEW li1 ( 52210 53210 ) L1M1_PR_MR
+      NEW met1 ( 52210 53210 ) M1M2_PR
+      NEW met1 ( 52210 44710 ) M1M2_PR
+      NEW li1 ( 52670 44710 ) L1M1_PR_MR
+      NEW met1 ( 52210 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[53\] ( some_customcells.genblk1\[53\].name_of_cell in ) ( some_customcells.genblk1\[52\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 49910 47770 ) ( * 53210 )
-      NEW li1 ( 49910 47770 ) L1M1_PR
-      NEW met1 ( 49910 47770 ) M1M2_PR
-      NEW li1 ( 49910 53210 ) L1M1_PR
-      NEW met1 ( 49910 53210 ) M1M2_PR
-      NEW met1 ( 49910 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 49910 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 50830 47770 ) ( * 53210 )
+      NEW li1 ( 50830 47770 ) L1M1_PR_MR
+      NEW met1 ( 50830 47770 ) M1M2_PR
+      NEW li1 ( 50830 53210 ) L1M1_PR_MR
+      NEW met1 ( 50830 53210 ) M1M2_PR
+      NEW met1 ( 50830 47770 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 50830 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[54\] ( some_customcells.genblk1\[54\].name_of_cell in ) ( some_customcells.genblk1\[53\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 51750 47770 ) ( * 49470 )
-      NEW met1 ( 51290 47770 ) ( 51750 * )
-      NEW li1 ( 51750 49470 ) L1M1_PR
-      NEW met1 ( 51750 49470 ) M1M2_PR
-      NEW met1 ( 51750 47770 ) M1M2_PR
-      NEW li1 ( 51290 47770 ) L1M1_PR
-      NEW met1 ( 51750 49470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 59570 43010 ) ( * 47770 )
+      NEW met1 ( 52210 47770 ) ( 59570 * )
+      NEW li1 ( 59570 43010 ) L1M1_PR_MR
+      NEW met1 ( 59570 43010 ) M1M2_PR
+      NEW met1 ( 59570 47770 ) M1M2_PR
+      NEW li1 ( 52210 47770 ) L1M1_PR_MR
+      NEW met1 ( 59570 43010 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[55\] ( some_customcells.genblk1\[55\].name_of_cell in ) ( some_customcells.genblk1\[54\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 56580 49470 ) ( 57730 * )
-      NEW met2 ( 57730 42330 ) ( * 49470 )
-      NEW li1 ( 56580 49470 ) L1M1_PR
-      NEW met1 ( 57730 49470 ) M1M2_PR
-      NEW li1 ( 57730 42330 ) L1M1_PR
-      NEW met1 ( 57730 42330 ) M1M2_PR
-      NEW met1 ( 57730 42330 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 62330 42330 ) ( * 49470 )
+      NEW met1 ( 62330 42330 ) ( 63710 * )
+      NEW met1 ( 56810 49470 ) ( 62330 * )
+      NEW met1 ( 62330 49470 ) M1M2_PR
+      NEW met1 ( 62330 42330 ) M1M2_PR
+      NEW li1 ( 63710 42330 ) L1M1_PR_MR
+      NEW li1 ( 56810 49470 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[56\] ( some_customcells.genblk1\[56\].name_of_cell in ) ( some_customcells.genblk1\[55\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 62790 42330 ) ( 63710 * )
-      NEW met2 ( 63710 42330 ) ( * 55590 )
-      NEW li1 ( 62790 42330 ) L1M1_PR
-      NEW met1 ( 63710 42330 ) M1M2_PR
-      NEW li1 ( 63710 55590 ) L1M1_PR
-      NEW met1 ( 63710 55590 ) M1M2_PR
-      NEW met1 ( 63710 55590 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 59570 50150 ) ( * 55590 )
+      NEW met1 ( 52670 50150 ) ( 59570 * )
+      NEW li1 ( 59570 55590 ) L1M1_PR_MR
+      NEW met1 ( 59570 55590 ) M1M2_PR
+      NEW met1 ( 59570 50150 ) M1M2_PR
+      NEW li1 ( 52670 50150 ) L1M1_PR_MR
+      NEW met1 ( 59570 55590 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[57\] ( some_customcells.genblk1\[57\].name_of_cell in ) ( some_customcells.genblk1\[56\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 60030 45730 ) ( * 55590 )
-      NEW met1 ( 60030 55590 ) ( 62790 * )
-      NEW li1 ( 62790 55590 ) L1M1_PR
-      NEW met1 ( 60030 55590 ) M1M2_PR
-      NEW li1 ( 60030 45730 ) L1M1_PR
-      NEW met1 ( 60030 45730 ) M1M2_PR
-      NEW met1 ( 60030 45730 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 64170 44710 ) ( * 55590 )
+      NEW met1 ( 64170 55590 ) ( 64630 * )
+      NEW li1 ( 64170 44710 ) L1M1_PR_MR
+      NEW met1 ( 64170 44710 ) M1M2_PR
+      NEW met1 ( 64170 55590 ) M1M2_PR
+      NEW li1 ( 64630 55590 ) L1M1_PR_MR
+      NEW met1 ( 64170 44710 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[58\] ( some_customcells.genblk1\[58\].name_of_cell in ) ( some_customcells.genblk1\[57\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 64170 44710 ) ( 65550 * )
-      NEW met2 ( 65550 44710 ) ( * 53210 )
-      NEW li1 ( 64170 44710 ) L1M1_PR
-      NEW met1 ( 65550 44710 ) M1M2_PR
-      NEW li1 ( 65550 53210 ) L1M1_PR
-      NEW met1 ( 65550 53210 ) M1M2_PR
-      NEW met1 ( 65550 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 65090 44710 ) ( 67390 * )
+      NEW met2 ( 67390 44710 ) ( * 58650 )
+      NEW met1 ( 67390 58650 ) ( 67850 * )
+      NEW li1 ( 65090 44710 ) L1M1_PR_MR
+      NEW met1 ( 67390 44710 ) M1M2_PR
+      NEW met1 ( 67390 58650 ) M1M2_PR
+      NEW li1 ( 67850 58650 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[59\] ( some_customcells.genblk1\[59\].name_of_cell in ) ( some_customcells.genblk1\[58\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 64630 47770 ) ( * 53210 )
-      NEW li1 ( 64630 47770 ) L1M1_PR
-      NEW met1 ( 64630 47770 ) M1M2_PR
-      NEW li1 ( 64630 53210 ) L1M1_PR
-      NEW met1 ( 64630 53210 ) M1M2_PR
-      NEW met1 ( 64630 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 64630 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 66470 53890 ) ( 66930 * )
+      NEW met2 ( 66930 53890 ) ( * 58650 )
+      NEW li1 ( 66470 53890 ) L1M1_PR_MR
+      NEW met1 ( 66930 53890 ) M1M2_PR
+      NEW li1 ( 66930 58650 ) L1M1_PR_MR
+      NEW met1 ( 66930 58650 ) M1M2_PR
+      NEW met1 ( 66930 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[5\] ( some_customcells.genblk1\[5\].name_of_cell in ) ( some_customcells.genblk1\[4\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 8970 33830 ) ( 10810 * )
-      NEW met1 ( 8970 66810 ) ( 10810 * )
-      NEW met1 ( 10810 66470 ) ( * 66810 )
-      NEW met1 ( 10810 66470 ) ( 11730 * )
-      NEW met2 ( 8970 33830 ) ( * 66810 )
-      NEW met1 ( 8970 33830 ) M1M2_PR
-      NEW li1 ( 10810 33830 ) L1M1_PR
-      NEW met1 ( 8970 66810 ) M1M2_PR
-      NEW li1 ( 11730 66470 ) L1M1_PR ;
+      + ROUTED met1 ( 25070 39270 ) ( 25530 * )
+      NEW met2 ( 25530 39270 ) ( * 60350 )
+      NEW met1 ( 25070 60350 ) ( 25530 * )
+      NEW li1 ( 25070 39270 ) L1M1_PR_MR
+      NEW met1 ( 25530 39270 ) M1M2_PR
+      NEW met1 ( 25530 60350 ) M1M2_PR
+      NEW li1 ( 25070 60350 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[60\] ( some_customcells.genblk1\[60\].name_of_cell in ) ( some_customcells.genblk1\[59\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 66930 47770 ) ( * 49470 )
-      NEW met1 ( 66010 47770 ) ( 66930 * )
-      NEW li1 ( 66930 49470 ) L1M1_PR
-      NEW met1 ( 66930 49470 ) M1M2_PR
-      NEW met1 ( 66930 47770 ) M1M2_PR
-      NEW li1 ( 66010 47770 ) L1M1_PR
-      NEW met1 ( 66930 49470 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 65550 47770 ) ( * 53210 )
+      NEW met1 ( 65090 53210 ) ( 65550 * )
+      NEW li1 ( 65550 47770 ) L1M1_PR_MR
+      NEW met1 ( 65550 47770 ) M1M2_PR
+      NEW met1 ( 65550 53210 ) M1M2_PR
+      NEW li1 ( 65090 53210 ) L1M1_PR_MR
+      NEW met1 ( 65550 47770 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[61\] ( some_customcells.genblk1\[61\].name_of_cell in ) ( some_customcells.genblk1\[60\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 62790 50150 ) ( 69690 * )
-      NEW met2 ( 69690 50150 ) ( * 57630 )
-      NEW li1 ( 62790 50150 ) L1M1_PR
-      NEW met1 ( 69690 50150 ) M1M2_PR
-      NEW li1 ( 69690 57630 ) L1M1_PR
-      NEW met1 ( 69690 57630 ) M1M2_PR
-      NEW met1 ( 69690 57630 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 67850 47770 ) ( * 49470 )
+      NEW met1 ( 66930 47770 ) ( 67850 * )
+      NEW li1 ( 67850 49470 ) L1M1_PR_MR
+      NEW met1 ( 67850 49470 ) M1M2_PR
+      NEW met1 ( 67850 47770 ) M1M2_PR
+      NEW li1 ( 66930 47770 ) L1M1_PR_MR
+      NEW met1 ( 67850 49470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[62\] ( some_customcells.genblk1\[62\].name_of_cell in ) ( some_customcells.genblk1\[61\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 78430 43010 ) ( * 59330 )
-      NEW met1 ( 77280 59330 ) ( 78430 * )
-      NEW li1 ( 78430 43010 ) L1M1_PR
-      NEW met1 ( 78430 43010 ) M1M2_PR
-      NEW met1 ( 78430 59330 ) M1M2_PR
-      NEW li1 ( 77280 59330 ) L1M1_PR
-      NEW met1 ( 78430 43010 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 70610 42330 ) ( * 50150 )
+      NEW met1 ( 63710 50150 ) ( 70610 * )
+      NEW li1 ( 70610 42330 ) L1M1_PR_MR
+      NEW met1 ( 70610 42330 ) M1M2_PR
+      NEW met1 ( 70610 50150 ) M1M2_PR
+      NEW li1 ( 63710 50150 ) L1M1_PR_MR
+      NEW met1 ( 70610 42330 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[63\] ( some_customcells.genblk1\[63\].name_of_cell in ) ( some_customcells.genblk1\[62\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 72910 42330 ) ( 74290 * )
-      NEW met2 ( 72910 42330 ) ( * 52190 )
-      NEW li1 ( 74290 42330 ) L1M1_PR
-      NEW met1 ( 72910 42330 ) M1M2_PR
-      NEW li1 ( 72910 52190 ) L1M1_PR
-      NEW met1 ( 72910 52190 ) M1M2_PR
-      NEW met1 ( 72910 52190 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 75670 42330 ) ( 77510 * )
+      NEW met2 ( 77510 42330 ) ( * 53210 )
+      NEW li1 ( 75670 42330 ) L1M1_PR_MR
+      NEW met1 ( 77510 42330 ) M1M2_PR
+      NEW li1 ( 77510 53210 ) L1M1_PR_MR
+      NEW met1 ( 77510 53210 ) M1M2_PR
+      NEW met1 ( 77510 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[64\] ( some_customcells.genblk1\[64\].name_of_cell in ) ( some_customcells.genblk1\[63\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 77050 47770 ) ( * 53210 )
-      NEW li1 ( 77050 47770 ) L1M1_PR
-      NEW met1 ( 77050 47770 ) M1M2_PR
-      NEW li1 ( 77050 53210 ) L1M1_PR
-      NEW met1 ( 77050 53210 ) M1M2_PR
-      NEW met1 ( 77050 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 77050 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 76590 48450 ) ( * 53210 )
+      NEW met1 ( 76130 53210 ) ( 76590 * )
+      NEW li1 ( 76590 48450 ) L1M1_PR_MR
+      NEW met1 ( 76590 48450 ) M1M2_PR
+      NEW met1 ( 76590 53210 ) M1M2_PR
+      NEW li1 ( 76130 53210 ) L1M1_PR_MR
+      NEW met1 ( 76590 48450 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[65\] ( some_customcells.genblk1\[65\].name_of_cell in ) ( some_customcells.genblk1\[64\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 75670 47770 ) ( 76130 * )
-      NEW met2 ( 76130 47770 ) ( * 55590 )
-      NEW li1 ( 75670 47770 ) L1M1_PR
-      NEW met1 ( 76130 47770 ) M1M2_PR
-      NEW li1 ( 76130 55590 ) L1M1_PR
-      NEW met1 ( 76130 55590 ) M1M2_PR
-      NEW met1 ( 76130 55590 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 77050 47770 ) ( 77970 * )
+      NEW met2 ( 77050 47770 ) ( * 55250 )
+      NEW li1 ( 77970 47770 ) L1M1_PR_MR
+      NEW met1 ( 77050 47770 ) M1M2_PR
+      NEW li1 ( 77050 55250 ) L1M1_PR_MR
+      NEW met1 ( 77050 55250 ) M1M2_PR
+      NEW met1 ( 77050 55250 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[66\] ( some_customcells.genblk1\[66\].name_of_cell in ) ( some_customcells.genblk1\[65\].name_of_cell out ) + USE SIGNAL
       + ROUTED met2 ( 83490 44710 ) ( * 55590 )
       NEW met1 ( 83030 44710 ) ( 83490 * )
       NEW met1 ( 81190 55590 ) ( 83490 * )
       NEW met1 ( 83490 55590 ) M1M2_PR
       NEW met1 ( 83490 44710 ) M1M2_PR
-      NEW li1 ( 83030 44710 ) L1M1_PR
-      NEW li1 ( 81190 55590 ) L1M1_PR ;
+      NEW li1 ( 83030 44710 ) L1M1_PR_MR
+      NEW li1 ( 81190 55590 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[67\] ( some_customcells.genblk1\[67\].name_of_cell in ) ( some_customcells.genblk1\[66\].name_of_cell out ) + USE SIGNAL
       + ROUTED met2 ( 80730 44710 ) ( * 49470 )
       NEW met1 ( 80730 44710 ) ( 81650 * )
-      NEW li1 ( 80730 49470 ) L1M1_PR
+      NEW li1 ( 80730 49470 ) L1M1_PR_MR
       NEW met1 ( 80730 49470 ) M1M2_PR
       NEW met1 ( 80730 44710 ) M1M2_PR
-      NEW li1 ( 81650 44710 ) L1M1_PR
+      NEW li1 ( 81650 44710 ) L1M1_PR_MR
       NEW met1 ( 80730 49470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[68\] ( some_customcells.genblk1\[68\].name_of_cell in ) ( some_customcells.genblk1\[67\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 84410 48110 ) ( * 50150 )
-      NEW met1 ( 84410 50150 ) ( 84870 * )
-      NEW li1 ( 84410 48110 ) L1M1_PR
-      NEW met1 ( 84410 48110 ) M1M2_PR
-      NEW met1 ( 84410 50150 ) M1M2_PR
-      NEW li1 ( 84870 50150 ) L1M1_PR
-      NEW met1 ( 84410 48110 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 84870 47770 ) ( * 50150 )
+      NEW li1 ( 84870 47770 ) L1M1_PR_MR
+      NEW met1 ( 84870 47770 ) M1M2_PR
+      NEW li1 ( 84870 50150 ) L1M1_PR_MR
+      NEW met1 ( 84870 50150 ) M1M2_PR
+      NEW met1 ( 84870 47770 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 84870 50150 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[69\] ( some_customcells.genblk1\[69\].name_of_cell in ) ( some_customcells.genblk1\[68\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 91310 48450 ) ( 92000 * )
-      NEW met2 ( 91310 48450 ) ( * 52190 )
-      NEW li1 ( 92000 48450 ) L1M1_PR
-      NEW met1 ( 91310 48450 ) M1M2_PR
-      NEW li1 ( 91310 52190 ) L1M1_PR
-      NEW met1 ( 91310 52190 ) M1M2_PR
-      NEW met1 ( 91310 52190 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 92230 48450 ) ( 92920 * )
+      NEW met2 ( 92230 48450 ) ( * 52190 )
+      NEW li1 ( 92920 48450 ) L1M1_PR_MR
+      NEW met1 ( 92230 48450 ) M1M2_PR
+      NEW li1 ( 92230 52190 ) L1M1_PR_MR
+      NEW met1 ( 92230 52190 ) M1M2_PR
+      NEW met1 ( 92230 52190 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[6\] ( some_customcells.genblk1\[6\].name_of_cell in ) ( some_customcells.genblk1\[5\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 13570 40290 ) ( 20010 * )
-      NEW met3 ( 9890 57460 ) ( 13570 * )
-      NEW met2 ( 9890 57460 ) ( * 65790 )
-      NEW met1 ( 9890 65790 ) ( 10580 * )
-      NEW met2 ( 13570 40290 ) ( * 57460 )
-      NEW met1 ( 13570 40290 ) M1M2_PR
-      NEW li1 ( 20010 40290 ) L1M1_PR
-      NEW met2 ( 13570 57460 ) M2M3_PR
-      NEW met2 ( 9890 57460 ) M2M3_PR
-      NEW met1 ( 9890 65790 ) M1M2_PR
-      NEW li1 ( 10580 65790 ) L1M1_PR ;
+      + ROUTED met1 ( 15870 32130 ) ( 20010 * )
+      NEW met2 ( 20010 32130 ) ( * 60350 )
+      NEW met1 ( 20010 60350 ) ( 20240 * )
+      NEW li1 ( 15870 32130 ) L1M1_PR_MR
+      NEW met1 ( 20010 32130 ) M1M2_PR
+      NEW met1 ( 20010 60350 ) M1M2_PR
+      NEW li1 ( 20240 60350 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[70\] ( some_customcells.genblk1\[70\].name_of_cell in ) ( some_customcells.genblk1\[69\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 87170 51170 ) ( 97290 * )
-      NEW met2 ( 87170 51170 ) ( * 53210 )
-      NEW li1 ( 97290 51170 ) L1M1_PR
-      NEW met1 ( 87170 51170 ) M1M2_PR
-      NEW li1 ( 87170 53210 ) L1M1_PR
-      NEW met1 ( 87170 53210 ) M1M2_PR
-      NEW met1 ( 87170 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 88090 51170 ) ( 98210 * )
+      NEW met2 ( 88090 51170 ) ( * 53210 )
+      NEW li1 ( 98210 51170 ) L1M1_PR_MR
+      NEW met1 ( 88090 51170 ) M1M2_PR
+      NEW li1 ( 88090 53210 ) L1M1_PR_MR
+      NEW met1 ( 88090 53210 ) M1M2_PR
+      NEW met1 ( 88090 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[71\] ( some_customcells.genblk1\[71\].name_of_cell in ) ( some_customcells.genblk1\[70\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 102350 48110 ) ( * 50150 )
-      NEW met1 ( 101430 50150 ) ( 102350 * )
-      NEW li1 ( 102350 48110 ) L1M1_PR
-      NEW met1 ( 102350 48110 ) M1M2_PR
-      NEW met1 ( 102350 50150 ) M1M2_PR
-      NEW li1 ( 101430 50150 ) L1M1_PR
-      NEW met1 ( 102350 48110 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 103270 48110 ) ( * 50150 )
+      NEW met1 ( 102350 50150 ) ( 103270 * )
+      NEW li1 ( 103270 48110 ) L1M1_PR_MR
+      NEW met1 ( 103270 48110 ) M1M2_PR
+      NEW met1 ( 103270 50150 ) M1M2_PR
+      NEW li1 ( 102350 50150 ) L1M1_PR_MR
+      NEW met1 ( 103270 48110 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[72\] ( some_customcells.genblk1\[72\].name_of_cell in ) ( some_customcells.genblk1\[71\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 99130 47770 ) ( * 53210 )
-      NEW met1 ( 98210 47770 ) ( 99130 * )
-      NEW li1 ( 99130 53210 ) L1M1_PR
-      NEW met1 ( 99130 53210 ) M1M2_PR
-      NEW met1 ( 99130 47770 ) M1M2_PR
-      NEW li1 ( 98210 47770 ) L1M1_PR
-      NEW met1 ( 99130 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 100050 47770 ) ( * 53210 )
+      NEW met1 ( 99130 47770 ) ( 100050 * )
+      NEW li1 ( 100050 53210 ) L1M1_PR_MR
+      NEW met1 ( 100050 53210 ) M1M2_PR
+      NEW met1 ( 100050 47770 ) M1M2_PR
+      NEW li1 ( 99130 47770 ) L1M1_PR_MR
+      NEW met1 ( 100050 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[73\] ( some_customcells.genblk1\[73\].name_of_cell in ) ( some_customcells.genblk1\[72\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 98210 43010 ) ( 98670 * )
-      NEW met2 ( 98210 43010 ) ( * 53210 )
-      NEW li1 ( 98670 43010 ) L1M1_PR
-      NEW met1 ( 98210 43010 ) M1M2_PR
-      NEW li1 ( 98210 53210 ) L1M1_PR
-      NEW met1 ( 98210 53210 ) M1M2_PR
-      NEW met1 ( 98210 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 98670 43010 ) ( 99130 * )
+      NEW met2 ( 99130 43010 ) ( * 53210 )
+      NEW li1 ( 98670 43010 ) L1M1_PR_MR
+      NEW met1 ( 99130 43010 ) M1M2_PR
+      NEW li1 ( 99130 53210 ) L1M1_PR_MR
+      NEW met1 ( 99130 53210 ) M1M2_PR
+      NEW met1 ( 99130 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[74\] ( some_customcells.genblk1\[74\].name_of_cell in ) ( some_customcells.genblk1\[73\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 94530 42330 ) ( 97290 * )
-      NEW met2 ( 97290 42330 ) ( * 44030 )
-      NEW li1 ( 94530 42330 ) L1M1_PR
-      NEW met1 ( 97290 42330 ) M1M2_PR
-      NEW li1 ( 97290 44030 ) L1M1_PR
-      NEW met1 ( 97290 44030 ) M1M2_PR
-      NEW met1 ( 97290 44030 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 94530 42330 ) ( * 57630 )
+      NEW met1 ( 93610 57630 ) ( 94530 * )
+      NEW li1 ( 94530 42330 ) L1M1_PR_MR
+      NEW met1 ( 94530 42330 ) M1M2_PR
+      NEW met1 ( 94530 57630 ) M1M2_PR
+      NEW li1 ( 93610 57630 ) L1M1_PR_MR
+      NEW met1 ( 94530 42330 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[75\] ( some_customcells.genblk1\[75\].name_of_cell in ) ( some_customcells.genblk1\[74\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 101430 44710 ) ( * 54910 )
-      NEW li1 ( 101430 44710 ) L1M1_PR
-      NEW met1 ( 101430 44710 ) M1M2_PR
-      NEW li1 ( 101430 54910 ) L1M1_PR
-      NEW met1 ( 101430 54910 ) M1M2_PR
-      NEW met1 ( 101430 44710 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 101430 54910 ) RECT ( 0 -70 355 70 )  ;
+      + ROUTED met1 ( 97750 45730 ) ( 98210 * )
+      NEW met2 ( 97750 45730 ) ( * 58650 )
+      NEW li1 ( 98210 45730 ) L1M1_PR_MR
+      NEW met1 ( 97750 45730 ) M1M2_PR
+      NEW li1 ( 97750 58650 ) L1M1_PR_MR
+      NEW met1 ( 97750 58650 ) M1M2_PR
+      NEW met1 ( 97750 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[76\] ( some_customcells.genblk1\[76\].name_of_cell in ) ( some_customcells.genblk1\[75\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 108330 51170 ) ( * 55930 )
-      NEW met1 ( 101430 55930 ) ( 108330 * )
-      NEW met1 ( 101430 55590 ) ( * 55930 )
-      NEW met1 ( 100050 55590 ) ( 101430 * )
-      NEW li1 ( 108330 51170 ) L1M1_PR
-      NEW met1 ( 108330 51170 ) M1M2_PR
-      NEW met1 ( 108330 55930 ) M1M2_PR
-      NEW li1 ( 100050 55590 ) L1M1_PR
-      NEW met1 ( 108330 51170 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 102350 44710 ) ( * 54910 )
+      NEW li1 ( 102350 44710 ) L1M1_PR_MR
+      NEW met1 ( 102350 44710 ) M1M2_PR
+      NEW li1 ( 102350 54910 ) L1M1_PR_MR
+      NEW met1 ( 102350 54910 ) M1M2_PR
+      NEW met1 ( 102350 44710 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 102350 54910 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[77\] ( some_customcells.genblk1\[77\].name_of_cell in ) ( some_customcells.genblk1\[76\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 112930 47770 ) ( * 50150 )
-      NEW met1 ( 112470 50150 ) ( 112930 * )
-      NEW li1 ( 112930 47770 ) L1M1_PR
-      NEW met1 ( 112930 47770 ) M1M2_PR
-      NEW met1 ( 112930 50150 ) M1M2_PR
-      NEW li1 ( 112470 50150 ) L1M1_PR
-      NEW met1 ( 112930 47770 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 109250 51170 ) ( * 55930 )
+      NEW met1 ( 102350 55930 ) ( 109250 * )
+      NEW met1 ( 102350 55590 ) ( * 55930 )
+      NEW met1 ( 100970 55590 ) ( 102350 * )
+      NEW li1 ( 109250 51170 ) L1M1_PR_MR
+      NEW met1 ( 109250 51170 ) M1M2_PR
+      NEW met1 ( 109250 55930 ) M1M2_PR
+      NEW li1 ( 100970 55590 ) L1M1_PR_MR
+      NEW met1 ( 109250 51170 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[78\] ( some_customcells.genblk1\[78\].name_of_cell in ) ( some_customcells.genblk1\[77\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 114310 47770 ) ( * 53210 )
-      NEW li1 ( 114310 47770 ) L1M1_PR
-      NEW met1 ( 114310 47770 ) M1M2_PR
-      NEW li1 ( 114310 53210 ) L1M1_PR
-      NEW met1 ( 114310 53210 ) M1M2_PR
-      NEW met1 ( 114310 47770 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 114310 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 113850 47770 ) ( * 50150 )
+      NEW met1 ( 113390 50150 ) ( 113850 * )
+      NEW li1 ( 113850 47770 ) L1M1_PR_MR
+      NEW met1 ( 113850 47770 ) M1M2_PR
+      NEW met1 ( 113850 50150 ) M1M2_PR
+      NEW li1 ( 113390 50150 ) L1M1_PR_MR
+      NEW met1 ( 113850 47770 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[79\] ( some_customcells.genblk1\[79\].name_of_cell in ) ( some_customcells.genblk1\[78\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 112470 53210 ) ( 112930 * )
-      NEW met2 ( 112470 44710 ) ( * 53210 )
-      NEW li1 ( 112930 53210 ) L1M1_PR
-      NEW met1 ( 112470 53210 ) M1M2_PR
-      NEW li1 ( 112470 44710 ) L1M1_PR
-      NEW met1 ( 112470 44710 ) M1M2_PR
-      NEW met1 ( 112470 44710 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 115230 47770 ) ( * 53210 )
+      NEW li1 ( 115230 47770 ) L1M1_PR_MR
+      NEW met1 ( 115230 47770 ) M1M2_PR
+      NEW li1 ( 115230 53210 ) L1M1_PR_MR
+      NEW met1 ( 115230 53210 ) M1M2_PR
+      NEW met1 ( 115230 47770 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 115230 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[7\] ( some_customcells.genblk1\[7\].name_of_cell in ) ( some_customcells.genblk1\[6\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 24150 39270 ) ( 26910 * )
-      NEW met2 ( 26910 39270 ) ( * 60350 )
-      NEW li1 ( 24150 39270 ) L1M1_PR
-      NEW met1 ( 26910 39270 ) M1M2_PR
-      NEW li1 ( 26910 60350 ) L1M1_PR
-      NEW met1 ( 26910 60350 ) M1M2_PR
-      NEW met1 ( 26910 60350 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 12190 69530 ) ( 12650 * )
+      NEW met1 ( 11730 31450 ) ( 12650 * )
+      NEW met2 ( 12650 31450 ) ( * 69530 )
+      NEW met1 ( 12650 69530 ) M1M2_PR
+      NEW li1 ( 12190 69530 ) L1M1_PR_MR
+      NEW met1 ( 12650 31450 ) M1M2_PR
+      NEW li1 ( 11730 31450 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[80\] ( some_customcells.genblk1\[80\].name_of_cell in ) ( some_customcells.genblk1\[79\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 111090 44710 ) ( * 46750 )
-      NEW met1 ( 111090 46750 ) ( 112930 * )
-      NEW met2 ( 112930 46750 ) ( * 47260 )
-      NEW met2 ( 112930 47260 ) ( 113390 * )
-      NEW met2 ( 113390 47260 ) ( * 55590 )
-      NEW met1 ( 112470 55590 ) ( 113390 * )
-      NEW li1 ( 111090 44710 ) L1M1_PR
-      NEW met1 ( 111090 44710 ) M1M2_PR
-      NEW met1 ( 111090 46750 ) M1M2_PR
-      NEW met1 ( 112930 46750 ) M1M2_PR
-      NEW met1 ( 113390 55590 ) M1M2_PR
-      NEW li1 ( 112470 55590 ) L1M1_PR
-      NEW met1 ( 111090 44710 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 113390 44710 ) ( * 53210 )
+      NEW met1 ( 113390 53210 ) ( 113850 * )
+      NEW li1 ( 113390 44710 ) L1M1_PR_MR
+      NEW met1 ( 113390 44710 ) M1M2_PR
+      NEW met1 ( 113390 53210 ) M1M2_PR
+      NEW li1 ( 113850 53210 ) L1M1_PR_MR
+      NEW met1 ( 113390 44710 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[81\] ( some_customcells.genblk1\[81\].name_of_cell in ) ( some_customcells.genblk1\[80\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 112930 43010 ) ( * 44030 )
-      NEW met1 ( 112930 44030 ) ( 115230 * )
-      NEW met3 ( 111090 55420 ) ( 115230 * )
-      NEW met2 ( 111090 55420 ) ( * 55590 )
-      NEW met2 ( 115230 44030 ) ( * 55420 )
-      NEW li1 ( 112930 43010 ) L1M1_PR
-      NEW met1 ( 112930 43010 ) M1M2_PR
-      NEW met1 ( 112930 44030 ) M1M2_PR
-      NEW met1 ( 115230 44030 ) M1M2_PR
-      NEW met2 ( 115230 55420 ) M2M3_PR
-      NEW met2 ( 111090 55420 ) M2M3_PR
-      NEW li1 ( 111090 55590 ) L1M1_PR
-      NEW met1 ( 111090 55590 ) M1M2_PR
-      NEW met1 ( 112930 43010 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 111090 55590 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 112010 44710 ) ( 112470 * )
+      NEW met2 ( 112470 44710 ) ( * 55590 )
+      NEW met1 ( 112470 55590 ) ( 112930 * )
+      NEW li1 ( 112010 44710 ) L1M1_PR_MR
+      NEW met1 ( 112470 44710 ) M1M2_PR
+      NEW met1 ( 112470 55590 ) M1M2_PR
+      NEW li1 ( 112930 55590 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[82\] ( some_customcells.genblk1\[82\].name_of_cell in ) ( some_customcells.genblk1\[81\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 113850 42330 ) ( 114310 * )
-      NEW met2 ( 113850 42330 ) ( * 58650 )
-      NEW li1 ( 114310 42330 ) L1M1_PR
-      NEW met1 ( 113850 42330 ) M1M2_PR
-      NEW li1 ( 113850 58650 ) L1M1_PR
-      NEW met1 ( 113850 58650 ) M1M2_PR
-      NEW met1 ( 113850 58650 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 112010 55590 ) ( * 56100 )
+      NEW met2 ( 112010 56100 ) ( 112930 * )
+      NEW met2 ( 112930 43010 ) ( * 56100 )
+      NEW met1 ( 112930 43010 ) ( 113850 * )
+      NEW li1 ( 112010 55590 ) L1M1_PR_MR
+      NEW met1 ( 112010 55590 ) M1M2_PR
+      NEW met1 ( 112930 43010 ) M1M2_PR
+      NEW li1 ( 113850 43010 ) L1M1_PR_MR
+      NEW met1 ( 112010 55590 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[83\] ( some_customcells.genblk1\[83\].name_of_cell in ) ( some_customcells.genblk1\[82\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 112930 56610 ) ( * 58650 )
-      NEW met1 ( 112930 56610 ) ( 125350 * )
-      NEW met2 ( 125350 50150 ) ( * 56610 )
-      NEW met1 ( 125350 50150 ) ( 125810 * )
-      NEW li1 ( 112930 58650 ) L1M1_PR
-      NEW met1 ( 112930 58650 ) M1M2_PR
-      NEW met1 ( 112930 56610 ) M1M2_PR
-      NEW met1 ( 125350 56610 ) M1M2_PR
-      NEW met1 ( 125350 50150 ) M1M2_PR
-      NEW li1 ( 125810 50150 ) L1M1_PR
-      NEW met1 ( 112930 58650 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 118680 43010 ) ( 123050 * )
+      NEW met2 ( 123050 43010 ) ( * 50150 )
+      NEW li1 ( 118680 43010 ) L1M1_PR_MR
+      NEW met1 ( 123050 43010 ) M1M2_PR
+      NEW li1 ( 123050 50150 ) L1M1_PR_MR
+      NEW met1 ( 123050 50150 ) M1M2_PR
+      NEW met1 ( 123050 50150 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[84\] ( some_customcells.genblk1\[84\].name_of_cell in ) ( some_customcells.genblk1\[83\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 128110 48110 ) ( * 50150 )
-      NEW met1 ( 127190 50150 ) ( 128110 * )
-      NEW li1 ( 128110 48110 ) L1M1_PR
-      NEW met1 ( 128110 48110 ) M1M2_PR
-      NEW met1 ( 128110 50150 ) M1M2_PR
-      NEW li1 ( 127190 50150 ) L1M1_PR
-      NEW met1 ( 128110 48110 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 125810 50150 ) ( 128110 * )
+      NEW met2 ( 125810 50150 ) ( * 57630 )
+      NEW met1 ( 119370 57630 ) ( 125810 * )
+      NEW li1 ( 128110 50150 ) L1M1_PR_MR
+      NEW met1 ( 125810 50150 ) M1M2_PR
+      NEW met1 ( 125810 57630 ) M1M2_PR
+      NEW li1 ( 119370 57630 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[85\] ( some_customcells.genblk1\[85\].name_of_cell in ) ( some_customcells.genblk1\[84\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 124890 47770 ) ( * 53210 )
-      NEW met1 ( 123970 47770 ) ( 124890 * )
-      NEW li1 ( 124890 53210 ) L1M1_PR
-      NEW met1 ( 124890 53210 ) M1M2_PR
-      NEW met1 ( 124890 47770 ) M1M2_PR
-      NEW li1 ( 123970 47770 ) L1M1_PR
-      NEW met1 ( 124890 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 121210 47770 ) ( * 58650 )
+      NEW met1 ( 115230 58650 ) ( 121210 * )
+      NEW li1 ( 121210 47770 ) L1M1_PR_MR
+      NEW met1 ( 121210 47770 ) M1M2_PR
+      NEW met1 ( 121210 58650 ) M1M2_PR
+      NEW li1 ( 115230 58650 ) L1M1_PR_MR
+      NEW met1 ( 121210 47770 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[86\] ( some_customcells.genblk1\[86\].name_of_cell in ) ( some_customcells.genblk1\[85\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 124430 44710 ) ( 125810 * )
-      NEW met2 ( 124430 44710 ) ( * 52700 )
-      NEW met2 ( 123970 52700 ) ( 124430 * )
-      NEW met2 ( 123970 52700 ) ( * 53210 )
-      NEW li1 ( 125810 44710 ) L1M1_PR
-      NEW met1 ( 124430 44710 ) M1M2_PR
-      NEW li1 ( 123970 53210 ) L1M1_PR
-      NEW met1 ( 123970 53210 ) M1M2_PR
-      NEW met1 ( 123970 53210 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 126270 47770 ) ( * 53210 )
+      NEW li1 ( 126270 47770 ) L1M1_PR_MR
+      NEW met1 ( 126270 47770 ) M1M2_PR
+      NEW li1 ( 126270 53210 ) L1M1_PR_MR
+      NEW met1 ( 126270 53210 ) M1M2_PR
+      NEW met1 ( 126270 47770 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 126270 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[87\] ( some_customcells.genblk1\[87\].name_of_cell in ) ( some_customcells.genblk1\[86\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 127190 44710 ) ( * 55590 )
-      NEW li1 ( 127190 44710 ) L1M1_PR
-      NEW met1 ( 127190 44710 ) M1M2_PR
-      NEW li1 ( 127190 55590 ) L1M1_PR
-      NEW met1 ( 127190 55590 ) M1M2_PR
-      NEW met1 ( 127190 44710 ) RECT ( -355 -70 0 70 ) 
-      NEW met1 ( 127190 55590 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 123970 45730 ) ( 124890 * )
+      NEW met2 ( 124890 45730 ) ( * 53210 )
+      NEW li1 ( 123970 45730 ) L1M1_PR_MR
+      NEW met1 ( 124890 45730 ) M1M2_PR
+      NEW li1 ( 124890 53210 ) L1M1_PR_MR
+      NEW met1 ( 124890 53210 ) M1M2_PR
+      NEW met1 ( 124890 53210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[88\] ( some_customcells.genblk1\[88\].name_of_cell in ) ( some_customcells.genblk1\[87\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 125350 43010 ) ( 125810 * )
-      NEW met2 ( 125810 43010 ) ( * 55590 )
-      NEW li1 ( 125350 43010 ) L1M1_PR
-      NEW met1 ( 125810 43010 ) M1M2_PR
-      NEW li1 ( 125810 55590 ) L1M1_PR
-      NEW met1 ( 125810 55590 ) M1M2_PR
-      NEW met1 ( 125810 55590 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 128110 44710 ) ( * 55590 )
+      NEW li1 ( 128110 44710 ) L1M1_PR_MR
+      NEW met1 ( 128110 44710 ) M1M2_PR
+      NEW li1 ( 128110 55590 ) L1M1_PR_MR
+      NEW met1 ( 128110 55590 ) M1M2_PR
+      NEW met1 ( 128110 44710 ) RECT ( -355 -70 0 70 ) 
+      NEW met1 ( 128110 55590 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[89\] ( some_customcells.genblk1\[89\].name_of_cell in ) ( some_customcells.genblk1\[88\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 128570 42330 ) ( * 57630 )
-      NEW met1 ( 123970 42330 ) ( 128570 * )
-      NEW li1 ( 128570 57630 ) L1M1_PR
-      NEW met1 ( 128570 57630 ) M1M2_PR
-      NEW met1 ( 128570 42330 ) M1M2_PR
-      NEW li1 ( 123970 42330 ) L1M1_PR
-      NEW met1 ( 128570 57630 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 126270 43010 ) ( 126730 * )
+      NEW met2 ( 126730 43010 ) ( * 55590 )
+      NEW li1 ( 126270 43010 ) L1M1_PR_MR
+      NEW met1 ( 126730 43010 ) M1M2_PR
+      NEW li1 ( 126730 55590 ) L1M1_PR_MR
+      NEW met1 ( 126730 55590 ) M1M2_PR
+      NEW met1 ( 126730 55590 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[8\] ( some_customcells.genblk1\[8\].name_of_cell in ) ( some_customcells.genblk1\[7\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 15870 31450 ) ( 22310 * )
-      NEW met2 ( 22310 31450 ) ( * 61030 )
-      NEW met1 ( 22310 61030 ) ( 22770 * )
-      NEW li1 ( 15870 31450 ) L1M1_PR
-      NEW met1 ( 22310 31450 ) M1M2_PR
-      NEW met1 ( 22310 61030 ) M1M2_PR
-      NEW li1 ( 22770 61030 ) L1M1_PR ;
+      + ROUTED met2 ( 13110 43860 ) ( 14030 * )
+      NEW met2 ( 14030 37570 ) ( * 43860 )
+      NEW met1 ( 14030 37570 ) ( 20010 * )
+      NEW met2 ( 13110 43860 ) ( * 69530 )
+      NEW li1 ( 13110 69530 ) L1M1_PR_MR
+      NEW met1 ( 13110 69530 ) M1M2_PR
+      NEW met1 ( 14030 37570 ) M1M2_PR
+      NEW li1 ( 20010 37570 ) L1M1_PR_MR
+      NEW met1 ( 13110 69530 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[90\] ( some_customcells.genblk1\[90\].name_of_cell in ) ( some_customcells.genblk1\[89\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 126270 39270 ) ( * 58650 )
-      NEW met1 ( 124430 58650 ) ( 126270 * )
-      NEW li1 ( 126270 39270 ) L1M1_PR
-      NEW met1 ( 126270 39270 ) M1M2_PR
-      NEW met1 ( 126270 58650 ) M1M2_PR
-      NEW li1 ( 124430 58650 ) L1M1_PR
-      NEW met1 ( 126270 39270 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 127190 42330 ) ( * 58650 )
+      NEW met1 ( 124890 42330 ) ( 127190 * )
+      NEW li1 ( 127190 58650 ) L1M1_PR_MR
+      NEW met1 ( 127190 58650 ) M1M2_PR
+      NEW met1 ( 127190 42330 ) M1M2_PR
+      NEW li1 ( 124890 42330 ) L1M1_PR_MR
+      NEW met1 ( 127190 58650 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[91\] ( some_customcells.genblk1\[91\].name_of_cell in ) ( some_customcells.genblk1\[90\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 127650 39270 ) ( 129490 * )
-      NEW met2 ( 129490 39270 ) ( * 60350 )
-      NEW li1 ( 127650 39270 ) L1M1_PR
-      NEW met1 ( 129490 39270 ) M1M2_PR
-      NEW li1 ( 129490 60350 ) L1M1_PR
-      NEW met1 ( 129490 60350 ) M1M2_PR
-      NEW met1 ( 129490 60350 ) RECT ( 0 -70 355 70 )  ;
+      + ROUTED met2 ( 125350 40290 ) ( * 58650 )
+      NEW met1 ( 125350 58650 ) ( 126270 * )
+      NEW li1 ( 125350 40290 ) L1M1_PR_MR
+      NEW met1 ( 125350 40290 ) M1M2_PR
+      NEW met1 ( 125350 58650 ) M1M2_PR
+      NEW li1 ( 126270 58650 ) L1M1_PR_MR
+      NEW met1 ( 125350 40290 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[92\] ( some_customcells.genblk1\[92\].name_of_cell in ) ( some_customcells.genblk1\[91\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 127650 34170 ) ( * 60350 )
-      NEW met1 ( 127650 60350 ) ( 127880 * )
-      NEW li1 ( 127650 34170 ) L1M1_PR
-      NEW met1 ( 127650 34170 ) M1M2_PR
-      NEW met1 ( 127650 60350 ) M1M2_PR
-      NEW li1 ( 127880 60350 ) L1M1_PR
-      NEW met1 ( 127650 34170 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 129490 39270 ) ( 131790 * )
+      NEW met2 ( 131790 39270 ) ( * 60350 )
+      NEW li1 ( 129490 39270 ) L1M1_PR_MR
+      NEW met1 ( 131790 39270 ) M1M2_PR
+      NEW li1 ( 131790 60350 ) L1M1_PR_MR
+      NEW met1 ( 131790 60350 ) M1M2_PR
+      NEW met1 ( 131790 60350 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[93\] ( some_customcells.genblk1\[93\].name_of_cell in ) ( some_customcells.genblk1\[92\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met2 ( 131790 64260 ) ( 132710 * )
-      NEW met2 ( 132710 64260 ) ( * 66470 )
-      NEW met1 ( 132710 66470 ) ( 133170 * )
-      NEW met2 ( 131790 33830 ) ( * 64260 )
-      NEW met1 ( 132710 66470 ) M1M2_PR
-      NEW li1 ( 133170 66470 ) L1M1_PR
-      NEW li1 ( 131790 33830 ) L1M1_PR
-      NEW met1 ( 131790 33830 ) M1M2_PR
-      NEW met1 ( 131790 33830 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met2 ( 129490 34170 ) ( * 60350 )
+      NEW met1 ( 129490 60350 ) ( 130180 * )
+      NEW li1 ( 129490 34170 ) L1M1_PR_MR
+      NEW met1 ( 129490 34170 ) M1M2_PR
+      NEW met1 ( 129490 60350 ) M1M2_PR
+      NEW li1 ( 130180 60350 ) L1M1_PR_MR
+      NEW met1 ( 129490 34170 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[94\] ( some_customcells.genblk1\[94\].name_of_cell in ) ( some_customcells.genblk1\[93\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 131330 66470 ) ( 132250 * )
-      NEW met2 ( 131330 37570 ) ( * 66470 )
-      NEW met1 ( 131330 66470 ) M1M2_PR
-      NEW li1 ( 132250 66470 ) L1M1_PR
-      NEW li1 ( 131330 37570 ) L1M1_PR
-      NEW met1 ( 131330 37570 ) M1M2_PR
-      NEW met1 ( 131330 37570 ) RECT ( -355 -70 0 70 )  ;
+      + ROUTED met1 ( 133630 33830 ) ( 135010 * )
+      NEW met2 ( 135010 33830 ) ( * 66470 )
+      NEW li1 ( 135010 66470 ) L1M1_PR_MR
+      NEW met1 ( 135010 66470 ) M1M2_PR
+      NEW met1 ( 135010 33830 ) M1M2_PR
+      NEW li1 ( 133630 33830 ) L1M1_PR_MR
+      NEW met1 ( 135010 66470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[95\] ( some_customcells.genblk1\[95\].name_of_cell in ) ( some_customcells.genblk1\[94\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 129030 63070 ) ( 131330 * )
-      NEW met1 ( 127190 36890 ) ( 129030 * )
-      NEW met2 ( 129030 36890 ) ( * 63070 )
-      NEW met1 ( 129030 63070 ) M1M2_PR
-      NEW li1 ( 131330 63070 ) L1M1_PR
-      NEW met1 ( 129030 36890 ) M1M2_PR
-      NEW li1 ( 127190 36890 ) L1M1_PR ;
+      + ROUTED met2 ( 134090 62900 ) ( 134550 * )
+      NEW met2 ( 134090 62900 ) ( * 66470 )
+      NEW met1 ( 133170 36890 ) ( 134550 * )
+      NEW met2 ( 134550 36890 ) ( * 62900 )
+      NEW li1 ( 134090 66470 ) L1M1_PR_MR
+      NEW met1 ( 134090 66470 ) M1M2_PR
+      NEW met1 ( 134550 36890 ) M1M2_PR
+      NEW li1 ( 133170 36890 ) L1M1_PR_MR
+      NEW met1 ( 134090 66470 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[96\] ( some_customcells.genblk1\[96\].name_of_cell in ) ( some_customcells.genblk1\[95\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 133170 29410 ) ( 134550 * )
-      NEW met1 ( 127190 64090 ) ( 134550 * )
-      NEW met2 ( 134550 29410 ) ( * 64090 )
-      NEW met1 ( 134550 29410 ) M1M2_PR
-      NEW li1 ( 133170 29410 ) L1M1_PR
-      NEW met1 ( 134550 64090 ) M1M2_PR
-      NEW li1 ( 127190 64090 ) L1M1_PR ;
+      + ROUTED met2 ( 129490 64260 ) ( * 64770 )
+      NEW met2 ( 129030 64260 ) ( 129490 * )
+      NEW met1 ( 128110 36890 ) ( 129030 * )
+      NEW met2 ( 129030 36890 ) ( * 64260 )
+      NEW li1 ( 129490 64770 ) L1M1_PR_MR
+      NEW met1 ( 129490 64770 ) M1M2_PR
+      NEW met1 ( 129030 36890 ) M1M2_PR
+      NEW li1 ( 128110 36890 ) L1M1_PR_MR
+      NEW met1 ( 129490 64770 ) RECT ( 0 -70 355 70 )  ;
     - some_customcells._intsig_a_\[97\] ( some_customcells.genblk1\[97\].name_of_cell in ) ( some_customcells.genblk1\[96\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 140990 71910 ) ( 141450 * )
-      NEW met1 ( 140760 27710 ) ( 141450 * )
-      NEW met2 ( 141450 27710 ) ( * 71910 )
-      NEW met1 ( 141450 71910 ) M1M2_PR
-      NEW li1 ( 140990 71910 ) L1M1_PR
-      NEW met1 ( 141450 27710 ) M1M2_PR
-      NEW li1 ( 140760 27710 ) L1M1_PR ;
+      + ROUTED met1 ( 128110 64090 ) ( 131330 * )
+      NEW met1 ( 131330 29410 ) ( 134090 * )
+      NEW met2 ( 131330 29410 ) ( * 64090 )
+      NEW li1 ( 128110 64090 ) L1M1_PR_MR
+      NEW met1 ( 131330 64090 ) M1M2_PR
+      NEW met1 ( 131330 29410 ) M1M2_PR
+      NEW li1 ( 134090 29410 ) L1M1_PR_MR ;
     - some_customcells._intsig_a_\[98\] ( some_customcells.genblk1\[98\].name_of_cell in ) ( some_customcells.genblk1\[97\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 135010 71910 ) ( 135930 * )
-      NEW met1 ( 132250 31450 ) ( 135010 * )
-      NEW met2 ( 135010 31450 ) ( * 71910 )
-      NEW met1 ( 135010 71910 ) M1M2_PR
-      NEW li1 ( 135930 71910 ) L1M1_PR
-      NEW met1 ( 135010 31450 ) M1M2_PR
-      NEW li1 ( 132250 31450 ) L1M1_PR ;
+      + ROUTED met2 ( 138230 28390 ) ( * 71230 )
+      NEW li1 ( 138230 71230 ) L1M1_PR_MR
+      NEW met1 ( 138230 71230 ) M1M2_PR
+      NEW li1 ( 138230 28390 ) L1M1_PR_MR
+      NEW met1 ( 138230 28390 ) M1M2_PR
+      NEW met1 ( 138230 71230 ) RECT ( 0 -70 355 70 ) 
+      NEW met1 ( 138230 28390 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[99\] ( some_customcells.genblk1\[99\].name_of_cell in ) ( some_customcells.genblk1\[98\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 123050 31450 ) ( 127190 * )
-      NEW met2 ( 123050 31450 ) ( * 39270 )
-      NEW met1 ( 119370 39270 ) ( 123050 * )
-      NEW li1 ( 127190 31450 ) L1M1_PR
-      NEW met1 ( 123050 31450 ) M1M2_PR
-      NEW met1 ( 123050 39270 ) M1M2_PR
-      NEW li1 ( 119370 39270 ) L1M1_PR ;
+      + ROUTED met2 ( 132250 70210 ) ( * 71230 )
+      NEW met1 ( 132250 71230 ) ( 133400 * )
+      NEW li1 ( 132250 70210 ) L1M1_PR_MR
+      NEW met1 ( 132250 70210 ) M1M2_PR
+      NEW met1 ( 132250 71230 ) M1M2_PR
+      NEW li1 ( 133400 71230 ) L1M1_PR_MR
+      NEW met1 ( 132250 70210 ) RECT ( -355 -70 0 70 )  ;
     - some_customcells._intsig_a_\[9\] ( some_customcells.genblk1\[9\].name_of_cell in ) ( some_customcells.genblk1\[8\].name_of_cell out ) + USE SIGNAL
-      + ROUTED met1 ( 9430 31450 ) ( 10810 * )
-      NEW met1 ( 8050 69190 ) ( 9430 * )
-      NEW met2 ( 9430 31450 ) ( * 69190 )
-      NEW met1 ( 9430 31450 ) M1M2_PR
-      NEW li1 ( 10810 31450 ) L1M1_PR
-      NEW met1 ( 9430 69190 ) M1M2_PR
-      NEW li1 ( 8050 69190 ) L1M1_PR ;
+      + ROUTED met1 ( 23230 64090 ) ( 23690 * )
+      NEW met2 ( 23230 62100 ) ( * 64090 )
+      NEW met2 ( 22770 62100 ) ( 23230 * )
+      NEW met2 ( 22770 37060 ) ( * 62100 )
+      NEW met2 ( 22770 37060 ) ( 24610 * )
+      NEW met2 ( 24610 37060 ) ( * 37570 )
+      NEW met1 ( 24380 37570 ) ( 24610 * )
+      NEW met1 ( 23230 64090 ) M1M2_PR
+      NEW li1 ( 23690 64090 ) L1M1_PR_MR
+      NEW met1 ( 24610 37570 ) M1M2_PR
+      NEW li1 ( 24380 37570 ) L1M1_PR_MR ;
     - some_customcells.out ( some_customcells.genblk1\[123\].name_of_cell out ) ( _0_ A ) + USE SIGNAL
-      + ROUTED met1 ( 138690 50150 ) ( 140070 * )
-      NEW met1 ( 126730 42670 ) ( 138690 * )
-      NEW met2 ( 126730 36550 ) ( * 42670 )
-      NEW met1 ( 119830 36550 ) ( 126730 * )
-      NEW met1 ( 119830 36550 ) ( * 36890 )
-      NEW met1 ( 101430 36890 ) ( 119830 * )
-      NEW met2 ( 138690 42670 ) ( * 50150 )
-      NEW met1 ( 138690 50150 ) M1M2_PR
-      NEW li1 ( 140070 50150 ) L1M1_PR
-      NEW met1 ( 138690 42670 ) M1M2_PR
-      NEW met1 ( 126730 42670 ) M1M2_PR
-      NEW met1 ( 126730 36550 ) M1M2_PR
-      NEW li1 ( 101430 36890 ) L1M1_PR ;
+      + ROUTED met1 ( 137770 50150 ) ( 140990 * )
+      NEW met1 ( 127650 41650 ) ( 137770 * )
+      NEW met2 ( 127650 26690 ) ( * 41650 )
+      NEW met1 ( 121900 26690 ) ( 127650 * )
+      NEW met2 ( 137770 41650 ) ( * 50150 )
+      NEW li1 ( 140990 50150 ) L1M1_PR_MR
+      NEW met1 ( 137770 50150 ) M1M2_PR
+      NEW met1 ( 137770 41650 ) M1M2_PR
+      NEW met1 ( 127650 41650 ) M1M2_PR
+      NEW met1 ( 127650 26690 ) M1M2_PR
+      NEW li1 ( 121900 26690 ) L1M1_PR_MR ;
 END NETS
 END DESIGN

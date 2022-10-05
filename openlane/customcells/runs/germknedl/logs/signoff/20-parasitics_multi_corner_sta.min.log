@@ -1,0 +1,241 @@
+OpenROAD v2.0-4818-g4174c3ad8 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0053] /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/src/sky130_customcell.lib line 1, library sky130_customcell already exists.
+[WARNING STA-0053] /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/src/sky130_customcell.lib line 1, library sky130_customcell already exists.
+[INFO ODB-0222] Reading LEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.min.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.min.lef at line 930.
+
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.min.lef
+[INFO ODB-0127] Reading DEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/results/routing/customcells.def
+[INFO ODB-0128] Design: customcells
+[INFO ODB-0130]     Created 4 pins.
+[INFO ODB-0131]     Created 1089 components and 4304 component-terminals.
+[INFO ODB-0132]     Created 4 special nets and 4056 connections.
+[INFO ODB-0133]     Created 125 nets and 248 connections.
+[INFO ODB-0134] Finished DEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/results/routing/customcells.def
+[WARNING STA-0357] virtual clock __VIRTUAL_CLK__ can not be propagated.
+min_report
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+min_report_end
+max_report
+
+===========================================================================
+report_checks -path_delay max (Setup)
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+max_report_end
+check_report
+
+===========================================================================
+report_checks -unconstrained
+============================================================================
+
+======================= Slowest Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ss
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.05    0.03    2.03 ^ in (in)
+     1    0.01                           in (net)
+                  0.05    0.00    2.03 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.03   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Typical Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: tt
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.03    0.02    2.02 ^ in (in)
+     1    0.01                           in (net)
+                  0.03    0.00    2.02 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.02   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+======================= Fastest Corner ===================================
+
+Startpoint: in (input port clocked by __VIRTUAL_CLK__)
+Endpoint: some_customcells.genblk1[1].name_of_cell/in (internal pin)
+Path Group: (none)
+Path Type: max
+Corner: ff
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                          2.00    2.00 ^ input external delay
+                  0.02    0.01    2.01 ^ in (in)
+     1    0.01                           in (net)
+                  0.02    0.00    2.01 ^ some_customcells.genblk1[1].name_of_cell/in (sky130_customcell)
+                                  2.01   data arrival time
+-----------------------------------------------------------------------------
+(Path is unconstrained)
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+
+======================= Slowest Corner ===================================
+
+No paths found.
+
+======================= Typical Corner ===================================
+
+No paths found.
+
+======================= Fastest Corner ===================================
+
+No paths found.
+check_report_end
+check_slew
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+======================= Slowest Corner ===================================
+
+
+======================= Typical Corner ===================================
+
+
+======================= Fastest Corner ===================================
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+check_slew_end
+tns_report
+
+===========================================================================
+ report_tns
+============================================================================
+tns 0.00
+tns_report_end
+wns_report
+
+===========================================================================
+ report_wns
+============================================================================
+wns 0.00
+wns_report_end
+worst_slack
+
+===========================================================================
+ report_worst_slack -max (Setup)
+============================================================================
+worst slack INF
+
+===========================================================================
+ report_worst_slack -min (Hold)
+============================================================================
+worst slack INF
+worst_slack_end
+power_report
+
+===========================================================================
+ report_power
+============================================================================
+
+
+======================= Slowest Corner =================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.94e-08   1.04e-07   5.83e-09   1.49e-07 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.94e-08   1.04e-07   5.83e-09   1.49e-07 100.0%
+                          26.4%      69.7%       3.9%
+
+======================= Typical Corner ===================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.94e-08   1.04e-07   1.26e-09   1.44e-07 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.94e-08   1.04e-07   1.26e-09   1.44e-07 100.0%
+                          27.3%      71.9%       0.9%
+
+
+======================= Fastest Corner =================================
+
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          3.94e-08   1.04e-07   1.26e-09   1.44e-07 100.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  3.94e-08   1.04e-07   1.26e-09   1.44e-07 100.0%
+                          27.3%      71.9%       0.9%
+power_report_end
+area_report
+
+===========================================================================
+ report_design_area
+============================================================================
+Design area 3269 u^2 31% utilization.
+area_report_end

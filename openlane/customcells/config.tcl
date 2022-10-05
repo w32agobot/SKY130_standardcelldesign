@@ -1,21 +1,17 @@
-# User config
+
 set ::env(DESIGN_NAME) customcells
 
-
-# Custom Library with Custom Std-Cells
- set ::env(LIB_SYNTH) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__tt_025C_1v80.lib"
- set ::env(LIB_SLOWEST) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__ss_100C_1v60.lib"
- set ::env(LIB_FASTEST) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__ff_n40C_1v95.lib"
- set ::env(LIB_TYPICAL) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__tt_025C_1v80.lib"
-
-# unused, but needed
+# unused clock port, but definition is expected
  set ::env(CLOCK_PORT) ""
  set ::env(CLOCK_NET) $::env(CLOCK_PORT)
  set ::env(CLOCK_TREE_SYNTH) 0
 
-# Files
+# Verilog Source-Files
  set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
+
+# Include Custom Standardcells
  set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/*.lef]
+ set ::env(EXTRA_LIBS) [glob $::env(DESIGN_DIR)/src/*.lib]
  set ::env(EXTRA_GDS_FILES) [glob $::env(DESIGN_DIR)/src/*.gds]
  set ::env(SYNTH_READ_BLACKBOX_LIB) 1
 
@@ -23,27 +19,26 @@ set ::env(DESIGN_NAME) customcells
  set ::env(FP_SIZING) "absolute"
  set ::env(DIE_AREA) "0 0 150 100"
  set ::env(FP_CORE_UTIL) {65}
-
  set ::env(FP_PDN_HOFFSET) {11.6}
  set ::env(FP_PDN_VOFFSET) $::env(FP_PDN_HOFFSET)
  set ::env(FP_PDN_HPITCH) 29
  set ::env(FP_PDN_VPITCH) $::env(FP_PDN_HPITCH)
  set ::env(FP_PIN_ORDER_CFG) $::env(DESIGN_DIR)/pin_order.cfg
 
-# PDN on Macro Level or Core Level
+# PDN on Macro-Level. Hardening of a Macro, which is later placed in a Core
  set ::env(DESIGN_IS_CORE) 0
  set ::env(FP_PDN_CORE_RING) 0
  set ::env(RT_MAX_LAYER) {met4}
  set ::env(VDD_NETS) [list {VPWR} {VPB}]
  set ::env(GND_NETS) [list {VGND} {VNB}]
 
-# Placement
+# Placement Settings
  set ::env(PL_BASIC_PLACEMENT) 1
  set ::env(PL_TARGET_DENSITY) {0.70}
  set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) {0}
  set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) {0}
 
-# Router
+# Router Settings
  set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) {0}
 
 

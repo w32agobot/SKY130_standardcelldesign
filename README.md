@@ -19,7 +19,7 @@ In the end, the standard cell should look somewhat like this:
 
 ### Workaround for falsely-expected macros
 
-UPDATE: MPL-0004 has been changed to a warning, which means the workaround should not be needed after an [update of openROAD](https://github.com/The-OpenROAD-Project/OpenROAD/commit/b84718ffe1ac04a0df1697e1e0e7339eb5414de0).
+UPDATE: MPL-0004 has been changed to a warning, which means the workaround should not be needed after an [update of OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD/commit/b84718ffe1ac04a0df1697e1e0e7339eb5414de0).
 
 Openlane expects macros if a LEF file is added to the design, which is the wrong behavior in our case since we are adding a custom standard cell. Macros are handled differently from standard cells in terms of placement and power distribution. Standard cells are placed inside a horizontal power grid on `metal1` after the PDN on `metal1` and `metal4` have been generated and routed. The result is a hardened macro. Macros should, therefore, already have a vertical PDN on `metal4`; they should be connected to the horizontal PDN on `metal5` later. Until an official solution is out, disable `basic_macro_placement` in `/foss/tools/openlane/*/scripts/tcl_commands/floorplan.tcl` as suggested in the Slack channel.
 
@@ -45,7 +45,7 @@ X and Y dimensions must equal multiples of a constant value - [see PDK Documenta
 
 For a high-density custom cell, the size in micrometers is $(N \cdot 0.46) \times (8 \cdot 0.34)$. Scale the result to your Magic internal value (lambda). In our case, a multiplication by 200 is needed since the internal lambda-grid is 0.005um, so for $h = 2.72\,\mu m$ and $w = 9.66\,\mu m$ the proper value for our design environment would be `property FIXED_BBOX {0 0 1932 544}`.
 
-The PDK high-density standard cell Magic-files are located in `/foss/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag/..`. You may want to compare them to your design.
+The PDK high-density standard cell Magic-files are located in `$PDKPATH/libs.ref/sky130_fd_sc_hd/mag/..`. You may want to compare them to your design.
 
 ### Tap connections
 
@@ -113,13 +113,11 @@ gds
 
 We suggest copying the LEF and GDS file to your OpenLane design `src` directory.
 
-### Modify the .lib files, add your custom cell
+### Generate LIB file
 
-Copy the `ff` `ss` and `tt` library files from `/foss/pdk/sky130A/libs.ref/sky130_fd_sc_hd/lib/` to `/foss/designs/<PROJECT-NAME>/openlane/<CELL-NAME>/src/sky130/`.
+Use the `tt` library file from `$PDKPATH/libs.ref/sky130_fd_sc_<TYPE>/lib/` as a template for custom lib-files. The resulting file should contain the header and a definition for the custom standard-cells `cell ("name_of_your_cell") { ... }`. Copy the file to `/foss/designs/<PROJECT-NAME>/openlane/<CELL-NAME>/src`.  
 
-You need to add your standard cells to these files. The easiest way is to just copy one of the existing standard cells and update the cell name, ports, area, etc.
-
-The `.lib` files contain timing- and power tables for the calculation of slack etc. Keep in mind that RTL and gate-level optimizations are disabled in this workflow to prevent substitution of custom cells, but if you know exactly what structure you want at the gate level, then just update the available data and ignore the timings IMHO. We have never done a characterization so far, but you could try to generate the correct lib-tables of your standard cell using the OpenROAD command `write_timing_model`.
+Note: The timing- and power-tables actually do not contain correct data in this example. Instead, we have copied the data from a different cell and ditched updating the copied tables. The flow will still run through, since we did not allow to alter/optimize the functional structure after synth in the `config.tcl`. You can try to look into `OpenROAD` command `write_timing_model` if the data in the liberty-tables need to be updated, but this feature might be experimental.  
 
 ## OpenLane: RTL-to-GDSII config and workflow
 
@@ -130,17 +128,11 @@ Openlane synthesizes the RTL file with the custom cells treated as a black box. 
 In the OpenLane config-file `../openlane/<CELL-NAME>/config.tcl`, add the following lines:
 
 ```tcl
-# Custom Liberty with Custom Std-Cells
-set ::env(LIB_SYNTH) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__tt_025C_1v80.lib"
-set ::env(LIB_SLOWEST) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__ss_100C_1v60.lib"
-set ::env(LIB_FASTEST) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__ff_n40C_1v95.lib"
-set ::env(LIB_TYPICAL) "$::env(DESIGN_DIR)/src/sky130/sky130_fd_sc_hd__tt_025C_1v80.lib"
- 
-# Files
-set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/*.v]
-set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/*.lef]
-set ::env(EXTRA_GDS_FILES) [glob $::env(DESIGN_DIR)/src/*.gds]
-set ::env(SYNTH_READ_BLACKBOX_LIB) 1
+# Include Custom Standardcells  
+ set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/*.lef]  
+ set ::env(EXTRA_LIBS) [glob $::env(DESIGN_DIR)/src/*.lib]  
+ set ::env(EXTRA_GDS_FILES) [glob $::env(DESIGN_DIR)/src/*.gds]  
+ set ::env(SYNTH_READ_BLACKBOX_LIB) 1  
 ```
 
 ### Run OpenLane

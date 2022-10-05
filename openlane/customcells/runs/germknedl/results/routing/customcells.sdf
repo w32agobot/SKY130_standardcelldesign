@@ -1,7 +1,7 @@
 (DELAYFILE
  (SDFVERSION "3.0")
  (DESIGN "customcells")
- (DATE "Wed Sep 14 08:55:06 2022")
+ (DATE "Wed Oct  5 12:38:11 2022")
  (VENDOR "Parallax")
  (PROGRAM "STA")
  (VERSION "2.3.1")
@@ -15,7 +15,7 @@
   (INSTANCE)
   (DELAY
    (ABSOLUTE
-    (INTERCONNECT in some_customcells\.genblk1\[1\]\.name_of_cell.in (0.016:0.016:0.016) (0.007:0.007:0.007))
+    (INTERCONNECT in some_customcells\.genblk1\[1\]\.name_of_cell.in (0.020:0.020:0.020) (0.008:0.008:0.008))
     (INTERCONNECT _0_.Y out (0.001:0.001:0.001) (0.001:0.001:0.001))
     (INTERCONNECT some_customcells\.genblk1\[100\]\.name_of_cell.out some_customcells\.genblk1\[101\]\.name_of_cell.in (0.000:0.000:0.000) (0.000:0.000:0.000))
     (INTERCONNECT some_customcells\.genblk1\[101\]\.name_of_cell.out some_customcells\.genblk1\[102\]\.name_of_cell.in (0.000:0.000:0.000) (0.000:0.000:0.000))

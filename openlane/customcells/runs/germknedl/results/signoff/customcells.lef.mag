@@ -1,13 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1663145713
+timestamp 1664973504
 << obsli1 >>
 rect 1104 2159 28888 17425
 << obsm1 >>
 rect 1104 2128 28888 17456
 << obsm2 >>
-rect 1308 2139 28316 17445
+rect 1860 2139 28318 17445
 << metal3 >>
 rect 0 9936 800 10056
 rect 29200 9936 30000 10056
@@ -27,15 +27,15 @@ rect 22114 2128 22434 17456
 rect 26464 2128 26784 17456
 rect 27914 2128 28234 17456
 << obsm4 >>
-rect 2267 3979 3184 15469
-rect 3664 3979 4634 15469
-rect 5114 3979 8984 15469
-rect 9464 3979 10434 15469
-rect 10914 3979 14784 15469
-rect 15264 3979 16234 15469
-rect 16714 3979 20584 15469
-rect 21064 3979 22034 15469
-rect 22514 3979 25517 15469
+rect 2451 3979 3184 15333
+rect 3664 3979 4634 15333
+rect 5114 3979 8984 15333
+rect 9464 3979 10434 15333
+rect 10914 3979 14784 15333
+rect 15264 3979 16234 15333
+rect 16714 3979 20584 15333
+rect 21064 3979 22034 15333
+rect 22514 3979 26069 15333
 << labels >>
 rlabel metal4 s 4714 2128 5034 17456 6 VGND
 port 1 nsew ground bidirectional
@@ -65,8 +65,8 @@ port 4 nsew signal output
 string FIXED_BBOX 0 0 30000 20000
 string LEFclass BLOCK
 string LEFview TRUE
-string GDS_END 415586
-string GDS_FILE /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/results/signoff/customcells.magic.gds
+string GDS_END 414896
+string GDS_FILE /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/results/signoff/customcells.magic.gds
 string GDS_START 32890
 << end >>
 

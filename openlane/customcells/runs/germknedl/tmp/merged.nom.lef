@@ -796,7 +796,7 @@ END M4M5_PR_C
 
 
 MACRO sky130_ef_sc_hd__decap_12
-  CLASS BLOCK ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_ef_sc_hd__decap_12 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.520 BY 2.720 ;
@@ -804,57 +804,11 @@ MACRO sky130_ef_sc_hd__decap_12
     DIRECTION INPUT ;
     USE GROUND ;
     PORT
-      LAYER met1 ;
-        RECT 0.000 -0.240 5.520 0.240 ;
-    END
-  END VGND
-  PIN VPWR
-    DIRECTION INPUT ;
-    USE POWER ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 2.480 5.520 2.960 ;
-    END
-  END VPWR
-  PIN VPB
-    DIRECTION INPUT ;
-    USE POWER ;
-    PORT
-      LAYER nwell ;
-        RECT -0.190 1.305 5.710 2.910 ;
-    END
-  END VPB
-  PIN VNB
-    DIRECTION INPUT ;
-    USE GROUND ;
-    PORT
-      LAYER pwell ;
-        RECT 0.005 0.105 5.515 0.915 ;
-        RECT 0.145 -0.085 0.315 0.105 ;
-    END
-  END VNB
-  OBS
       LAYER li1 ;
-        RECT 0.000 2.635 5.520 2.805 ;
-        RECT 0.085 2.200 5.430 2.635 ;
         RECT 1.670 0.630 2.010 1.460 ;
-        RECT 3.490 0.950 3.840 2.200 ;
         RECT 0.085 0.085 5.430 0.630 ;
         RECT 0.000 -0.085 5.520 0.085 ;
       LAYER mcon ;
-        RECT 0.145 2.635 0.315 2.805 ;
-        RECT 0.605 2.635 0.775 2.805 ;
-        RECT 1.065 2.635 1.235 2.805 ;
-        RECT 1.525 2.635 1.695 2.805 ;
-        RECT 1.985 2.635 2.155 2.805 ;
-        RECT 2.445 2.635 2.615 2.805 ;
-        RECT 2.905 2.635 3.075 2.805 ;
-        RECT 3.365 2.635 3.535 2.805 ;
-        RECT 3.825 2.635 3.995 2.805 ;
-        RECT 4.285 2.635 4.455 2.805 ;
-        RECT 4.745 2.635 4.915 2.805 ;
-        RECT 5.205 2.635 5.375 2.805 ;
-        RECT 0.145 -0.085 0.315 0.085 ;
         RECT 0.605 -0.085 0.775 0.085 ;
         RECT 1.065 -0.085 1.235 0.085 ;
         RECT 1.525 -0.085 1.695 0.085 ;
@@ -866,113 +820,35 @@ MACRO sky130_ef_sc_hd__decap_12
         RECT 4.285 -0.085 4.455 0.085 ;
         RECT 4.745 -0.085 4.915 0.085 ;
         RECT 5.205 -0.085 5.375 0.085 ;
-  END
-END sky130_ef_sc_hd__decap_12
-MACRO sky130_ef_sc_hd__fakediode_2
-  CLASS CORE SPACER ;
-  FOREIGN sky130_ef_sc_hd__fakediode_2 ;
-  ORIGIN 0.000 0.000 ;
-  SIZE 0.920 BY 2.720 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
-  PIN DIODE
+      LAYER met1 ;
+        RECT 0.000 -0.240 5.520 0.240 ;
+    END
+  END VGND
+  PIN VNB
     DIRECTION INPUT ;
-    USE SIGNAL ;
-    PORT
-      LAYER li1 ;
-        RECT 0.085 0.255 0.835 2.465 ;
-    END
-  END DIODE
-  PIN VGND
-    DIRECTION INOUT ;
-    USE GROUND ;
-    SHAPE ABUTMENT ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 -0.240 0.920 0.240 ;
-    END
-  END VGND
-  PIN VPWR
-    DIRECTION INOUT ;
-    USE POWER ;
-    SHAPE ABUTMENT ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 2.480 0.920 2.960 ;
-    END
-  END VPWR
-  PIN VPB
-    DIRECTION INOUT ;
-    USE POWER ;
-    PORT
-      LAYER nwell ;
-        RECT -0.190 1.305 1.110 2.910 ;
-    END
-  END VPB
-  PIN VNB
-    DIRECTION INOUT ;
     USE GROUND ;
     PORT
       LAYER pwell ;
-        RECT 0.025 0.065 0.915 1.015 ;
-        RECT 0.145 -0.085 0.315 0.065 ;
+        RECT 0.080 -0.130 0.360 0.150 ;
     END
   END VNB
-  OBS
-      LAYER li1 ;
-        RECT 0.000 2.635 0.920 2.805 ;
-        RECT 0.000 -0.085 0.920 0.085 ;
-      LAYER mcon ;
-        RECT 0.145 2.635 0.315 2.805 ;
-        RECT 0.605 2.635 0.775 2.805 ;
-        RECT 0.145 -0.085 0.315 0.085 ;
-        RECT 0.605 -0.085 0.775 0.085 ;
-  END
-END sky130_ef_sc_hd__fakediode_2
-MACRO sky130_ef_sc_hd__fill_8
-  CLASS CORE SPACER ;
-  FOREIGN sky130_ef_sc_hd__fill_8 ;
-  ORIGIN 0.000 0.000 ;
-  SIZE 3.680 BY 2.720 ;
-  SYMMETRY X Y R90 ;
-  SITE unithd ;
-  PIN VGND
-    DIRECTION INOUT ;
-    USE GROUND ;
-    SHAPE ABUTMENT ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 -0.240 3.680 0.240 ;
-    END
-  END VGND
-  PIN VPWR
-    DIRECTION INOUT ;
-    USE POWER ;
-    SHAPE ABUTMENT ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 2.480 3.680 2.960 ;
-    END
-  END VPWR
   PIN VPB
+    DIRECTION INPUT ;
+    USE POWER ;
     PORT
       LAYER nwell ;
-        RECT -0.190 1.305 3.870 2.910 ;
+        RECT -0.190 1.305 5.710 2.910 ;
     END
   END VPB
-  PIN VNB
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
     PORT
-      LAYER pwell ;
-        RECT 0.025 0.065 3.655 1.015 ;
-        RECT 0.130 -0.120 0.350 0.065 ;
-    END
-  END VNB
-  OBS
       LAYER li1 ;
-        RECT 0.000 2.635 3.680 2.805 ;
-        RECT 0.000 -0.085 3.680 0.085 ;
+        RECT 0.000 2.635 5.520 2.805 ;
+        RECT 0.085 2.200 5.430 2.635 ;
+        RECT 3.490 0.950 3.840 2.200 ;
       LAYER mcon ;
-        RECT 0.145 2.635 0.315 2.805 ;
         RECT 0.605 2.635 0.775 2.805 ;
         RECT 1.065 2.635 1.235 2.805 ;
         RECT 1.525 2.635 1.695 2.805 ;
@@ -980,51 +856,125 @@ MACRO sky130_ef_sc_hd__fill_8
         RECT 2.445 2.635 2.615 2.805 ;
         RECT 2.905 2.635 3.075 2.805 ;
         RECT 3.365 2.635 3.535 2.805 ;
-        RECT 0.145 -0.085 0.315 0.085 ;
-        RECT 0.605 -0.085 0.775 0.085 ;
-        RECT 1.065 -0.085 1.235 0.085 ;
-        RECT 1.525 -0.085 1.695 0.085 ;
-        RECT 1.985 -0.085 2.155 0.085 ;
-        RECT 2.445 -0.085 2.615 0.085 ;
-        RECT 2.905 -0.085 3.075 0.085 ;
-        RECT 3.365 -0.085 3.535 0.085 ;
+        RECT 3.825 2.635 3.995 2.805 ;
+        RECT 4.285 2.635 4.455 2.805 ;
+        RECT 4.745 2.635 4.915 2.805 ;
+        RECT 5.205 2.635 5.375 2.805 ;
+      LAYER met1 ;
+        RECT 0.000 2.480 5.520 2.960 ;
+    END
+  END VPWR
+END sky130_ef_sc_hd__decap_12
+MACRO sky130_ef_sc_hd__fakediode_2
+  CLASS CORE SPACER ;
+  FOREIGN sky130_ef_sc_hd__fakediode_2 ;
+  ORIGIN  0.000000  0.000000 ;
+  SIZE  0.920000 BY  2.720000 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN DIODE
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER li1 ;
+        RECT 0.085000 0.255000 0.835000 2.465000 ;
+    END
+  END DIODE
+  PIN VGND
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE GROUND ;
+    PORT
+      LAYER met1 ;
+        RECT 0.000000 -0.240000 0.920000 0.240000 ;
+    END
+  END VGND
+  PIN VNB
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER pwell ;
+        RECT 0.145000 -0.085000 0.315000 0.085000 ;
+    END
+  END VNB
+  PIN VPB
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER nwell ;
+        RECT -0.190000 1.305000 1.110000 2.910000 ;
+    END
+  END VPB
+  PIN VPWR
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE POWER ;
+    PORT
+      LAYER met1 ;
+        RECT 0.000000 2.480000 0.920000 2.960000 ;
+    END
+  END VPWR
+  OBS
+    LAYER li1 ;
+      RECT 0.000000 -0.085000 0.920000 0.085000 ;
+      RECT 0.000000  2.635000 0.920000 2.805000 ;
+    LAYER mcon ;
+      RECT 0.145000 -0.085000 0.315000 0.085000 ;
+      RECT 0.145000  2.635000 0.315000 2.805000 ;
+      RECT 0.605000 -0.085000 0.775000 0.085000 ;
+      RECT 0.605000  2.635000 0.775000 2.805000 ;
+  END
+END sky130_ef_sc_hd__fakediode_2
+MACRO sky130_ef_sc_hd__fill_8
+  CLASS CORE SPACER ;
+  SOURCE USER ;
+  ORIGIN  0.000000  0.000000 ;
+  SIZE  3.680000 BY  2.720000 ;
+  SYMMETRY X Y R90 ;
+  SITE unithd ;
+  PIN VGND
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE GROUND ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 -0.085000 3.680000 0.085000 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 0.000000 -0.240000 3.680000 0.240000 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    SHAPE ABUTMENT ;
+    USE POWER ;
+    PORT
+      LAYER li1 ;
+        RECT 0.000000 2.635000 3.680000 2.805000 ;
+    END
+    PORT
+      LAYER met1 ;
+        RECT 0.000000 2.480000 3.680000 2.960000 ;
+    END
+  END VPWR
+  OBS
   END
 END sky130_ef_sc_hd__fill_8
 MACRO sky130_ef_sc_hd__fill_12
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_ef_sc_hd__fill_12 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.520 BY 2.720 ;
   SYMMETRY X Y R90 ;
   SITE unithd ;
-  PIN VPWR
-    USE POWER ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 2.480 5.520 2.960 ;
-    END
-  END VPWR
-  PIN VGND
-    USE GROUND ;
-    PORT
-      LAYER met1 ;
-        RECT 0.000 -0.240 5.520 0.240 ;
-    END
-  END VGND
-  PIN VPB
-    PORT
-      LAYER nwell ;
-        RECT -0.190 1.305 2.950 2.910 ;
-    END
-  END VPB
-  PIN VNB
-    PORT
-      LAYER pwell ;
-        RECT 0.005 0.105 2.755 0.915 ;
-        RECT 0.145 -0.085 0.315 0.105 ;
-    END
-  END VNB
   OBS
+      LAYER nwell ;
+        RECT -0.190 1.305 5.710 2.910 ;
+      LAYER pwell ;
+        RECT 0.145 -0.085 0.315 0.085 ;
+        RECT 2.935 -0.060 3.045 0.060 ;
+        RECT 4.755 -0.050 4.915 0.060 ;
       LAYER li1 ;
         RECT 0.000 2.635 5.520 2.805 ;
         RECT 0.085 1.545 2.675 2.635 ;
@@ -1057,6 +1007,9 @@ MACRO sky130_ef_sc_hd__fill_12
         RECT 4.285 -0.085 4.455 0.085 ;
         RECT 4.745 -0.085 4.915 0.085 ;
         RECT 5.205 -0.085 5.375 0.085 ;
+      LAYER met1 ;
+        RECT 0.000 2.480 5.520 2.960 ;
+        RECT 0.000 -0.240 5.520 0.240 ;
   END
 END sky130_ef_sc_hd__fill_12
 MACRO sky130_fd_sc_hd__a2bb2o_1
@@ -17698,7 +17651,7 @@ MACRO sky130_fd_sc_hd__conb_1
   END
 END sky130_fd_sc_hd__conb_1
 MACRO sky130_fd_sc_hd__decap_3
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_hd__decap_3 ;
   ORIGIN 0.000 0.000 ;
   SIZE 1.380 BY 2.720 ;
@@ -17757,7 +17710,7 @@ MACRO sky130_fd_sc_hd__decap_3
   END
 END sky130_fd_sc_hd__decap_3
 MACRO sky130_fd_sc_hd__decap_4
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_hd__decap_4 ;
   ORIGIN 0.000 0.000 ;
   SIZE 1.840 BY 2.720 ;
@@ -17818,7 +17771,7 @@ MACRO sky130_fd_sc_hd__decap_4
   END
 END sky130_fd_sc_hd__decap_4
 MACRO sky130_fd_sc_hd__decap_6
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_hd__decap_6 ;
   ORIGIN 0.000 0.000 ;
   SIZE 2.760 BY 2.720 ;
@@ -17883,7 +17836,7 @@ MACRO sky130_fd_sc_hd__decap_6
   END
 END sky130_fd_sc_hd__decap_6
 MACRO sky130_fd_sc_hd__decap_8
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_hd__decap_8 ;
   ORIGIN 0.000 0.000 ;
   SIZE 3.680 BY 2.720 ;
@@ -17952,7 +17905,7 @@ MACRO sky130_fd_sc_hd__decap_8
   END
 END sky130_fd_sc_hd__decap_8
 MACRO sky130_fd_sc_hd__decap_12
-  CLASS CORE ;
+  CLASS CORE SPACER ;
   FOREIGN sky130_fd_sc_hd__decap_12 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.520 BY 2.720 ;
@@ -22523,7 +22476,7 @@ MACRO sky130_fd_sc_hd__dfxtp_4
   END
 END sky130_fd_sc_hd__dfxtp_4
 MACRO sky130_fd_sc_hd__diode_2
-  CLASS CORE ;
+  CLASS CORE ANTENNACELL ;
   FOREIGN sky130_fd_sc_hd__diode_2 ;
   ORIGIN 0.000 0.000 ;
   SIZE 0.920 BY 2.720 ;

@@ -1,18 +1,22 @@
-OpenROAD v2.0-3879-g0b8b7ae25 
+OpenROAD v2.0-4818-g4174c3ad8 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.
 Components of this program may be licensed under more restrictive licenses which must be honored.
-[INFO ODB-0222] Reading LEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/merged.unpadded.nom.lef
+[INFO ODB-0222] Reading LEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.nom.lef
+[WARNING ODB-0220] WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.nom.lef at line 930.
+
 [INFO ODB-0223]     Created 13 technology layers
 [INFO ODB-0224]     Created 25 technology vias
 [INFO ODB-0225]     Created 442 library cells
-[INFO ODB-0226] Finished LEF file:  /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/merged.unpadded.nom.lef
-[INFO ODB-0127] Reading DEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/floorplan/7-pdn.def
+[INFO ODB-0226] Finished LEF file:  /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/floorplan/7-pdn.def
 [INFO ODB-0128] Design: customcells
 [INFO ODB-0130]     Created 4 pins.
 [INFO ODB-0131]     Created 330 components and 1268 component-terminals.
 [INFO ODB-0132]     Created 4 special nets and 1020 connections.
 [INFO ODB-0133]     Created 125 nets and 248 connections.
-[INFO ODB-0134] Finished DEF file: /foss/designs/SKY130_Playground/openlane/customcells/runs/germknedl/tmp/floorplan/7-pdn.def
+[INFO ODB-0134] Finished DEF file: /foss/designs/SKY130-RTL-with-Custom-Standardcell-to-GDSII/openlane/customcells/runs/germknedl/tmp/floorplan/7-pdn.def
 [INFO]: Setting RC values...
 [INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met1. 
 [INFO]: Setting signal max routing layer to: met4 and clock max routing layer to met4. 
@@ -54,29 +58,6 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GPL-0030] NumBins: 4096
 [NesterovSolve] Iter: 1 overflow: 0.891451 HPWL: 426928
 [NesterovSolve] Finished with Overflow: 0.891451
-###############################################################################
-# Created by write_sdc
-# Wed Sep 14 08:54:19 2022
-###############################################################################
-current_design customcells
-###############################################################################
-# Timing Constraints
-###############################################################################
-create_clock -name __VIRTUAL_CLK__ -period 10.0000 
-set_clock_uncertainty 0.2500 __VIRTUAL_CLK__
-set_input_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {in}]
-set_output_delay 2.0000 -clock [get_clocks {__VIRTUAL_CLK__}] -add_delay [get_ports {out}]
-###############################################################################
-# Environment
-###############################################################################
-set_load -pin_load 0.0334 [get_ports {out}]
-set_driving_cell -lib_cell sky130_fd_sc_hd__inv_2 -pin {Y} -input_transition_rise 0.0000 -input_transition_fall 0.0000 [get_ports {in}]
-set_timing_derate -early 0.9500
-set_timing_derate -late 1.0500
-###############################################################################
-# Design Rules
-###############################################################################
-set_max_fanout 5.0000 [current_design]
 [INFO]: Setting RC values...
 min_report
 
@@ -178,5 +159,5 @@ area_report
 ===========================================================================
  report_design_area
 ============================================================================
-Design area 3480 u^2 33% utilization.
+Design area 3269 u^2 31% utilization.
 area_report_end
