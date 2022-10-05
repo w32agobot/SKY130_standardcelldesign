@@ -117,7 +117,7 @@ We suggest copying the LEF and GDS file to your OpenLane design `src` directory.
 
 Use the `tt` library file from `$PDKPATH/libs.ref/sky130_fd_sc_<TYPE>/lib/` as a template for custom lib-files. The resulting file should contain the header and a definition for the custom standard-cells `cell ("name_of_your_cell") { ... }`. Copy the file to `/foss/designs/<PROJECT-NAME>/openlane/<CELL-NAME>/src`.  
 
-Note: The timing- and power-tables actually do not contain correct data in this example. Instead, we have copied the data from a different cell and ditched updating the copied tables. The flow will still run through, since we did not allow to alter/optimize the functional structure after synth in the `config.tcl`. You can try to look into `OpenROAD` command `write_timing_model` if the data in the liberty-tables need to be updated, but this feature might be experimental.  
+Note: The timing and power tables do not contain correct data in this example. Instead, we have copied the data from a different cell and ditched updating the copied tables. The flow will still run through since we did not allow altering/optimizing the functional structure after synth in the `config.tcl` file. You can try to look into the `OpenROAD` command `write_timing_model` if the data in the liberty tables need to be updated, but this feature might be experimental.  
 
 ## OpenLane: RTL-to-GDSII config and workflow
 
