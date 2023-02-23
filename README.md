@@ -17,18 +17,6 @@ In the end, the standard cell should look somewhat like this:
 
 ![Result](images/buf8.png "8 stage buffer")
 
-### Workaround for falsely-expected macros
-
-UPDATE: MPL-0004 has been changed to a warning, which means the workaround should not be needed after an [update of OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD/commit/b84718ffe1ac04a0df1697e1e0e7339eb5414de0).
-
-Openlane expects macros if a LEF file is added to the design, which is the wrong behavior in our case since we are adding a custom standard cell. Macros are handled differently from standard cells in terms of placement and power distribution. Standard cells are placed inside a horizontal power grid on `metal1` after the PDN on `metal1` and `metal4` have been generated and routed. The result is a hardened macro. Macros should, therefore, already have a vertical PDN on `metal4`; they should be connected to the horizontal PDN on `metal5` later. Until an official solution is out, disable `basic_macro_placement` in `/foss/tools/openlane/*/scripts/tcl_commands/floorplan.tcl` as suggested in the Slack channel.
-
-Maybe you need root access for this workaround. Start the docker-container with user `0` and group `0`. If you're using `iic-osic-tools`, you may edit the start_vnc script.
-
-```shell
-docker run -d --user 0:0 %PARAMS% -v "%DESIGNS%":/foss/designs  %DOCKER_USER%/%DOCKER_IMAGE%:%DOCKER_TAG%
-```
-
 ### Cell layout
 
 Read this first: [Design rules](https://github.com/nickson-jose/vsdstdcelldesign)  
