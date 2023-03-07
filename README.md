@@ -53,7 +53,7 @@ Select the area where you want a port connection, then select `Edit` and `Text..
 
 The router needs to know some additional properties of your ports. Set the following properties in the Magic tcl-console for each port:
 
-`VPWR` and `VPB` (PMOS bias):
+`VPWR` and `VPB` (PMOS bulk):
 
 ```tcl
 port use power
@@ -61,7 +61,7 @@ port class inout
 port shape abutment
 ```
 
-`VGND` and `VNB` (PMOS bias):
+`VGND` and `VNB` (NMOS bulk):
 
 ```tcl
 port use ground
